@@ -279,10 +279,14 @@ const screenshotsHTML = currentScreenshots
     ${renderLinks("author", campaign.author)}
   </span>
 
-  <span>
-    <strong>Team:</strong>
-    ${renderLinks("team", campaign.team)}
-  </span>
+<span>
+  <strong>Team:</strong>
+  ${
+    campaign.team && campaign.team.length
+      ? renderLinks("team", campaign.team)
+      : "—"
+  }
+</span>
   
   <span>
     <strong>Series:</strong>
