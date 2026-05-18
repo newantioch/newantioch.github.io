@@ -272,11 +272,18 @@ const screenshotsHTML = currentScreenshots
 
 <div class="meta-bar">
 
-<p class="tagline">${campaign.tagline || ""}</p>
+<p class="tagline">  ${
+    campaign.tagline && campaign.tagline.length
+      ? campaign.tagline
+      : "—"
+  }</p>
 
   <span>
     <strong>Author:</strong>
-    ${renderLinks("author", campaign.author)}
+  ${
+    campaign.author && campaign.author.length
+      ? renderLinks("author", campaign.author)
+      : "—"
   </span>
 
 <span>
@@ -290,57 +297,91 @@ const screenshotsHTML = currentScreenshots
   
   <span>
     <strong>Series:</strong>
-    ${renderLinks("series", campaign.series)}
+      ${
+    campaign.series && campaign.series.length
+      ? renderLinks("series", campaign.series)
+      : "—"
   </span>
 
   <span>
     <strong>StarCraft Version:</strong>
-    ${renderLinks("starcraftVersion", campaign.starcraftVersion)}
+      ${
+    campaign.starcraftVersion && campaign.starcraftVersion.length
+      ? renderLinks("starcraftVersion", campaign.starcraftVersion)
+      : "—"
   </span>
 
 <span>
-  <strong>Campaign Version:</strong> ${campaign.campaignVersion || ""}
+  <strong>Campaign Version:</strong>
+  ${
+    campaign.campaignVersion && campaign.campaignVersion.length
+      ? campaign.campaignVersion
+      : "—"
+  }
 </span>
 
   <span>
     <strong>Status:</strong>
-    ${renderLinks("status", campaign.status)}
+      ${
+    campaign.status && campaign.status.length
+      ? renderLinks("status", campaign.status)
+      : "—"
   </span>
 
   <span>
     <strong>Mod:</strong>
-    ${renderLinks("mod", campaign.mod)}
+      ${
+    campaign.mod && campaign.mod.length
+      ? renderLinks("mod", campaign.mod)
+      : "—"
   </span>
 
   <span>
     <strong>Brood War:</strong>
-    ${renderLinks("broodWar", campaign.broodWar)}
+      ${
+    campaign.broodWar && campaign.broodWar.length
+      ? renderLinks("broodWar", campaign.broodWar)
+      : "—"
   </span>
 
   <span>
     <strong>Year:</strong>
-    ${renderLinks("year", campaign.year)}
+      ${
+    campaign.year && campaign.year.length
+      ? renderLinks("year", campaign.year)
+      : "—"
   </span>
 
   <span>
     <strong>Missions:</strong>
-    ${campaign.missions ?? ""}
+    ${campaign.missions ?? "—"}
   </span>
   
   <span>
   <strong>Language:</strong>
-  ${renderLinks("language", campaign.language)}
+      ${
+    campaign.language && campaign.language.length
+      ? renderLinks("language", campaign.language)
+      : "—"
 </span>
 
-  <span>
-    <strong>Released:</strong>
-    ${formatDate(campaign.releaseDate)}
-  </span>
+<span>
+  <strong>Listing updated:</strong>
+  ${
+    campaign.releaseDate
+      ? formatDate(campaign.releaseDate)
+      : "—"
+  }
+</span>
 
-  <span>
-    <strong>Updated:</strong>
-    ${formatDate(campaign.lastUpdated)}
-  </span>
+<span>
+  <strong>Listing updated:</strong>
+  ${
+    campaign.lastUpdated
+      ? formatDate(campaign.lastUpdated)
+      : "—"
+  }
+</span>
 
 </div>
 
