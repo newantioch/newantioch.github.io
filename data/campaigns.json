@@ -1,0 +1,246 @@
+[
+  {
+    "id": "reuniting",
+    "title": "Reuniting",
+    "series": [],
+    "tagline": "A three-part campaign set in the aftermath of Brood War.",
+    "description": "From the author:\n\n\"The Protoss campaign is about the Dark Templar on Shakuras and their new leader, Praetor Artanis. 867 year old Yahzar and his apprentice, MiShuras, who is 287 years old, are serving under this new leader after the loss of Rascagal and the disappearance of Zeratul. MiShuras soon learns a secret beyond her or any of their imaginations...\n\nThe Zerg campaign focuses on a Hunter Killer under Kerrigan's control. The Hunter Killer, who is named Ryuuthn, seems to have a mind of it's own and doesn't like how Kerrigan is ruling. He asks her to give him a brood, but when Kerrigan refuses, he steals some Drones and makes his own plans...\n\nIn the Terran Campaign we continue to see the Dominion trying to rise in power, but this time they are trying to rebuild. To make it worse for them, Carl Dawson and a few Alpha Squadron men are trying to overthrow the Dominion. CD, as Dawson likes to be called, is working on destroying the Dominion, but the Dominion is working on a new project they call... Project Shadow Blade!\n\nEach campaign has something unique at the end. The Protoss have a hidden bonus mission, the Zerg have an, um, Trigger full cutscene level, and the Terran have a boss fight.\n\nEach campaign also has an epilogue.\"",
+    "releaseDate": "2009-07-01",
+    "lastUpdated": "2027-05-16",
+    "image": "reuniting.jpg",
+    "missions": 21,
+    "author": [
+      "Church"
+    ],
+    "language": [
+      "English"
+    ],
+    "team": [],
+    "year": [
+      "2009"
+    ],
+    "starcraftVersion": [
+      "1.16.1",
+      "Remastered"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "No"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss",
+      "Zerg",
+      "Terran"
+    ],
+    "tags": [
+      "after brood war",
+      "Campaign Creations Four Years Between Contest 2009",
+      "contest",
+      "blizzard characters",
+      "music"
+    ],
+    "originalLink": "",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/7KZHXT5L#4tItLDfoXUYY1uqlaC1BxQ"
+  },
+  {
+    "id": "starcraft-gas",
+    "title": "Gas",
+    "series": ["Gas"],
+    "tagline": "Before you say anything, it's VESPENE gas.",
+    "description": "This is a lighthearted campaign, you know, a little like The Bob Levels. =D\n\nRaynors Raiders were fighting the Dominion when suddenly, Jim Raynor was kidnapped by an unknown person. The Raiders are trying to save Raynor by bombing their way in, but...",
+    "releaseDate": "2010-09-01",
+    "lastUpdated": "2026-05-16",
+    "image": "starcraft-gas.jpg",
+    "missions": 9,
+    "author": [
+      "Church"
+    ],
+    "language": [
+      "English"
+    ],
+    "team": [],
+    "year": [
+      "2010"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "1.03a",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Protoss",
+      "Zerg"
+    ],
+    "tags": [
+      "comedy",
+      "blizzard characters"
+    ],
+    "originalLink": "https://www.moddb.com/mods/starcraft-gas",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/CToHFKjI#Td9FHrfjKWlaE57PoLxz1w"
+  },
+  {
+    "id": "ashens-quest-through-time-and-space",
+    "title": "Ashen's Quest through Time and Space",
+    "series": ["Gas"],
+    "tagline": "Four months after StarCraft: Gas, Ashen is thrust into a new adventure.",
+    "description": "Four months after Vill Ain's retreat, Ashen and his Dark Templar attempt to settle the unnamed ice planet where Vill Ain's secret data disk was discovered.\n\nDubbing the planet Devil's Retreat, they gather resources and set up bases, planning to make the world their new permanent home, as their original homeworld of Thalanduras was destroyed by the Zerg. However, Ashen does not rest easy. He still wishes to contact Adun and learn why he abandoned them on Thalanduras, but has no idea of how to do such a thing.\n\nAshen steps away from the base for a smoke break, but before he can get comfortable, a distant voice beckons him to the southern mountain range...\n\nWhat will Ashen discover?\n\nFind out in... Ashen's Quest through Time and Space!",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2015-01-31",
+    "lastUpdated": "2026-05-16",
+    "image": "ashens-quest-through-time-and-space.jpg",
+    "missions": 4,
+    "author": [
+      "Church"
+    ],
+    "team": [
+      "Crescendo Entertainment"
+    ],
+    "year": [
+      "2015"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "1.42",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss",
+      "Terran",
+      "Custom"
+    ],
+    "tags": [
+      "comedy",
+      "blizzard characters",
+      "voice acted",
+      "original music"
+    ],
+    "originalLink": "https://www.moddb.com/mods/ashens-quest-through-time-and-space/",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/THZRBBoB#venxdqo6iFiqQBUDv40WyQ"
+  },
+  {
+    "id": "resonance",
+    "title": "Resonance",
+    "series": [],
+    "tagline": "A KLF soldier crashlands on a frozen Dominion wasteland, and is forced to lie to save his life.",
+    "description": "Resonance tells the tale of Lieutenant Kevan Storm of the Koprulu Liberation Front. Sent on a covert ops mission with his squad to the frozen Dominion wasteland of Floe, his primary objective is to scout the area and assess whether or not it would be profitable to destroy the Dominion encampment there. A surprise assault from the Zerg appears, and his ship crash lands, killing his men... and forcing him to work with the Dominion forces of Floe.\n\n\nAs the events of Resonance unfold, Storm will begin to find his true allegiance... as well as become part of a much larger plot that begins to unfold around him.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2012-07-29",
+    "lastUpdated": "2026-05-16",
+    "image": "resonance.jpg",
+    "missions": 5,
+    "author": [
+      "Church"
+    ],
+    "team": [
+      "Crescendo Entertainment"
+    ],
+    "year": [
+      "2011"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "Campaign Creations Campaign Contest",
+      "contest",
+      "contest winner",
+      "voice acted",
+      "original music"
+    ],
+    "originalLink": "https://www.moddb.com/mods/starcraft-resonance/",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/6KhHlKDb#Mplcr9ZPB_X2rYHyKs36Aw"
+  },
+  {
+    "id": "the-major",
+    "title": "The Major",
+    "series": ["The NOMAD Saga"],
+    "tagline": "\"Safe Haven.\" These words could be used to describe Rastar... before the onset of Zerg invasion.",
+    "description": "Lieutenant Thomas Johnson is thrust into the fray, fighting to save Rastar from the Zerg menace. Never before being in a real battle, he tries his best... but with the Zerg, your best isn't always enough.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2011-08-17",
+    "lastUpdated": "2026-05-26",
+    "image": "the-major.jpg",
+    "missions": 4,
+    "author": [
+      "Church"
+    ],
+    "team": [
+      "Crescendo Entertainment"
+    ],
+    "year": [
+      "2011"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "SEN Longer than Usual Mapping Contest",
+      "contest",
+      "contest winner",
+      "voice acted",
+      "original music"
+    ],
+    "originalLink": "",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/yWJXBQjS#22NbYIM-89WA2G0QKrjkQA"
+  }
+]
