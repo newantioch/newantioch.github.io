@@ -424,6 +424,21 @@ const screenshotsHTML = currentScreenshots
       <h2>Description</h2>
       <p style="white-space: pre-wrap;">${campaign.description || "No description available."}</p>
     </section>
+	
+	<section>
+      <h2>Archival Notes</h2>
+      <p style="white-space: pre-wrap;">${campaign.archivalNotes || "No notes available."}</p>
+    </section>
+	
+	<section>
+      <h2>Installation & Play:</h2>
+      <p style="white-space: pre-wrap;">${campaign.installationNotes || "No instructions available."}</p>
+    </section>
+	
+	<section>
+      <h2>Credits</h2>
+      <p style="white-space: pre-wrap;">${campaign.credits || "No credits available."}</p>
+    </section>
 
     <section>
       <h2>Screenshots</h2>

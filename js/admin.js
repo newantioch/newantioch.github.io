@@ -65,6 +65,9 @@ function addNew() {
 
     tagline: "",
     description: "",
+	archivalNotes: "",
+	installationNotes: "",
+	credits: "",
     
     language: [],
 
@@ -132,6 +135,15 @@ function showForm(c) {
 
     <label>Description</label>
     <textarea id="description">${c.description || ""}</textarea>
+	
+	<label>Archival Notes</label>
+    <textarea id="archivalNotes">${c.archivalNotes || ""}</textarea>
+	
+    <label>Installation & Play</label>
+    <textarea id="installationNotes">${c.installationNotes || ""}</textarea>
+	
+	<label>Credits</label>
+    <textarea id="credits">${c.credits || ""}</textarea>
     
     <label>Language</label>
 <input id="language" value="${toCSV(c.language)}">
@@ -212,6 +224,9 @@ function save() {
 
     tagline: document.getElementById("tagline").value,
     description: document.getElementById("description").value,
+	archivalNotes: document.getElementById("archivalNotes").value,
+	installationNotes: document.getElementById("installationNotes").value,
+	credits: document.getElementById("credits").value,
     
     language: toArr(document.getElementById("language").value),
 
