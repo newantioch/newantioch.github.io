@@ -284,6 +284,7 @@ const screenshotsHTML = currentScreenshots
     campaign.author && campaign.author.length
       ? renderLinks("author", campaign.author)
       : "—"
+  }
   </span>
 
 <span>
@@ -301,6 +302,7 @@ const screenshotsHTML = currentScreenshots
     campaign.series && campaign.series.length
       ? renderLinks("series", campaign.series)
       : "—"
+	  }
   </span>
 
   <span>
@@ -309,6 +311,7 @@ const screenshotsHTML = currentScreenshots
     campaign.starcraftVersion && campaign.starcraftVersion.length
       ? renderLinks("starcraftVersion", campaign.starcraftVersion)
       : "—"
+	  }
   </span>
 
 <span>
@@ -326,6 +329,7 @@ const screenshotsHTML = currentScreenshots
     campaign.status && campaign.status.length
       ? renderLinks("status", campaign.status)
       : "—"
+	  }
   </span>
 
   <span>
@@ -334,6 +338,7 @@ const screenshotsHTML = currentScreenshots
     campaign.mod && campaign.mod.length
       ? renderLinks("mod", campaign.mod)
       : "—"
+	  }
   </span>
 
   <span>
@@ -342,6 +347,7 @@ const screenshotsHTML = currentScreenshots
     campaign.broodWar && campaign.broodWar.length
       ? renderLinks("broodWar", campaign.broodWar)
       : "—"
+	  }
   </span>
 
   <span>
@@ -350,6 +356,7 @@ const screenshotsHTML = currentScreenshots
     campaign.year && campaign.year.length
       ? renderLinks("year", campaign.year)
       : "—"
+	  }
   </span>
 
   <span>
@@ -363,6 +370,7 @@ const screenshotsHTML = currentScreenshots
     campaign.language && campaign.language.length
       ? renderLinks("language", campaign.language)
       : "—"
+	  }
 </span>
 
 <span>
