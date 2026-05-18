@@ -414,14 +414,14 @@ const screenshotsHTML = currentScreenshots
 
     <section>
       <h2>Description</h2>
-      <p style="white-space: pre-wrap;">${campaign.description || ""}</p>
+      <p style="white-space: pre-wrap;">${campaign.description || "No description available."}</p>
     </section>
 
     <section>
       <h2>Screenshots</h2>
 
       <div class="screenshot-grid">
-        ${screenshotsHTML}
+        ${screenshotsHTML || "No screenshots available."}
       </div>
     </section>
 
