@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Campaign Admin</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    input, textarea, select { width: 100%; margin: 5px 0 10px; padding: 8px; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .card { border: 1px solid #444; padding: 10px; margin-bottom: 10px; }
+    .chip { display:inline-block; padding:4px 8px; margin:3px; border:1px solid #555; cursor:pointer; }
+    .chip.active { background:#444; }
+    button { margin: 5px 5px 5px 0; }
+  </style>
+</head>
+
+<body>
+
+<h1>Campaign Admin Panel</h1>
+
+<button onclick="addNew()">+ New Campaign</button>
+<button onclick="downloadJSON()">Export JSON</button>
+
+<hr>
+
+<div id="list"></div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

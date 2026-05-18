@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Antioch</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-page="index">
+
+  <!-- HEADER -->
+  <header>
+    <h1>New Antioch Campaign Museum</h1>
+  </header>
+
+  <!-- TOP CONTROLS -->
+  <div class="top-controls">
+
+    <!-- SEARCH -->
+    <input
+      type="text"
+      id="searchInput"
+      class="search-bar"
+      placeholder="Search campaigns..."
+    >
+
+    <!-- VERSION CHIPS -->
+    <h3>StarCraft Version</h3>
+    <div id="starcraftVersionFilters" class="chip-container"></div>
+
+    <!-- STATUS CHIPS -->
+    <h3>Status</h3>
+    <div id="statusFilters" class="chip-container"></div>
+
+    <!-- SORT -->
+    <select id="sortSelect">
+      <option value="newest">Newest First</option>
+      <option value="oldest">Oldest First</option>
+      <option value="updated">Last Updated</option>
+
+      <option value="longest">Most Maps</option>
+      <option value="shortest">Least Maps</option>
+
+      <option value="author">Author</option>
+
+      <option value="az">A–Z</option>
+      <option value="za">Z–A</option>
+    </select>
+
+    <!-- MOBILE FILTER BUTTON -->
+    <button id="openFilters" class="filter-toggle">
+      Filters
+    </button>
+
+  </div>
+
+  <!-- OVERLAY (MOBILE) -->
+  <div id="filterOverlay" class="filter-overlay"></div>
+
+  <!-- DRAWER FILTERS -->
+  <aside id="filterDrawer" class="filter-drawer">
+
+    <button class="filter-close">✕ Close</button>
+
+    <h2>Filters</h2>
+
+    <div class="filter-section">
+      <h3>Author</h3>
+      <div id="authorFilters" class="chip-container"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Team</h3>
+      <div id="teamFilters" class="chip-container"></div>
+    </div>
+    
+    <div class="filter-section">
+      <h3>Series</h3>
+      <div id="seriesFilters" class="chip-container"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Year</h3>
+      <div id="yearFilters" class="chip-container"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Mod</h3>
+      <div id="modFilters" class="chip-container"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Brood War</h3>
+      <div id="broodWarFilters" class="chip-container"></div>
+    </div>
+    
+        <div class="filter-section">
+    <h3>Language</h3>
+<div id="languageFilters" class="chip-container"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Races</h3>
+      <div id="raceFilters" class="chip-container"></div>
+    </div>
+
+    <div class="filter-section">
+      <h3>Tags</h3>
+      <div id="tagFilters" class="chip-container"></div>
+    </div>
+
+    <button id="clearFilters">Clear Filters</button>
+
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <div id="resultsCount" class="results-count"></div>
+  
+  <main id="campaignContainer"></main>
+
+  <!-- PAGINATION -->
+  <div id="pagination"></div>
+
+  <script src="/js/app.js"></script>
+
+</body>
+</html>

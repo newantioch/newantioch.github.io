@@ -1,0 +1,510 @@
+/* =========================
+   BASE STYLES
+========================= */
+html, body {
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+  overflow-x: hidden; /* prevent horizontal scroll */
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.results-count {
+  margin-bottom: 24px;
+  color: #999;
+  font-size: 0.95rem;
+}
+
+/* =========================
+   CONTROLS
+========================= */
+.controls,
+.top-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+  color: #eee;
+  max-width: 100%;
+}
+
+/* Always visible search bar */
+.search-bar {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #1c1c1c;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* =========================
+   CAMPAIGN GRID
+========================= */
+#campaignContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.15s ease;
+  max-width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+button, .download-button {
+  cursor: pointer;
+  transition: 0.15s ease;
+  font-weight: 600;
+}
+
+.download-button {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  padding: 12px 16px;
+  background: #2a6cff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background: #4b82ff;
+}
+
+/* Clear filters button */
+#clearFilters {
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #222;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 -10px 20px rgba(0,0,0,0.4);
+  position: sticky;
+  bottom: 12px;
+}
+
+#clearFilters:hover {
+  background: #2a2a2a;
+  border-color: #555;
+}
+
+/* =========================
+   CHIPS
+========================= */
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.chip {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  user-select: none;
+  transition: 0.15s;
+}
+
+.chip:hover {
+  border-color: #666;
+}
+
+.chip.active {
+  background: #2a6cff;
+  border-color: #2a6cff;
+}
+
+/* =========================
+   FILTER DRAWER
+========================= */
+.filter-toggle {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #2a6cff;
+  color: white;
+}
+
+.filter-drawer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 320px;
+  height: 100%;
+  background: #111;
+  border-left: 1px solid #333;
+  padding: 20px;
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform 0.25s ease;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.filter-drawer.open {
+  transform: translateX(0);
+}
+
+.filter-overlay {
+  display: none;
+}
+
+.filter-overlay.active {
+  display: block;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 999;
+}
+
+/* Close button in drawer (mobile only) */
+.filter-close {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #222;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none; /* desktop default */
+}
+
+.filter-close:hover {
+  background: #2a2a2a;
+}
+
+/* =========================
+   SCREENSHOTS
+========================= */
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.screenshot {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #333;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.screenshot:hover {
+  transform: scale(1.03);
+  border-color: #666;
+}
+
+/* =========================
+   CAMPAIGN PAGE LAYOUT
+========================= */
+.campaign-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 320px) 1fr; /* sidebar flexible */
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.campaign-sidebar {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.campaign-cover {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.meta-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 15px 0 20px;
+  padding: 12px;
+  background: #151515;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.meta-bar span {
+  display: block;
+}
+
+.meta-bar strong {
+  color: #aaa;
+}
+
+/* links inside meta-bar */
+.meta-bar a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255,255,255,0.4);
+  cursor: pointer;
+}
+
+.meta-bar a:hover {
+  border-bottom: 1px solid white;
+}
+
+.campaign-content {
+  min-width: 0; /* IMPORTANT: allows column to shrink */
+}
+
+.campaign-title {
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 6px;
+  margin-left: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.badge.new {
+  background: #2ecc71;
+  color: #111;
+}
+
+.badge.updated {
+  background: #f1c40f;
+  color: #111;
+}
+
+/* =========================
+   TAGS / RACES
+========================= */
+.tag-container,
+.race-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tag,
+.race {
+  background: #222;
+  border: 1px solid #444;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.race {
+  background: #0f1c2e;
+}
+
+.muted {
+  color: #888;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+/* =========================
+   LIGHTBOX
+========================= */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.lightbox.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: 8px;
+  border: 1px solid #333;
+  transform: scale(0.85);
+  opacity: 0;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.lightbox.show .lightbox-img {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.lightbox-prev { left: 20px; }
+.lightbox-next { right: 20px; }
+
+/* =========================
+   MOBILE MEDIA QUERY
+========================= */
+@media (max-width: 900px) {
+
+  body {
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  /* Stack campaign layout */
+  .campaign-layout {
+    display: block;
+    padding: 15px;
+  }
+
+  .campaign-sidebar {
+    position: relative;
+    top: auto;
+    margin-bottom: 20px;
+  }
+
+  /* Smaller screenshot grid */
+  .screenshot-grid {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 8px;
+  }
+
+  .screenshot {
+    height: 90px;
+  }
+
+  .filter-close {
+    display: block;
+  }
+
+#filterDrawer {
+  width: 85%;
+  max-width: 340px;
+  height: 100%;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+  .filter-toggle {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+}
