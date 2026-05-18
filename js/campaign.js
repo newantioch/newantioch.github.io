@@ -226,6 +226,7 @@ const linkButtonsHTML = links
 const screenshotsHTML = currentScreenshots
   .map((img, index) => `
     <img class="screenshot"
+         loading="lazy" 
          src="${img}"
          onclick="openLightbox(${index})"
          alt="">

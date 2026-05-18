@@ -210,7 +210,7 @@ function renderCampaigns(list) {
 
     div.innerHTML = `
       <a class="card-link" href="campaign.html?id=${c.id}">
-        <img src="assets/${c.id}/${c.image}">
+        <img src="assets/${c.id}/${c.image}" loading="lazy">
         <div class="card-content">
           <h2>${c.title}</h2>
           <p>${(c.author || []).join(", ")}</p>
