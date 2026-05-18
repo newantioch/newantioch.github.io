@@ -125,7 +125,7 @@ function showForm(c) {
     <input id="title" value="${c.title || ""}">
 
     <label>Series</label>
-    <input id="series" value="${c.series || ""}">
+    <input id="series" value="${toCSV(c.series)}">
 
     <label>Tagline</label>
     <input id="tagline" value="${c.tagline || ""}">
@@ -185,13 +185,13 @@ function showForm(c) {
     <input id="tags" value="${toCSV(c.tags)}">
 
     <label>Original Link</label>
-    <input id="originalLink" value="${toCSV(c.originalLink)}">
+    <input id="originalLink" value="${c.originalLink || ""}">
     
     <label>Archive Link</label>
-    <input id="archiveLink" value="${toCSV(c.archiveLink)}">
+    <input id="archiveLink" value="${c.archiveLink || ""}">
     
     <label>Mega Backup</label>
-    <input id="megaBackup" value="${toCSV(c.megaBackup)}">
+    <input id="megaBackup" value="${c.megaBackup || ""}">
 
     <br><br>
 
