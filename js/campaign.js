@@ -359,9 +359,10 @@ const similarityMatches = campaigns
   );
 
 for (const c of similarityMatches) {
-  if (tagRaceCount >= TAG_RACE_LIMIT) break;
 
   if (seen.has(c.id)) continue;
+
+  if (tagRaceCount >= TAG_RACE_LIMIT) break;
 
   seen.add(c.id);
 
