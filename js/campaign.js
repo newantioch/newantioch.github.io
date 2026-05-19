@@ -41,7 +41,7 @@ async function loadCampaign() {
 }
 
 const TAG_WEIGHTS = {
-  universe: 3,
+  setting: 1,
   timeline: 4,
   event: 4,
 

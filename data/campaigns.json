@@ -43,7 +43,7 @@
     ],
     "tags": [
       "contest:campaign creations four years between contest",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:after brood war",
       "event:reclamation of aiur",
       "gameplay:macro heavy",
@@ -104,7 +104,7 @@
       "Zerg"
     ],
     "tags": [
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:after brood war",
       "gameplay:micro heavy",
       "audio:existing music",
@@ -165,7 +165,7 @@
       "Custom"
     ],
     "tags": [
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:after brood war",
       "gameplay:macro heavy",
       "mechanic:trigger heavy",
@@ -230,7 +230,7 @@
     "tags": [
       "contest:campaign creations campaign contest",
       "badge:winner",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:after brood war",
       "gameplay:micro heavy",
       "gameplay:rpg lite",
@@ -299,7 +299,7 @@
     "tags": [
       "contest:sen longer than usual mapping contest",
       "badge:winner",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:not specified",
       "gameplay:macro heavy",
       "gameplay:defense",
@@ -362,7 +362,7 @@
       "website:campaign creations",
       "contest:campaign creations four years between contest",
       "badge:winner",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:after brood war",
       "event:evacuation of aiur",
       "gameplay:micro heavy",
@@ -430,7 +430,7 @@
     ],
     "tags": [
       "contest:campaign creations campaign contest",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:starcraft 1",
       "event:great war",
       "event:end war",
@@ -489,7 +489,7 @@
       "website:campaign creations",
       "contest:campaign creations mini campaign contest",
       "badge:winner",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:before starcraft",
       "gameplay:macro heavy",
       "audio:voice acted",
@@ -552,7 +552,7 @@
     "tags": [
       "website:campaign creations",
       "website:samods the star alliance",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:after brood war",
       "gameplay:micro heavy",
       "gameplay:rpg lite",
@@ -618,7 +618,7 @@
       "website:campaign creations",
       "website:samods the star alliance",
       "contest:campaign creations mini campaign contest",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:starcraft 1",
       "event:great war",
       "gameplay:micro heavy",
@@ -680,7 +680,7 @@
     "tags": [
       "website:campaign creations",
       "website:samods the star alliance",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:not specified",
       "event:aeon of strife",
       "gameplay:micro heavy",
@@ -752,7 +752,7 @@
     "tags": [
       "website:campaign creations",
       "website:samods the star alliance",
-      "universe:starcraft",
+      "setting:koprulu sector",
       "timeline:not specified",
       "gameplay:micro heavy",
       "gameplay:puzzle",
