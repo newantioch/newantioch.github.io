@@ -47,6 +47,7 @@ const TAG_WEIGHTS = {
 
   gameplay: 4,
 
+  characters:0.5
   theme: 3,
   mechanic: 3,
 
