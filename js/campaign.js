@@ -344,35 +344,50 @@ let tagRaceCount = 0;
 
 const similarityMatches = campaigns
   .filter(c => !seen.has(c.id))
-  .filter(c => {
-
+  .map(c => {
     const cTags = asList(c.tags);
     const cRaces = asList(c.races);
 
-    const tagMatch = cTags.some(t => tagList?.includes(t));
-	const raceMatch = cRaces.some(r => raceList?.includes(r));
+    let score = 0;
 
-    return tagMatch || raceMatch;
+    // tag matches (lighter weight)
+    for (const t of cTags) {
+      if (tagList.includes(t)) score += 1;
+    }
+
+    // race matches (heavier weight)
+    for (const r of cRaces) {
+      if (raceList.includes(r)) score += 2;
+    }
+
+    return { c, score };
   })
-  .sort((a, b) =>
-    new Date(a.releaseDate || 0) - new Date(b.releaseDate || 0)
-  );
+  .filter(x => x.score > 0)
+  .sort((a, b) => {
+    // primary: score
+    if (b.score !== a.score) return b.score - a.score;
 
-for (const c of similarityMatches) {
+    // secondary: newest first (nice UX tie-breaker)
+    return new Date(b.c.releaseDate || 0) - new Date(a.c.releaseDate || 0);
+  })
+
+for (const { c, score } of similarityMatches) {
 
   if (seen.has(c.id)) continue;
 
-  if (tagRaceCount >= TAG_RACE_LIMIT) break;
+  if (related.length >= TAG_RACE_LIMIT) break;
 
   seen.add(c.id);
 
   related.push({
     ...c,
-    reason: "Potentially similar",
+    reason: score >= 4
+  ? "Very similar tags"
+  : score >= 2
+    ? "Somewhat similar tags"
+    : "Vaguely similar tags",
     isCurrent: c.id === currentId
   });
-
-  tagRaceCount++;
 }
 
 let relatedSeriesHTML = "";
