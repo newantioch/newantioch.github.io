@@ -437,13 +437,19 @@ for (const { c, score, matchedTags } of similarityMatches) {
 
   seen.add(c.id);
 
-  let similarityLabel = "Sort of related";
+let similarityLabel = "Unrelated";
 
-if (score >= 20) {
+if (score >= 45) {
+  similarityLabel = "Extremely similar";
+}
+else if (score >= 30) {
   similarityLabel = "Very similar";
 }
-else if (score >= 11) {
+else if (score >= 16) {
   similarityLabel = "Similar";
+}
+else if (score >= 7) {
+  similarityLabel = "Loosely related";
 }
 
   // prettify tags
