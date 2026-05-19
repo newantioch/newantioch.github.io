@@ -577,10 +577,16 @@ if (related.length) {
       <p style="white-space: pre-wrap;">${campaign.installationNotes || "No instructions available."}</p>
     </section>
 	
-	<section>
-      <h2>Credits</h2>
-      <p style="white-space: pre-wrap;">${campaign.credits || "No credits available."}</p>
-    </section>
+<section>
+  <h2>Credits</h2>
+
+  <details class="credits-box">
+    <summary>Show credits</summary>
+    <p style="white-space: pre-wrap;">
+      ${campaign.credits || "No credits available."}
+    </p>
+  </details>
+</section>
 
 ${relatedSeriesHTML}
 

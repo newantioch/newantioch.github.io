@@ -461,6 +461,38 @@ button, .download-button {
 }
 
 /* =========================
+   CREDITS BOX
+========================= */
+
+.credits-box {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.credits-box summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+.credits-box summary::-webkit-details-marker {
+  display: none;
+}
+
+.credits-box summary::after {
+  content: "▸";
+  float: right;
+  transition: transform 0.2s ease;
+}
+
+.credits-box[open] summary::after {
+  transform: rotate(90deg);
+}
+
+/* =========================
    LIGHTBOX
 ========================= */
 .lightbox {
