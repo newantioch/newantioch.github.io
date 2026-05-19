@@ -217,6 +217,11 @@ function goBackToResults() {
    RENDER CAMPAIGN
 ========================= */
 
+function normalizeScoreToPercent(score, maxScore) {
+  if (!maxScore) return 0;
+  return Math.min(100, (score / maxScore) * 100);
+}
+
 async function renderCampaign(campaign, campaigns) {
 	
 	const currentId = campaign.id;
@@ -436,51 +441,44 @@ const similarityMatches = campaigns
     return new Date(b.c.releaseDate || 0)
       - new Date(a.c.releaseDate || 0);
   });
+  
+ const maxScore = Math.max(...similarityMatches.map(x => x.score), 1);
 
 for (const { c, score, matchedTags } of similarityMatches) {
-
   if (seen.has(c.id)) continue;
-
   if (related.length >= RELATED_LIMIT) break;
-
   seen.add(c.id);
 
-let similarityLabel = "Unrelated";
+  // Normalize score to percent (max 100)
+  const percent = Math.min(100, normalizeScoreToPercent(score, maxScore));
+  const percentText = `${Math.round(percent)}%`;
 
-if (score >= 60) {
-  similarityLabel = "Extremely similar";
-}
-else if (score >= 45) {
-  similarityLabel = "Similar";
-}
-else if (score >= 30) {
-  similarityLabel = "Somewhat similar";
-}
-else if (score >= 10) {
-  similarityLabel = "Loosely related";
-}
+  // Create similarity label
+  let similarityLabel = "Unrelated";
+  if (score >= 60) similarityLabel = "Extremely similar";
+  else if (score >= 45) similarityLabel = "Similar";
+  else if (score >= 30) similarityLabel = "Somewhat similar";
+  else if (score >= 10) similarityLabel = "Loosely related";
 
-  // prettify tags
-  
-const prettyTags = matchedTags
-  .sort((a, b) => {
-    const aWeight = TAG_WEIGHTS[getTagCategory(a)] || 1;
-    const bWeight = TAG_WEIGHTS[getTagCategory(b)] || 1;
+  // Top 3 matched tags prettified
+  const prettyTagsText = matchedTags
+    .sort((a, b) => {
+      const aWeight = TAG_WEIGHTS[getTagCategory(a)] || 1;
+      const bWeight = TAG_WEIGHTS[getTagCategory(b)] || 1;
+      return bWeight - aWeight;
+    })
+    .slice(0, 3)
+    .map(prettyTag)
+    .join(", ");
 
-    return bWeight - aWeight;
-  })
-  .slice(0, 3)
-  .map(prettyTag)
-  .join(", ");
-
-related.push({
-  ...c,
-  score: Math.round(score * 10) / 10, // optional rounding
-  reason: prettyTags
-    ? `${similarityLabel} (${Math.round(score * 10) / 10}) • ${prettyTags}`
-    : `${similarityLabel} (${Math.round(score * 10) / 10})`,
-  isCurrent: c.id === currentId
-});
+  related.push({
+    ...c,
+    percent,
+    reason: prettyTagsText
+      ? `${similarityLabel} (${percentText}) • ${prettyTagsText}`
+      : `${similarityLabel} (${percentText})`,
+    isCurrent: c.id === currentId
+  });
 }
 
 let relatedSeriesHTML = "";
