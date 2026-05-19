@@ -467,13 +467,14 @@ const prettyTags = matchedTags
   .map(prettyTag)
   .join(", ");
 
-  related.push({
-    ...c,
-    reason: prettyTags
-      ? `${similarityLabel} • ${prettyTags}`
-      : similarityLabel,
-    isCurrent: c.id === currentId
-  });
+related.push({
+  ...c,
+  score: Math.round(score * 10) / 10, // optional rounding
+  reason: prettyTags
+    ? `${similarityLabel} (${Math.round(score * 10) / 10}) • ${prettyTags}`
+    : `${similarityLabel} (${Math.round(score * 10) / 10})`,
+  isCurrent: c.id === currentId
+});
 }
 
 let relatedSeriesHTML = "";
