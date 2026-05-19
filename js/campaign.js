@@ -180,7 +180,7 @@ function goBackToResults() {
    RENDER CAMPAIGN
 ========================= */
 
-async function renderCampaign(campaign, campaigns) { {
+async function renderCampaign(campaign, campaigns) {
 
   document.title = `${campaign.title} | New Antioch`;
 
@@ -273,9 +273,9 @@ if (seriesList.length) {
     );
   })
   .sort((a, b) => {
-    return new Date(a.releaseDate || 0)
-      - new Date(b.releaseDate || 0);
-  });
+  return new Date(a.releaseDate || 0).getTime()
+       - new Date(b.releaseDate || 0).getTime();
+});
 
   if (relatedCampaigns.length) {
 
