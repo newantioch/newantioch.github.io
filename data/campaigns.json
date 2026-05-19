@@ -152,7 +152,7 @@
       "comedy",
       "blizzard characters",
       "voice acted",
-      "original music"
+      "music"
     ],
     "originalLink": "https://www.moddb.com/mods/ashens-quest-through-time-and-space/",
     "archiveLink": "",
@@ -204,7 +204,8 @@
       "contest",
       "contest winner",
       "voice acted",
-      "original music"
+      "original music",
+      "micro"
     ],
     "originalLink": "https://www.moddb.com/mods/starcraft-resonance/",
     "archiveLink": "",
@@ -263,5 +264,367 @@
     "originalLink": "",
     "archiveLink": "",
     "megaBackup": "https://mega.nz/folder/yWJXBQjS#22NbYIM-89WA2G0QKrjkQA"
+  },
+  {
+    "id": "vile-egression",
+    "title": "Vile Egression",
+    "series": [],
+    "tagline": "The Khalai loyalists of Aiur mount a dangerous retreat from their homeworld three years after the Overmind's invasion.",
+    "description": "Three years have slowly progressed since the Overmind's downfall upon Aiur's calamity-ridden soil.  Between the Khalai's initial departure to Shakuras, and the monumental incursions that followed shortly thereafter, the remaining members of Aiur's civilized inhabitants were left abruptly forgotten amidst the sands of time.\n\nNeglected and devoid of resolve, the once vigorous stewards of Adun were hastily approaching a foreseen extinction by their Xel'Nagan halves. Amidst the countless heaps of cadavers, mourning individuals cried out for a savior to relieve them from the insufferable maws of the Zerg. With Adun's mercy seemingly withdrawn from Aiur's inhabitants, the prospect of hope was but a fleeting dream...\n\nHowever, during one fateful day, the call for reprieve was finally answered in the form of a stalwart Protoss Consular by the name of Imrian. Having obtained the trajectory bearings to Shakuras from an established contact upon the Dark Templar homeworld itself, Imrian set his sights on the prospect of evacuating the Khalai loyalists once again. Furthermore, as if fortune held the Consular's intent under its very wing, the last functioning warp gate on Aiur had been left intact throughout the years. With the fortified aspect of hope glistening within their eyes, the reinvigorated warriors of Imrian's forefront have begun preparations for their well-deserved journey to solace.",
+    "archivalNotes": "Winner of the 2009 Campaign Creations StarCraft \"Four Years Between\" Campaign Contest.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.\n\nCampaign must be played on Fastest speed settings.",
+    "credits": "Produced: by Laconius\n\nMap Design and Level Production by: Laconius\n\tWith Special Thanks to:\n - Suicidal Insanity for creating SCMDraft\n - General Mengsk for creating StarCraft X-Tra Editor\n\nOriginal story by: Laconius\n\tWith help from:  \n - CC Campaign Contest Guidelines\n - StarCraft Script Commentary by Magic\n\nCharacter Concept by: Laconius\n\tWith inspiration from:  \n - The Flame Knives by Metathrom\n - Vision of the Future Saga by RCX\n - Fall From Grace Saga by Desler\n\nGameplay Schematics by: Laconius\n\tWith inspiration from:  \n - The Flame Knives by Metathrom\n - Wicked Reality by LingMac\n - Newrand Citadel by Messiah00Guy\n\nPrimary Iscript Editing by: IskatuMesk\n\tWith help from:  \n - Hunter_Killers\n\nCustom Graphics and Wireframes by: \n - Aqo.\n - Yoshiboy\n - Jade\n - FlameBait\n - Egbo\n - Taeradun\n\nArtwork and Splash Screens from: \n - IskatuMesk\n - Hunter_Killers\n - Elune\n\nBeta Testing by: \n - Metathrom\n - Mucky\n - Tipereth\n - Legion\n\nMusical Score from (authors): \n - Yuki Kajiura\n - SSH (SaitamaSaisyuHeiki)\n - X-Ray Dog\n - Shiro Sagisu\n - Nobuo Uematsu\n - Epica\n\nMusical Score from (games): \n - Turok: Dinosaur Hunter\n - Turok 2: Seeds of Evil\n - Turok 3: Shadow of Oblivion\n - Tabula Rasa\n - Phantasy Star Online\n - Ragnarok Online\n - God of War\n\nMusical Score from (misc.): \n - Various other artists whom I could not identify\n\nAdditional Programs used in producing Vile Egression: \n - WinMPQ and IceCC by ShadowFlare\n - MPQDraft by Quantum\n - StarDraft by Camelot Systems\n - DatEdit and GRPEdit by BroodKiller\n - Protoss Name Generator by Gradius\n - StarEdit Assistant by Ancilla Editing Network\n - Smacker Tools by RAD Game Tools\n\nAdditional Thanks to:\n - Lavarinth for hosting the CC Campaign Contest of 2009\n - Metathrom for his endless moral support\n - IskatuMesk for his endless modding support\n - Maglok for his endless vocal editing support\n - Ricky Honejasi for his sublime analysis of Vile Egression\n - The Campaign Creations community for their prominent support\n - Blizzard Entertainment for crafting such a masterpiece of a game\n\nThank you for playing StarCraft: Vile Egression!",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2009-08-22",
+    "lastUpdated": "2026-05-18",
+    "image": "vile-egression.jpg",
+    "missions": 3,
+    "author": [
+      "Laconius"
+    ],
+    "team": [],
+    "year": [
+      "2009"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss"
+    ],
+    "tags": [
+      "Campaign Creations",
+      "after brood war",
+      "Campaign Creations Four Years Between Contest",
+      "contest",
+      "contest winner",
+      "blizzard characters",
+      "music",
+      "voice acted",
+      "micro"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20200804230214/https://www.campaigncreations.org/forum/viewtopic.php?t=1629",
+    "megaBackup": "https://mega.nz/folder/iHo0yYqS#tZ745EFJ6wZUjOohv69FCw"
+  },
+  {
+    "id": "whispers-of-extinction",
+    "title": "Whispers of Extinction",
+    "series": [],
+    "tagline": "Weeks after the Zerg capture Sarah Kerrigan, the Overmind prepares for an inevitable extinction.",
+    "description": "\"Lend your conscience to me, Kerrigan. I am the Overmind, the hive entity that directs the motions of the Zerg Swarm. You must come to realize that you are the very prodigy of the cosmos. Its.. savior. For it is through your hand that the schemes of our enemies shall be brought to ruin. Our true enemies, whose presence lies veiled, do not take the form of the Terrans or the Protoss. Rather, they are the creators of my very being- the Xel'Naga. Know that the visions I hereby impart unto you shall spare you no agony of the grim future that I have foreseen. But you must endure, human. For the sake of all life, you must bear witness to the whispers of extinction.\"",
+    "archivalNotes": "Entry in the 2011 Campaign Creations Campaign Contest.",
+    "installationNotes": "This campaign was never completed and cannot be played.",
+    "credits": "",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "",
+    "lastUpdated": "2026-05-18",
+    "image": "whispers-of-extinction.jpg",
+    "missions": 0,
+    "author": [
+      "Laconius"
+    ],
+    "team": [],
+    "year": [
+      "2011"
+    ],
+    "starcraftVersion": [],
+    "campaignVersion": "",
+    "status": [
+      "Unreleased"
+    ],
+    "mod": [],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg"
+    ],
+    "tags": [
+      "Campaign Creations Campaign Contest",
+      "contest",
+      "voice acted",
+      "blizzard characters"
+    ],
+    "originalLink": "",
+    "archiveLink": "",
+    "megaBackup": ""
+  },
+  {
+    "id": "dark-swarm",
+    "title": "Dark Swarm",
+    "series": [],
+    "tagline": "The Overmind prepares for the end of the Cycle.",
+    "description": "The Swarm is ready. The Overmind has been biding its time, waiting for this moment. A powerful psionic call reaches out into space, and beckons the eternal leader of the Swarm. Soon, the Overmind knows, the Xel’Nagan secrets will be revealed. Soon the cycle will be completed.\n\nAs the Swarms prepare for their first warp travel, a new Cerebrate of great promise is born. It is created to lead the Grand Search, but its destiny is uncertain.",
+    "archivalNotes": "Winner of the 2010 Campaign Creations Mini-Campaign Contest.\n\nA Special Edition was released, but the files are now lost. Additional campaigns were planned but left unreleased.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run through the campaign menu.",
+    "credits": "Story & Script\nB.J. \"Legion\" van Lindert\n\nMap Design & Triggering\nB.J. \"Legion\" van Lindert\n\nSound Design\nB.J. \"Legion\" van Lindert\n\nNew Character Voices\nB.J. \"Legion\" van Lindert\n               \nSEMPQ compilation\nThalraxal\n\nAltered unit portrait for \"Vail Sterling\"\nRainblades\n\nThanks to\nBlizzard Entertainment\nCampaign Creations\nThe Star Alliance",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2008-02-26",
+    "lastUpdated": "2026-05-18",
+    "image": "dark-swarm.jpg",
+    "missions": 5,
+    "author": [
+      "Legion"
+    ],
+    "team": [],
+    "year": [
+      "2008"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg"
+    ],
+    "tags": [
+      "Campaign Creations",
+      "before starcraft",
+      "Campaign Creations Mini Campaign Contest",
+      "contest",
+      "contest winner",
+      "blizzard characters",
+      "voice acted"
+    ],
+    "originalLink": "https://files.campaigncreations.org/sc/legion/index.htm",
+    "archiveLink": "https://web.archive.org/web/20260519021128/https://files.campaigncreations.org/sc/legion/",
+    "megaBackup": "https://mega.nz/folder/DKog3Q7R#xJFL0j94lSkg6Ai4E7RvFA"
+  },
+  {
+    "id": "life-of-a-marine",
+    "title": "Life of a Marine",
+    "series": [
+      "Life of a Marine"
+    ],
+    "tagline": "Come and experience the Life of a Marine.",
+    "description": "The Koprulu Sector is a turbulent place, torn apart by war after war, decimated planets in its wake. It has occured on such a grand scale that sometimes we forget about the individuals who put it all on the line for their cause. Meet Lieutenant Jack Sherall, a Marine in the Terran Dominion whose life has been thrust into the fray, leaving him and everyone around him forever changed. Come and experience the Life of a Marine.\n\n\"Unless you want to learn the joys of removing\na bullet from your ass, why don't you just cut\nthe crap and let us through?\"\n\nJACK SHERALL",
+    "archivalNotes": "Originally hosted at Campaign Creations and SAMODS (The Star Alliance).",
+    "installationNotes": "Brood War scenario files only, should run on any version of the game.\n\nDesigned to be run at default speed settings.",
+    "credits": "LIFE OF A MARINE\nbrought to you by Gameproc.com\n\nEXECUTIVE PRODUCER\nTamas McCoy\n\nSCRIPT\nTamas McCoy\n\nMAP DESIGN\nTamas McCoy\nIan Gerdes\n\nBETA TESTERS\nIan Gerdes\nSean Swanson\nDavid Novak\nMetathrom\nCurtis Hanna\nLavarinth\n\nSPECIAL THANKS TO\nDesler\nLavarinth\nIskatuMesk\nBill Roper and everyone at Blizzard\nThe general support of the Starcraft community\nDwight Cenac\nOrbital\nNobuo Uematsu\nAnd a special thanks to Ian Gerdes (without whom this campaign would never have been)\n\nNo animals were harmed in the making of this campaign, except for a mouse who wouldn't eat the cheese.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2004-04-30",
+    "lastUpdated": "2026-05-18",
+    "image": "life-of-a-marine.jpg",
+    "missions": 8,
+    "author": [
+      "Gemini"
+    ],
+    "team": [],
+    "year": [
+      "2004"
+    ],
+    "starcraftVersion": [
+      "1.16.1",
+      "Remastered"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Compmlete"
+    ],
+    "mod": [
+      "No"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "Campaign Creations",
+      "SAMODS",
+      "music",
+      "micro"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20090124125330/http://sc.campaigncreations.org/loam/",
+    "megaBackup": "https://mega.nz/folder/eTwURQDY#KxcE7FfvtYl0mwKkpn_QUg"
+  },
+  {
+    "id": "life-of-a-marine-bootcamp",
+    "title": "Bootcamp",
+    "series": [
+      "Life of a Marine"
+    ],
+    "tagline": "A prequel to Life of a Marine.",
+    "description": "Before the rise of the Dominion, a man named Jack Sherall volunteered for a small rebel group named the Sons of Korhal. Bootcamp, a 4-map prequel campaign to Life of a Marine, tells the story of how Jack Sherall came into military service and met friends Craig Skillen, Katherine Logal, and Vertigo, all during the timeframe of Rebel Yell.",
+    "archivalNotes": "Entry in the 2008 Campaign Creations Mini-Campaign Contest.",
+    "installationNotes": "\"You must have Starcraft and Brood War installed on your computer.\n\n1. Extract the .zip file in your Starcraft/maps folder. If you\n   prefer, you may extract it in a subfolder of /maps.\n\n2. Start Starcraft using SCMLoader. If you do not currently have\n   this program, you can find it here:\n\nhttp://shadowflare.samods.org/dwnload.html#Downloading%20and%20Installing%20Programs\n\n3. Select Single Player, and choose Expansion.\n\n4. Select Play Custom.\n\n5. Load up (1)Bootcamp Ch-1.scx, choosing \"Use Map Settings,\" and enjoy!\"\n\nThe campaign runs fine without SCMLoader.",
+    "credits": "Campaign and music by Tamas \"Gemini\" McCoy",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2007-12-22",
+    "lastUpdated": "2026-05-18",
+    "image": "life-of-a-marine-bootcamp.jpg",
+    "missions": 4,
+    "author": [
+      "Gemini"
+    ],
+    "team": [],
+    "year": [
+      "2007"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "SCMLoader",
+      "Optional"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "Campaign Creations Mini Campaign Contest",
+      "Campaign Creations",
+      "SAMODS",
+      "contest",
+      "original music",
+      "micro"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20220703203329/https://www.campaigncreations.org/forum/viewtopic.php?t=551",
+    "megaBackup": "https://mega.nz/folder/bTp1HLhB#O0obamxtL3I9jLQX-Y1TeQ"
+  },
+  {
+    "id": "the-flame-knives",
+    "title": "The Flame Knives",
+    "series": [
+      "Hawk Universe"
+    ],
+    "tagline": "Join Executor Maradun of the Kharnikhan Empire against the enemies of the Hawk's Throne, in an environment where conspiracies, ancient secrets and treason are a constant.",
+    "description": "The Flame Knives is an original Starcraft: Brood War campaign that takes place on the Protoss refugee world of Kharnikha. Join Executor Maradun of the Kharnikhan Empire against the enemies of the Hawk's Throne, in an environment where conspiracies, ancient secrets and treason are a constant.\n\nKharnikha, an ancient world formerly inhabitated by an unknown race, was conquered by a group of Protoss exilees during the Aeon of Strife. Led by Judicator Haissar, the exilees managed to develop a civilization isolated from the greedy Conclave. This culture was further known as the Kharnikhan Empire, and it was based on the centered power around Emperor Ashtorium, the heir of Haissar.\n\nAlthough a few meaningless dissidences had arisen among the merchant tribes of the Kharnikhan wildlands, the Empire reigned uncontested on this land...so far. Now, an ancient force is about to claim the lives of all Kharnikhans to itself...\n\nFrom the Archives of Ansham, planet Kharnikha:\n\n2 millenia ago, the Protoss species reached one of its greatest moments. Technology, scientific knowledge and psionic development ensured the superiority of this species, as it began exploring the space around Aiur. However, this progress came at the cost of blood and sacrifice...\n\nMost of the laws of the Protoss were written by Khas, a wise Templar, worshipped by the future generations as the greatest lifeform to have ever existed. Yet, he had a treacherous oppositor during his lifetime, who tried to vanquish Khas and his code of laws, known as the Khala. This fiend was called Zarthiom. A long war between Khas' Army - the Conclave - and Zarthiom's followers - the Flame Knife - finally ensured the survival of the Khala.\n\nYet, before Templar Zarthiom met his fate, he cursed every following Protoss generation, claiming that somehow his wrath for the Khala would not cease. This threat was faced as the last attempt of Zarthiom to tear down the Protoss, and the fiend finally succumbed to the strength of the khalai.\n\nThe Conclave was not a tolerant government, thus several groups of Protoss had to flee Aiur in desperate attempts of survival from the dictatorship of the Judicators. Some of these exilees arrived in the distant world of Kharnikha, where a new government was established. The ruler of Kharnikha, Haissar, was a High Templar whose son was left on Aiur to die, for being born with the symbol of the Flame Knife incrusted in his chest. Nevertheless, Kharnikha prospered under the rule of Haissar's successor, Ashtorium...",
+    "archivalNotes": "Originally hosted at Campaign Creations and SAMODS (The Star Alliance).\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.10 to play. Maps are run as custom games.",
+    "credits": "Metathrom(me): Staredit work, testing, sound editing, doodad work\nStar Alliance: hosting\nRobddav, Snoopy: Tech help\nThrill, Taeradun: Doodad work\nJoel Steudler: Title screen\nTaeradun: Splash screen\nLing-Mac, Blade66777, Freak, PlasmaWrath, RsRioter: beta testers\n...and all fans, of course :D\n\n\nI hope you enjoy Flame Knives. I sure enjoyed making it :)",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2005-04-12",
+    "lastUpdated": "2026-05-18",
+    "image": "the-flame-knives.jpg",
+    "missions": 17,
+    "author": [
+      "Metathrom"
+    ],
+    "team": [],
+    "year": [
+      "2005"
+    ],
+    "starcraftVersion": [
+      "1.10"
+    ],
+    "campaignVersion": "Special Edition",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss"
+    ],
+    "tags": [
+      "Campaign Creations",
+      "SAMODS",
+      "aeon of strife",
+      "music",
+      "puzzles",
+      "micro"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20101210003917/http://campaigncreations.org/starcraft/flame_knives/story",
+    "megaBackup": ""
+  },
+  {
+    "id": "aeon-of-the-hawk",
+    "title": "Aeon of the Hawk",
+    "series": [
+      "Hawk Universe"
+    ],
+    "tagline": "A planet far from the influence of the major powers; a nation without a law, and with a puppet government whose power is undermined; a world home to countless mercenaries.",
+    "description": "The name is Aeon of the Hawk, and it takes you to the distant fringe world of Athlys III; formerly a colony of the Terran Confederacy, Athlys III declared its independence and assumed a neutral position among the Terran worlds. The numerous corporations, owners of Research & Development facilities and production centers on the planet rule it with no goals other than preserving their wealth and expanding their markets. The provisional government is nearly absent and lacks the powers necessary to challenge these companies.\n\nThis chaotic environment highly interests the powerful nations of the Koprulu Sector, who are eager to explore regions such as the Athlys system and gain footholds on them. The Terran Dominion, The Umojan Protectorate and the Kel-Morian Combine, factions with bitter convivence, sent their ambassadors to fringe worlds such as Athlys III to hire the services of the greedy, yet effective corporations.\n\nA planet far from the influence of the major powers; a nation without a law, and with a puppet government whose power is undermined; a world home to countless mercenaries. Would there be a better place to start a war?\n\nThat is what The Hawk believes...",
+    "archivalNotes": "Originally hosted on Campaign Creations and SAMODS. Set in the same universe as The Flame Knives.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.10 to play. Maps are run as custom games.",
+    "credits": "Metathrom (me): Staredit work, testing, sound editing, doodad work \nCampaign Creations and Samods: hosting\nRobddav, Snoopy: Tech help\nTaeradun: Doodad work\nJoel Steudler: Title screen\nTaeradun: Splash screen\nRsRioter, Prominency: beta testers\n\nMusic Credits (remixes):\n- JigginJonT Donkey Kong West Coast Island Theme (Donkey Kong Country);\n- Scott Peeples - Chrono Trigger Requiem for a Green Revolution;\n- BrainCells – The Path To Hell – Lake of Fire (Axelay);\n- MazeDude – Final Fantasy 4 Surface of the Moon;\n- Children of the Monkey Machine – Norfair Frailty Waiting (Super Metroid);\n- Danny B – The Galaxy is At Peace (Super Metroid);\n- Dhsu – Super Mario World Koopa vs Kefka.\n\n\nAnd all fans, of course. Without fan feedback, there’d be no AotH.\n\n\nI hope you enjoy the campaign. I sure enjoyed making it. :)",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2008-02-20",
+    "lastUpdated": "2026-05-18",
+    "image": "aeon-of-the-hawk.jpg",
+    "missions": 17,
+    "author": [
+      "Metathrom"
+    ],
+    "team": [],
+    "year": [
+      "2008"
+    ],
+    "starcraftVersion": [
+      "1.10"
+    ],
+    "campaignVersion": "Special Edition",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "Campaign Creations",
+      "SAMODS",
+      "music",
+      "puzzles",
+      "micro"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20101209235034/http://campaigncreations.org/starcraft/aeon_of_the_hawk",
+    "megaBackup": ""
   }
 ]
