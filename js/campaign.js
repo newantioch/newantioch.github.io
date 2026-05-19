@@ -268,7 +268,6 @@ const related = [];
 if (seriesList.length) {
 
   const seriesMatches = campaigns
-    .filter(c => c.id !== campaign.id)
     .filter(c => {
       const cSeries = asList(c.series);
       return cSeries.some(s => seriesList.includes(s));
@@ -285,6 +284,7 @@ if (seriesList.length) {
     related.push({
       ...c,
       reason: `Part of the series ${seriesList.join(", ")}`
+	  isCurrent: c.id === campaign.id
     });
   }
 }
@@ -292,7 +292,6 @@ if (seriesList.length) {
 if (teamList.length) {
 
   const teamMatches = campaigns
-    .filter(c => c.id !== campaign.id)
     .filter(c => {
       const cTeam = asList(c.team);
       return cTeam.some(t => teamList.includes(t));
@@ -309,6 +308,7 @@ if (teamList.length) {
     related.push({
       ...c,
       reason: "Same team"
+	  isCurrent: c.id === campaign.id
     });
   }
 }
@@ -316,7 +316,6 @@ if (teamList.length) {
 if (authorList.length) {
 
   const authorMatches = campaigns
-    .filter(c => c.id !== campaign.id)
     .filter(c => {
       const cAuthor = asList(c.author);
       return cAuthor.some(a => authorList.includes(a));
@@ -333,12 +332,12 @@ if (authorList.length) {
     related.push({
       ...c,
       reason: "Same author"
+	  isCurrent: c.id === campaign.id
     });
   }
 }
 
 const similarityMatches = campaigns
-  .filter(c => c.id !== campaign.id)
   .filter(c => !seen.has(c.id))
   .filter(c => {
 
@@ -363,6 +362,7 @@ for (const c of similarityMatches) {
   related.push({
     ...c,
     reason: "Potentially similar"
+	isCurrent: c.id === campaign.id
   });
 }
 
@@ -372,11 +372,14 @@ if (related.length) {
 
   relatedSeriesHTML = `
     <section class="related-box">
-      <h2>Recommended campaigns</h2>
+      <h2>Related campaigns</h2>
 
       <div class="related-list">
         ${related.map(c => `
-          <a href="/campaign.html?id=${encodeURIComponent(c.id)}">
+          <a
+			href="/campaign.html?id=${encodeURIComponent(c.id)}"
+			class="${c.isCurrent ? "current-campaign" : ""}"
+			>
             <strong>${c.title}</strong>
 
             <small>${c.reason}</small>
