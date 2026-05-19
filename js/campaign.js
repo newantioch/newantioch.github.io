@@ -256,104 +256,141 @@ const screenshotsHTML = currentScreenshots
     .map(race => `<a class="race" href="/index.html?races=${encodeURIComponent(race)}">${race}</a>`)
     .join(" ");
 	
-	const seriesList = asList(campaign.series);
-	const teamList = asList(campaign.team);
-	const authorList = asList(campaign.author);
+const seriesList = asList(campaign.series);
+const teamList = asList(campaign.team);
+const authorList = asList(campaign.author);
+const tagList = asList(campaign.tags);
+const raceList = asList(campaign.races);
 
-let seriesHTML = "";
+const seen = new Set();
+const related = [];
 
 if (seriesList.length) {
 
-  const related = campaigns
+  const seriesMatches = campaigns
     .filter(c => c.id !== campaign.id)
     .filter(c => {
       const cSeries = asList(c.series);
       return cSeries.some(s => seriesList.includes(s));
     })
     .sort((a, b) =>
-      new Date(b.releaseDate || 0) - new Date(a.releaseDate || 0)
+      new Date(a.releaseDate || 0) - new Date(b.releaseDate || 0)
     );
 
-  if (related.length) {
-    seriesHTML = `
-      <section class="related-box">
-        <h2>Other campaigns in ${seriesList.join(", ")}</h2>
+  for (const c of seriesMatches) {
+    if (seen.has(c.id)) continue;
 
-        <div class="related-list">
-          ${related.map(c => `
-            <a href="/campaign.html?id=${encodeURIComponent(c.id)}">
-              <strong>${c.title}</strong>
-              ${c.releaseDate ? `<small>${formatDate(c.releaseDate)}</small>` : ""}
-            </a>
-          `).join("")}
-        </div>
-      </section>
-    `;
+    seen.add(c.id);
+
+    related.push({
+      ...c,
+      reason: `Part of the series ${seriesList.join(", ")}`
+    });
   }
 }
 
-let teamHTML = "";
-
 if (teamList.length) {
 
-  const related = campaigns
+  const teamMatches = campaigns
     .filter(c => c.id !== campaign.id)
     .filter(c => {
       const cTeam = asList(c.team);
       return cTeam.some(t => teamList.includes(t));
     })
     .sort((a, b) =>
-      new Date(b.releaseDate || 0) - new Date(a.releaseDate || 0)
+      new Date(a.releaseDate || 0) - new Date(b.releaseDate || 0)
     );
 
-  if (related.length) {
-    teamHTML = `
-      <section class="related-box">
-        <h2>Other campaigns by this team</h2>
+  for (const c of teamMatches) {
+    if (seen.has(c.id)) continue;
 
-        <div class="related-list">
-          ${related.map(c => `
-            <a href="/campaign.html?id=${encodeURIComponent(c.id)}">
-              <strong>${c.title}</strong>
-              ${c.releaseDate ? `<small>${formatDate(c.releaseDate)}</small>` : ""}
-            </a>
-          `).join("")}
-        </div>
-      </section>
-    `;
+    seen.add(c.id);
+
+    related.push({
+      ...c,
+      reason: "Same team"
+    });
   }
 }
 
-let authorHTML = "";
-
 if (authorList.length) {
 
-  const related = campaigns
+  const authorMatches = campaigns
     .filter(c => c.id !== campaign.id)
     .filter(c => {
       const cAuthor = asList(c.author);
       return cAuthor.some(a => authorList.includes(a));
     })
     .sort((a, b) =>
-      new Date(b.releaseDate || 0) - new Date(a.releaseDate || 0)
+      new Date(a.releaseDate || 0) - new Date(b.releaseDate || 0)
     );
 
-  if (related.length) {
-    authorHTML = `
-      <section class="related-box">
-        <h2>Other campaigns by this author</h2>
+  for (const c of authorMatches) {
+    if (seen.has(c.id)) continue;
 
-        <div class="related-list">
-          ${related.map(c => `
-            <a href="/campaign.html?id=${encodeURIComponent(c.id)}">
-              <strong>${c.title}</strong>
-              ${c.releaseDate ? `<small>${formatDate(c.releaseDate)}</small>` : ""}
-            </a>
-          `).join("")}
-        </div>
-      </section>
-    `;
+    seen.add(c.id);
+
+    related.push({
+      ...c,
+      reason: "Same author"
+    });
   }
+}
+
+const similarityMatches = campaigns
+  .filter(c => c.id !== campaign.id)
+  .filter(c => !seen.has(c.id))
+  .filter(c => {
+
+    const cTags = asList(c.tags);
+    const cRaces = asList(c.races);
+
+    const tagMatch = cTags.some(t => tagList.includes(t));
+    const raceMatch = cRaces.some(r => raceList.includes(r));
+
+    return tagMatch || raceMatch;
+  })
+  .sort((a, b) =>
+    new Date(a.releaseDate || 0) - new Date(b.releaseDate || 0)
+  );
+
+for (const c of similarityMatches) {
+
+  if (seen.has(c.id)) continue;
+
+  seen.add(c.id);
+
+  related.push({
+    ...c,
+    reason: "Potentially similar"
+  });
+}
+
+let relatedSeriesHTML = "";
+
+if (related.length) {
+
+  relatedSeriesHTML = `
+    <section class="related-box">
+      <h2>Recommended campaigns</h2>
+
+      <div class="related-list">
+        ${related.map(c => `
+          <a href="/campaign.html?id=${encodeURIComponent(c.id)}">
+            <strong>${c.title}</strong>
+
+            <small>${c.reason}</small>
+
+            ${
+              c.releaseDate
+                ? `<small>${formatDate(c.releaseDate)}</small>`
+                : ""
+            }
+          </a>
+        `).join("")}
+      </div>
+    </section>
+  `;
 }
 
   container.innerHTML = `
