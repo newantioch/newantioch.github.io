@@ -181,6 +181,8 @@ function goBackToResults() {
 ========================= */
 
 async function renderCampaign(campaign, campaigns) {
+	
+	const currentId = campaign.id;
 
   document.title = `${campaign.title} | New Antioch`;
 
@@ -283,8 +285,8 @@ if (seriesList.length) {
 
     related.push({
       ...c,
-      reason: `Part of the series ${seriesList.join(", ")}`
-	  isCurrent: c.id === campaign.id
+      reason: `Part of the series ${seriesList.join(", ")}`,
+	  isCurrent: c.id === currentId
     });
   }
 }
@@ -307,8 +309,8 @@ if (teamList.length) {
 
     related.push({
       ...c,
-      reason: "Same team"
-	  isCurrent: c.id === campaign.id
+      reason: "Same team",
+	  isCurrent: c.id === currentId
     });
   }
 }
@@ -331,8 +333,8 @@ if (authorList.length) {
 
     related.push({
       ...c,
-      reason: "Same author"
-	  isCurrent: c.id === campaign.id
+      reason: "Same author",
+	  isCurrent: c.id === currentId
     });
   }
 }
@@ -361,8 +363,8 @@ for (const c of similarityMatches) {
 
   related.push({
     ...c,
-    reason: "Potentially similar"
-	isCurrent: c.id === campaign.id
+    reason: "Potentially similar",
+	isCurrent: c.id === currentId
   });
 }
 
