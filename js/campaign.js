@@ -447,16 +447,16 @@ for (const { c, score, matchedTags } of similarityMatches) {
 
 let similarityLabel = "Unrelated";
 
-if (score >= 45) {
+if (score >= 60) {
   similarityLabel = "Extremely similar";
 }
-else if (score >= 30) {
+else if (score >= 45) {
   similarityLabel = "Very similar";
 }
-else if (score >= 16) {
+else if (score >= 30) {
   similarityLabel = "Similar";
 }
-else if (score >= 7) {
+else if (score >= 10) {
   similarityLabel = "Loosely related";
 }
 
