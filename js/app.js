@@ -61,6 +61,30 @@ async function loadCampaigns() {
   renderFromURL();
 }
 
+const TAG_WEIGHTS = {
+  universe: 5,
+  timeline: 5,
+  event: 4,
+
+  gameplay: 4,
+
+  theme: 3,
+  mechanic: 3,
+
+  mod: 2.5,
+  presentation: 2,
+
+  visual: 1.5,
+  audio: 1.5,
+
+  difficulty: 1,
+  quality: 1,
+
+  contest: 0.5,
+  website: 0.5,
+  badge: 0.5
+};
+
 /* =========================
    URL STATE
 ========================= */

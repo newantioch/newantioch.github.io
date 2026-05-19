@@ -40,6 +40,42 @@ async function loadCampaign() {
   }
 }
 
+const TAG_WEIGHTS = {
+  universe: 3,
+  timeline: 4,
+  event: 4,
+
+  gameplay: 4,
+
+  theme: 3,
+  mechanic: 3,
+
+  mod: 2.5,
+  presentation: 2,
+
+  visual: 1.5,
+  audio: 1.5,
+
+  difficulty: 1,
+  quality: 1,
+
+  contest: 0.5,
+  website: 0.5,
+  badge: 0.5
+};
+
+function getTagCategory(tag) {
+  if (!tag.includes(":")) return null;
+
+  return tag.split(":")[0];
+}
+
+function prettyTag(tag) {
+  return tag.includes(":")
+    ? tag.split(":")[1]
+    : tag;
+}
+
 /* =========================
    FORMAT HELPERS
 ========================= */
@@ -339,53 +375,96 @@ if (authorList.length) {
   }
 }
 
-const TAG_RACE_LIMIT = 10;
-let tagRaceCount = 0;
+const RELATED_LIMIT = 10;
+
+const currentTags = asList(campaign.tags);
 
 const similarityMatches = campaigns
-  .filter(c => !seen.has(c.id))
+  .filter(c => c.id !== currentId && !seen.has(c.id))
   .map(c => {
+
     const cTags = asList(c.tags);
-    const cRaces = asList(c.races);
 
     let score = 0;
 
-    // tag matches (lighter weight)
-    for (const t of cTags) {
-      if (tagList.includes(t)) score += 1;
+    const matchedTags = [];
+    const matchedCategories = new Set();
+
+    for (const tag of cTags) {
+
+      if (!currentTags.includes(tag)) continue;
+
+      const category = getTagCategory(tag);
+
+      const weight = TAG_WEIGHTS[category] || 1;
+
+      score += weight;
+
+      matchedTags.push(tag);
+
+      if (category) {
+        matchedCategories.add(category);
+      }
     }
 
-    // race matches (heavier weight)
-    for (const r of cRaces) {
-      if (raceList.includes(r)) score += 2;
-    }
+    // diversity bonus
+    score += matchedCategories.size * 1.5;
 
-    return { c, score };
+    return {
+      c,
+      score,
+      matchedTags,
+    };
   })
   .filter(x => x.score > 0)
   .sort((a, b) => {
-    // primary: score
-    if (b.score !== a.score) return b.score - a.score;
 
-    // secondary: newest first (nice UX tie-breaker)
-    return new Date(b.c.releaseDate || 0) - new Date(a.c.releaseDate || 0);
-  })
+    // highest score first
+    if (b.score !== a.score) {
+      return b.score - a.score;
+    }
 
-for (const { c, score } of similarityMatches) {
+    // tie-breaker: newest first
+    return new Date(b.c.releaseDate || 0)
+      - new Date(a.c.releaseDate || 0);
+  });
+
+for (const { c, score, matchedTags } of similarityMatches) {
 
   if (seen.has(c.id)) continue;
 
-  if (related.length >= TAG_RACE_LIMIT) break;
+  if (related.length >= RELATED_LIMIT) break;
 
   seen.add(c.id);
 
+  let similarityLabel = "Loosely related";
+
+if (score >= 16) {
+  similarityLabel = "Highly similar";
+}
+else if (score >= 9) {
+  similarityLabel = "Similar";
+}
+
+  // prettify tags
+const DISPLAYED_MATCH_TAGS = 4;
+  
+const prettyTags = matchedTags
+  .sort((a, b) => {
+    const aWeight = TAG_WEIGHTS[getTagCategory(a)] || 1;
+    const bWeight = TAG_WEIGHTS[getTagCategory(b)] || 1;
+
+    return bWeight - aWeight;
+  })
+  .slice(0, 3)
+  .map(prettyTag)
+  .join(", ");
+
   related.push({
     ...c,
-    reason: score >= 4
-  ? "Very similar tags"
-  : score >= 2
-    ? "Somewhat similar tags"
-    : "Vaguely similar tags",
+    reason: prettyTags
+      ? `${similarityLabel} • ${prettyTags}`
+      : similarityLabel,
     isCurrent: c.id === currentId
   });
 }
