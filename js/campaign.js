@@ -31,7 +31,7 @@ async function loadCampaign() {
       return;
     }
 
-    renderCampaign(campaign);
+    renderCampaign(campaign, campaigns);
     saveLastViewedCampaign();
 
   } catch (err) {
@@ -180,7 +180,7 @@ function goBackToResults() {
    RENDER CAMPAIGN
 ========================= */
 
-async function renderCampaign(campaign) {
+async function renderCampaign(campaign, campaigns) { {
 
   document.title = `${campaign.title} | New Antioch`;
 
@@ -255,6 +255,54 @@ const screenshotsHTML = currentScreenshots
   const racesHTML = asList(campaign.races)
     .map(race => `<a class="race" href="/index.html?races=${encodeURIComponent(race)}">${race}</a>`)
     .join(" ");
+	
+	const seriesList = asList(campaign.series);
+
+let relatedSeriesHTML = "";
+
+if (seriesList.length) {
+
+  const relatedCampaigns = campaigns.filter(c => {
+
+    if (c.id === campaign.id) return false;
+
+    const cSeries = asList(c.series);
+
+    return cSeries.some(series =>
+      seriesList.includes(series)
+    );
+  })
+  .sort((a, b) => {
+    return new Date(a.releaseDate || 0)
+      - new Date(b.releaseDate || 0);
+  });
+
+  if (relatedCampaigns.length) {
+
+    relatedSeriesHTML = `
+      <section class="related-series">
+        <h2>Other Campaigns in this Series</h2>
+
+        <div class="related-series-list">
+          ${relatedCampaigns.map(c => `
+            <a class="related-series-card"
+               href="/campaign.html?id=${encodeURIComponent(c.id)}">
+
+              <strong>${c.title}</strong>
+
+              ${
+                c.releaseDate
+                  ? `<small>${formatDate(c.releaseDate)}</small>`
+                  : ""
+              }
+
+            </a>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+}
 
   container.innerHTML = `
 <div class="back-bar">
@@ -439,6 +487,8 @@ const screenshotsHTML = currentScreenshots
       <h2>Credits</h2>
       <p style="white-space: pre-wrap;">${campaign.credits || "No credits available."}</p>
     </section>
+
+${relatedSeriesHTML}
 
     <section>
       <h2>Screenshots</h2>
