@@ -481,7 +481,7 @@ let relatedSeriesHTML = "";
 if (related.length) {
 
   relatedSeriesHTML = `
-<details class="related-box">
+<details class="related-box" open>
   <summary>Related campaigns</summary>
 
       <div class="related-list two-columns">
