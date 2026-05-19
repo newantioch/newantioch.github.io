@@ -577,9 +577,7 @@ if (related.length) {
       <p style="white-space: pre-wrap;">${campaign.credits || "No credits available."}</p>
     </section>
 
-${seriesHTML}
-${teamHTML}
-${authorHTML}
+${relatedSeriesHTML}
 
     <section>
       <h2>Screenshots</h2>
