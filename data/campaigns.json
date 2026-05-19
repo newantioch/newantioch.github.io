@@ -4,16 +4,19 @@
     "title": "Reuniting",
     "series": [],
     "tagline": "A three-part campaign set in the aftermath of Brood War.",
-    "description": "From the author:\n\n\"The Protoss campaign is about the Dark Templar on Shakuras and their new leader, Praetor Artanis. 867 year old Yahzar and his apprentice, MiShuras, who is 287 years old, are serving under this new leader after the loss of Rascagal and the disappearance of Zeratul. MiShuras soon learns a secret beyond her or any of their imaginations...\n\nThe Zerg campaign focuses on a Hunter Killer under Kerrigan's control. The Hunter Killer, who is named Ryuuthn, seems to have a mind of it's own and doesn't like how Kerrigan is ruling. He asks her to give him a brood, but when Kerrigan refuses, he steals some Drones and makes his own plans...\n\nIn the Terran Campaign we continue to see the Dominion trying to rise in power, but this time they are trying to rebuild. To make it worse for them, Carl Dawson and a few Alpha Squadron men are trying to overthrow the Dominion. CD, as Dawson likes to be called, is working on destroying the Dominion, but the Dominion is working on a new project they call... Project Shadow Blade!\n\nEach campaign has something unique at the end. The Protoss have a hidden bonus mission, the Zerg have an, um, Trigger full cutscene level, and the Terran have a boss fight.\n\nEach campaign also has an epilogue.\"",
+    "description": "The Protoss campaign is about the Dark Templar on Shakuras and their new leader, Praetor Artanis. 867 year old Yahzar and his apprentice, MiShuras, who is 287 years old, are serving under this new leader after the loss of Rascagal and the disappearance of Zeratul. MiShuras soon learns a secret beyond her or any of their imaginations...\n\nThe Zerg campaign focuses on a Hunter Killer under Kerrigan's control. The Hunter Killer, who is named Ryuuthn, seems to have a mind of it's own and doesn't like how Kerrigan is ruling. He asks her to give him a brood, but when Kerrigan refuses, he steals some Drones and makes his own plans...\n\nIn the Terran Campaign we continue to see the Dominion trying to rise in power, but this time they are trying to rebuild. To make it worse for them, Carl Dawson and a few Alpha Squadron men are trying to overthrow the Dominion. CD, as Dawson likes to be called, is working on destroying the Dominion, but the Dominion is working on a new project they call... Project Shadow Blade!\n\nEach campaign has something unique at the end. The Protoss have a hidden bonus mission, the Zerg have an, um, Trigger full cutscene level, and the Terran have a boss fight.\n\nEach campaign also has an epilogue.",
+    "archivalNotes": "Entry in the 2009 Campaign Creations StarCraft \"Four Years Between\" Campaign Contest.",
+    "installationNotes": "Brood War scenario files only, should run on any version of the game. Maps are run as custom games.",
+    "credits": "created by Church (formerly Jim_Raynor)\n\nbeta tested by YamiShadow",
+    "language": [
+      "English"
+    ],
     "releaseDate": "2009-07-01",
     "lastUpdated": "2027-05-16",
     "image": "reuniting.jpg",
     "missions": 21,
     "author": [
       "Church"
-    ],
-    "language": [
-      "English"
     ],
     "team": [],
     "year": [
@@ -40,7 +43,7 @@
     ],
     "tags": [
       "after brood war",
-      "Campaign Creations Four Years Between Contest 2009",
+      "Campaign Creations Four Years Between Contest",
       "contest",
       "blizzard characters",
       "music"
@@ -52,18 +55,23 @@
   {
     "id": "starcraft-gas",
     "title": "Gas",
-    "series": ["Gas"],
+    "series": [
+      "Gas"
+    ],
     "tagline": "Before you say anything, it's VESPENE gas.",
     "description": "This is a lighthearted campaign, you know, a little like The Bob Levels. =D\n\nRaynors Raiders were fighting the Dominion when suddenly, Jim Raynor was kidnapped by an unknown person. The Raiders are trying to save Raynor by bombing their way in, but...",
+    "archivalNotes": "",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.",
+    "credits": "created by Church (formerly Jim_Raynor)\n\n\"Pretending to beta test:\nYamiShadow\n\nCustom Portraits:\nDaelin\nJasen\nCynon\n\nCompletely Custom Sound Effects:\nThere's no custom sounds you n00b.\n\nVoice Acting:\nRobert Clotworthy (As Jim Raynor)\nGlynnis-Talken Campbell (As Kari)\nChris Metzen (As Billy, Vill Ain, and the Terran Marines)\nAnd other Blizzard dudes and dudettes\n\nThanks to:\nHelpMe for posting on the thread.\nBlack_Overseer for his absolutely amazing Riot of Star.\nPr0nogo didn't really do anything regarding Gas. But he's in the thanks. Because yeah.\nLavarinth for running Campaign Creations with his blood sweat and money.\nDesler for founding Campaign Creations and his brilliant Celestial Stories.\nLaconious for his inspirational Vile Egression.\nYe Olde Blizzard for making SC.\nStarCraft II for making me reilize I am not the worst campaign maker of them all.\nSpecial thanks Gemini for the astounding Life of a Marine. Without it, I wouldn't be making campaigns today.\"",
+    "language": [
+      "English"
+    ],
     "releaseDate": "2010-09-01",
     "lastUpdated": "2026-05-16",
     "image": "starcraft-gas.jpg",
     "missions": 9,
     "author": [
       "Church"
-    ],
-    "language": [
-      "English"
     ],
     "team": [],
     "year": [
@@ -98,9 +106,14 @@
   {
     "id": "ashens-quest-through-time-and-space",
     "title": "Ashen's Quest through Time and Space",
-    "series": ["Gas"],
+    "series": [
+      "Gas"
+    ],
     "tagline": "Four months after StarCraft: Gas, Ashen is thrust into a new adventure.",
     "description": "Four months after Vill Ain's retreat, Ashen and his Dark Templar attempt to settle the unnamed ice planet where Vill Ain's secret data disk was discovered.\n\nDubbing the planet Devil's Retreat, they gather resources and set up bases, planning to make the world their new permanent home, as their original homeworld of Thalanduras was destroyed by the Zerg. However, Ashen does not rest easy. He still wishes to contact Adun and learn why he abandoned them on Thalanduras, but has no idea of how to do such a thing.\n\nAshen steps away from the base for a smoke break, but before he can get comfortable, a distant voice beckons him to the southern mountain range...\n\nWhat will Ashen discover?\n\nFind out in... Ashen's Quest through Time and Space!",
+    "archivalNotes": "",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.",
+    "credits": "\"Ashen's Quest is presented to you by Crescendo Entertainment.\n\nLead designer:\nChurch\n\nTesters:\nPr0nogo\nTheSenescent\n\nVoice acting:\nPr0nogo\nChurch\nLaconius\ntransmission.wav\n\nPortraits:\nDaelin\nJasen\nCynon\n\nThanks to:\nPr0nogo, co-founder of Crescendo Entertainment and cool and shit, blah blah, let's not get sappy.\nTheSenescent, our newest member.\nHelpMe, our only fan.\nGemini, whose Life of a Marine inspired me to get into campaign making in the first place.\nNot Vince. Fuck you, Vince. Shout out to Vince for being an asshole.\"",
     "language": [
       "English"
     ],
@@ -151,6 +164,9 @@
     "series": [],
     "tagline": "A KLF soldier crashlands on a frozen Dominion wasteland, and is forced to lie to save his life.",
     "description": "Resonance tells the tale of Lieutenant Kevan Storm of the Koprulu Liberation Front. Sent on a covert ops mission with his squad to the frozen Dominion wasteland of Floe, his primary objective is to scout the area and assess whether or not it would be profitable to destroy the Dominion encampment there. A surprise assault from the Zerg appears, and his ship crash lands, killing his men... and forcing him to work with the Dominion forces of Floe.\n\n\nAs the events of Resonance unfold, Storm will begin to find his true allegiance... as well as become part of a much larger plot that begins to unfold around him.",
+    "archivalNotes": "Winner of the 2011 Campaign Creations Campaign Contest.\n\n\"Remember to play on normal speed settings, one notch above the center. This is mandatory. Many of the timings of the cutscenes rely strongly on the speed being at normal.\"",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run through the campaign menu.\n\nThe mod .exe may need to be run as administrator.\n\nFor some users, the campaign menu causes crashing. If this happens, open the .exe file with your preferred mpq editor (such as WinMPQ or PyMPQ) and delete rez\\expcmpgn.bin",
+    "credits": "created by Church (formerly Jim_Raynor)\n\n\"CRAFTED BY JIM_RAYNOR OF CRESCENDO ENTERTAINMENT\nStory and mapping: Jim_Raynor\nSoundtrack: Jim_Raynor\nMusic: Where Is It Going? By Orbital\nVoice acting: Pr0nogo, Jim's Mom\nArt: Blizzard Entertainment, Peter Lee\nPortraits: Cynon, TheBest., Jasen\nSound Effects: Pr0nogo, IskatuMesk\nPlugins: Biophysicist\"",
     "language": [
       "English"
     ],
@@ -197,9 +213,14 @@
   {
     "id": "the-major",
     "title": "The Major",
-    "series": ["The NOMAD Saga"],
-    "tagline": "\"Safe Haven.\" These words could be used to describe Rastar... before the onset of Zerg invasion.",
+    "series": [
+      "The NOMAD Saga"
+    ],
+    "tagline": "",
     "description": "Lieutenant Thomas Johnson is thrust into the fray, fighting to save Rastar from the Zerg menace. Never before being in a real battle, he tries his best... but with the Zerg, your best isn't always enough.",
+    "archivalNotes": "Winner of the 2011 SEN \"Longer than Usual\" Mapping Contest.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.\n\nMaps are designed to be played at the default speed setting, one notch above setting. Nothing breaks if played at other speeds, but some timings in cutscenes will be off.",
+    "credits": "created by Church (formerly Jim_Raynor)\n\n\"Presented by Crescendo Entertainment\n\nCrafted by Jim_Raynor\n\nMusical score by Jim_Raynor\nwith guest tracks \"Luck.\", \"Untimely Demise\", and \"Across Plains of War\" composed by Pr0nogo\nfeaturing 'To Be Young' by Ryan Adams\n\nScript by Jim_Raynor\nDesign by Jim_Raynor\n\nThanks to:\nPr0nogo\nLavarinth\nHelpMe\nLife of a Marine\nLaconius\n\nA huge thanks to all players of The Major\nYou are a great support and inspiration\"",
     "language": [
       "English"
     ],
