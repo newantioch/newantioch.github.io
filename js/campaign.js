@@ -57,7 +57,7 @@ const TAG_WEIGHTS = {
   visual: 1.5,
   audio: 1.5,
 
-  difficulty: 1,
+  difficulty: 2,
   quality: 2,
 
   contest: 0.5,
