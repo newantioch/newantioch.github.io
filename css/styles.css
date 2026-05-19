@@ -460,6 +460,24 @@ button, .download-button {
   box-sizing: border-box;
 }
 
+.related-box summary {
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.related-list.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 800px) {
+  .related-list.two-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* =========================
    CREDITS BOX
 ========================= */

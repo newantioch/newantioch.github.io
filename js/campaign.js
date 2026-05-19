@@ -357,7 +357,7 @@ const similarityMatches = campaigns
 
 for (const c of similarityMatches) {
 
-  if (seen.has(c.id)) continue;
+  if (tagRaceCount >= TAG_RACE_LIMIT) break;
 
   seen.add(c.id);
 
@@ -366,17 +366,22 @@ for (const c of similarityMatches) {
     reason: "Potentially similar",
 	isCurrent: c.id === currentId
   });
+  
+  tagRaceCount++;
 }
+
+let tagRaceCount = 0;
+const TAG_RACE_LIMIT = 10;
 
 let relatedSeriesHTML = "";
 
 if (related.length) {
 
   relatedSeriesHTML = `
-    <section class="related-box">
-      <h2>Related campaigns</h2>
+<details class="related-box">
+  <summary>Related campaigns</summary>
 
-      <div class="related-list">
+      <div class="related-list two-columns">
         ${related.map(c => `
           <a
 			href="/campaign.html?id=${encodeURIComponent(c.id)}"
@@ -394,7 +399,7 @@ if (related.length) {
           </a>
         `).join("")}
       </div>
-    </section>
+    </details>
   `;
 }
 
