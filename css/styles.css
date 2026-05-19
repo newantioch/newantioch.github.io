@@ -394,6 +394,38 @@ button, .download-button {
   margin-left: 6px;
 }
 
+.related-series {
+  margin: 2rem 0;
+}
+
+.related-series-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.related-series-card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #444;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  background: #111;
+  transition: 0.2s ease;
+}
+
+.related-series-card:hover {
+  background: #1b1b1b;
+  border-color: #666;
+}
+
+.related-series-card small {
+  display: block;
+  margin-top: 0.35rem;
+  opacity: 0.7;
+}
+
 /* =========================
    LIGHTBOX
 ========================= */
