@@ -41,7 +41,7 @@ async function loadCampaign() {
 }
 
 const TAG_WEIGHTS = {
-  setting: 1,
+  setting: 0.5,
   timeline: 4,
   event: 4,
 
@@ -55,7 +55,7 @@ const TAG_WEIGHTS = {
   presentation: 2,
 
   visual: 1.5,
-  audio: 1.5,
+  audio: 10,
 
   difficulty: 2,
   quality: 2,
@@ -409,7 +409,7 @@ const similarityMatches = campaigns
     }
 
     // diversity bonus
-    score += matchedCategories.size * 1.5;
+    score += Math.min(matchedCategories.size, 4) * 1.5;
 
     return {
       c,
