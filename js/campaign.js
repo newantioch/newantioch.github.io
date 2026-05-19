@@ -257,45 +257,97 @@ const screenshotsHTML = currentScreenshots
     .join(" ");
 	
 	const seriesList = asList(campaign.series);
+	const teamList = asList(campaign.team);
+	const authorList = asList(campaign.author);
 
-let relatedSeriesHTML = "";
+let seriesHTML = "";
 
 if (seriesList.length) {
 
-  const relatedCampaigns = campaigns.filter(c => {
-
-    if (c.id === campaign.id) return false;
-
-    const cSeries = asList(c.series);
-
-    return cSeries.some(series =>
-      seriesList.includes(series)
+  const related = campaigns
+    .filter(c => c.id !== campaign.id)
+    .filter(c => {
+      const cSeries = asList(c.series);
+      return cSeries.some(s => seriesList.includes(s));
+    })
+    .sort((a, b) =>
+      new Date(b.releaseDate || 0) - new Date(a.releaseDate || 0)
     );
-  })
-  .sort((a, b) => {
-  return new Date(a.releaseDate || 0).getTime()
-       - new Date(b.releaseDate || 0).getTime();
-});
 
-  if (relatedCampaigns.length) {
+  if (related.length) {
+    seriesHTML = `
+      <section class="related-box">
+        <h2>Other campaigns in ${seriesList.join(", ")}</h2>
 
-    relatedSeriesHTML = `
-      <section class="related-series">
-        <h2>Other Campaigns in this Series</h2>
-
-        <div class="related-series-list">
-          ${relatedCampaigns.map(c => `
-            <a class="related-series-card"
-               href="/campaign.html?id=${encodeURIComponent(c.id)}">
-
+        <div class="related-list">
+          ${related.map(c => `
+            <a href="/campaign.html?id=${encodeURIComponent(c.id)}">
               <strong>${c.title}</strong>
+              ${c.releaseDate ? `<small>${formatDate(c.releaseDate)}</small>` : ""}
+            </a>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+}
 
-              ${
-                c.releaseDate
-                  ? `<small>${formatDate(c.releaseDate)}</small>`
-                  : ""
-              }
+let teamHTML = "";
 
+if (teamList.length) {
+
+  const related = campaigns
+    .filter(c => c.id !== campaign.id)
+    .filter(c => {
+      const cTeam = asList(c.team);
+      return cTeam.some(t => teamList.includes(t));
+    })
+    .sort((a, b) =>
+      new Date(b.releaseDate || 0) - new Date(a.releaseDate || 0)
+    );
+
+  if (related.length) {
+    teamHTML = `
+      <section class="related-box">
+        <h2>Other campaigns by this team</h2>
+
+        <div class="related-list">
+          ${related.map(c => `
+            <a href="/campaign.html?id=${encodeURIComponent(c.id)}">
+              <strong>${c.title}</strong>
+              ${c.releaseDate ? `<small>${formatDate(c.releaseDate)}</small>` : ""}
+            </a>
+          `).join("")}
+        </div>
+      </section>
+    `;
+  }
+}
+
+let authorHTML = "";
+
+if (authorList.length) {
+
+  const related = campaigns
+    .filter(c => c.id !== campaign.id)
+    .filter(c => {
+      const cAuthor = asList(c.author);
+      return cAuthor.some(a => authorList.includes(a));
+    })
+    .sort((a, b) =>
+      new Date(b.releaseDate || 0) - new Date(a.releaseDate || 0)
+    );
+
+  if (related.length) {
+    authorHTML = `
+      <section class="related-box">
+        <h2>Other campaigns by this author</h2>
+
+        <div class="related-list">
+          ${related.map(c => `
+            <a href="/campaign.html?id=${encodeURIComponent(c.id)}">
+              <strong>${c.title}</strong>
+              ${c.releaseDate ? `<small>${formatDate(c.releaseDate)}</small>` : ""}
             </a>
           `).join("")}
         </div>
@@ -488,7 +540,9 @@ if (seriesList.length) {
       <p style="white-space: pre-wrap;">${campaign.credits || "No credits available."}</p>
     </section>
 
-${relatedSeriesHTML}
+${seriesHTML}
+${teamHTML}
+${authorHTML}
 
     <section>
       <h2>Screenshots</h2>

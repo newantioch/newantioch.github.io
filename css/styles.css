@@ -394,36 +394,38 @@ button, .download-button {
   margin-left: 6px;
 }
 
-.related-series {
+/* =========================
+   RELATED CAMPAIGNS
+========================= */
+
+.related-box {
   margin: 2rem 0;
-}
-
-.related-series-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.related-series-card {
-  display: block;
   padding: 1rem;
-  border: 1px solid #444;
+  border: 1px solid #333;
   border-radius: 8px;
+  background: #111;
+}
+
+.related-box h2 {
+  margin-bottom: 0.75rem;
+}
+
+.related-list a {
+  display: block;
+  padding: 0.5rem 0;
   text-decoration: none;
   color: inherit;
-  background: #111;
-  transition: 0.2s ease;
+  border-bottom: 1px solid #222;
 }
 
-.related-series-card:hover {
-  background: #1b1b1b;
-  border-color: #666;
+.related-list a:hover {
+  background: #1a1a1a;
 }
 
-.related-series-card small {
+.related-list small {
   display: block;
-  margin-top: 0.35rem;
-  opacity: 0.7;
+  opacity: 0.6;
+  margin-top: 0.25rem;
 }
 
 /* =========================
