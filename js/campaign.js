@@ -339,6 +339,9 @@ if (authorList.length) {
   }
 }
 
+const TAG_RACE_LIMIT = 10;
+let tagRaceCount = 0;
+
 const similarityMatches = campaigns
   .filter(c => !seen.has(c.id))
   .filter(c => {
@@ -346,8 +349,8 @@ const similarityMatches = campaigns
     const cTags = asList(c.tags);
     const cRaces = asList(c.races);
 
-    const tagMatch = cTags.some(t => tagList.includes(t));
-    const raceMatch = cRaces.some(r => raceList.includes(r));
+    const tagMatch = cTags.some(t => tagList?.includes(t));
+	const raceMatch = cRaces.some(r => raceList?.includes(r));
 
     return tagMatch || raceMatch;
   })
@@ -356,22 +359,20 @@ const similarityMatches = campaigns
   );
 
 for (const c of similarityMatches) {
-
   if (tagRaceCount >= TAG_RACE_LIMIT) break;
+
+  if (seen.has(c.id)) continue;
 
   seen.add(c.id);
 
   related.push({
     ...c,
     reason: "Potentially similar",
-	isCurrent: c.id === currentId
+    isCurrent: c.id === currentId
   });
-  
+
   tagRaceCount++;
 }
-
-let tagRaceCount = 0;
-const TAG_RACE_LIMIT = 10;
 
 let relatedSeriesHTML = "";
 
