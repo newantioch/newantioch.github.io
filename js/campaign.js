@@ -451,10 +451,10 @@ if (score >= 60) {
   similarityLabel = "Extremely similar";
 }
 else if (score >= 45) {
-  similarityLabel = "Very similar";
+  similarityLabel = "Similar";
 }
 else if (score >= 30) {
-  similarityLabel = "Similar";
+  similarityLabel = "Somewhat similar";
 }
 else if (score >= 10) {
   similarityLabel = "Loosely related";
