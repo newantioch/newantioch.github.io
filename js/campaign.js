@@ -380,43 +380,50 @@ const RELATED_LIMIT = 10;
 
 const currentTags = asList(campaign.tags);
 
+// apply diminishing returns per category
+
 const similarityMatches = campaigns
   .filter(c => c.id !== currentId && !seen.has(c.id))
-  .map(c => {
+.map(c => {
 
-    const cTags = asList(c.tags);
+  const cTags = asList(c.tags);
 
-    let score = 0;
+  let score = 0;
 
-    const matchedTags = [];
-    const matchedCategories = new Set();
+  const matchedTags = [];
+  const matchedCategories = new Set();
 
-    for (const tag of cTags) {
+  for (const tag of cTags) {
 
-      if (!currentTags.includes(tag)) continue;
+    if (!currentTags.includes(tag)) continue;
 
-      const category = getTagCategory(tag);
+    const category = getTagCategory(tag);
+    const weight = TAG_WEIGHTS[category] || 1;
 
-      const weight = TAG_WEIGHTS[category] || 1;
+    // base score
+    score += weight;
 
-      score += weight;
+    matchedTags.push(tag);
 
-      matchedTags.push(tag);
-
-      if (category) {
-        matchedCategories.add(category);
-      }
+    if (category) {
+      matchedCategories.add(category);
     }
+  }
 
-    // diversity bonus
-    score += Math.min(matchedCategories.size, 4) * 1.5;
+  // ✅ diminishing returns for diversity (safe + scalable)
+  const categoryBonus =
+    Array.from(matchedCategories).reduce((sum, _, i) => {
+      return sum + (1 / (i + 1));
+    }, 0) * 6;
 
-    return {
-      c,
-      score,
-      matchedTags,
-    };
-  })
+  score += categoryBonus;
+
+  return {
+    c,
+    score,
+    matchedTags
+  };
+})
   .filter(x => x.score > 0)
   .sort((a, b) => {
 
@@ -454,7 +461,6 @@ else if (score >= 7) {
 }
 
   // prettify tags
-const DISPLAYED_MATCH_TAGS = 4;
   
 const prettyTags = matchedTags
   .sort((a, b) => {
@@ -625,7 +631,7 @@ if (related.length) {
 </span>
 
 <span>
-  <strong>Listing updated:</strong>
+  <strong>Release date:</strong>
   ${
     campaign.releaseDate
       ? formatDate(campaign.releaseDate)
