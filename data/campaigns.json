@@ -111,6 +111,7 @@
       "presentation:in game cutscenes",
       "characters:mainly original",
       "theme:comedy",
+      "quality:playable",
       "difficulty:easy"
     ],
     "originalLink": "https://www.moddb.com/mods/starcraft-gas",
@@ -773,5 +774,130 @@
     "originalLink": "",
     "archiveLink": "https://web.archive.org/web/20101209235034/http://campaigncreations.org/starcraft/aeon_of_the_hawk",
     "megaBackup": ""
+  },
+  {
+    "id": "ascension-of-duran",
+    "title": "Ascension of Duran",
+    "series": [
+      "Ascension of Duran"
+    ],
+    "tagline": "Chronicles Duran's rise to power within the Zerg Swarm.",
+    "description": "",
+    "archivalNotes": "Originally hosted on Campaign Creations.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.",
+    "credits": "Created by Whiplash.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2009-02-09",
+    "lastUpdated": "2026-05-20",
+    "image": "ascension-of-duran.jpg",
+    "missions": 7,
+    "author": [
+      "Whiplash"
+    ],
+    "team": [],
+    "year": [
+      "2009"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "timeline:brood war",
+      "gameplay:macro heavy",
+      "audio:existing music",
+      "visual:custom portraits",
+      "presentation:in game cutscenes",
+      "characters:mainly canon",
+      "theme:xel-naga",
+      "theme:plot driven",
+      "theme:mystery",
+      "difficulty:medium",
+      "quality:playable"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160120054812/http://www.campaigncreations.org/starcraft/ascension_of_duran",
+    "megaBackup": "https://mega.nz/folder/KbYRnS4R#vYVRsUCvfK8VRzsYMDC44w"
+  },
+  {
+    "id": "dark-purposes",
+    "title": "Dark Purposes",
+    "series": [
+      "Ascension of Duran"
+    ],
+    "tagline": "Duran's mysterious agenda unfolds further.",
+    "description": "Ascension of Duran: Dark Purposes dives deeper into Duran's objectives and true goals during Brood War. Questions surrounding his unlikely allies, Kerrigan, and the Hybrids will be answered.",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nA third part of Ascension of Duran, Dissension, was planned but not released.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.",
+    "credits": "Created by Whiplash.\n\nSpecial Thanks To:\nCampaign Creations, Star Alliance, Team Liquid, GosuGamers, Staredit, and BroodWarMaps.\nLavarinth, Quetz, Huo\"Subtoss\", Razorclaw X, Terranup16, IskatuMesk, Disciple of ADUN, Shadowflare, Cynon, Avalon, Meta, OmegaELITE (hes a progamer), Takkarian, and Zuccolo.\nSorry to anyone I may have forgotten!",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2010-01-01",
+    "lastUpdated": "2026-05-20",
+    "image": "dark-purposes-jpg",
+    "missions": 9,
+    "author": [
+      "Whiplash"
+    ],
+    "team": [],
+    "year": [
+      "2010"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg",
+      "Protoss",
+      "Terran"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "timeline:brood war",
+      "gameplay:macro heavy",
+      "audio:existing music",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom units",
+      "presentation:in game cutscenes",
+      "characters:mainly canon",
+      "theme:xel-naga",
+      "theme:plot driven",
+      "theme:mystery",
+      "theme:betrayal",
+      "difficulty:medium",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326140436/http://www.campaigncreations.org/starcraft/ascension_of_duran/dark_purposes",
+    "megaBackup": "https://mega.nz/folder/bfJzhJST#ObE1N1KY1F0-kjp7K0UCSQ"
   }
 ]
