@@ -899,5 +899,319 @@
     "originalLink": "",
     "archiveLink": "https://web.archive.org/web/20160326140436/http://www.campaigncreations.org/starcraft/ascension_of_duran/dark_purposes",
     "megaBackup": "https://mega.nz/folder/bfJzhJST#ObE1N1KY1F0-kjp7K0UCSQ"
+  },
+  {
+    "id": "vision-of-the-future",
+    "title": "Vision of the Future",
+    "series": [
+      "Vision of the Vuture"
+    ],
+    "tagline": "Ranma 1/2 VS Starcraft. Let the hunt begin...",
+    "description": "The Battle of Aiur\n\nAgainst terrible odds Executor Urust lead a sizable force of Carriers against Zerg reinforcements, shielding the Overmind encampment from the merciless enemy. Wave after wave of suicidal Zerg threw themselves against the air fleet, decimating airships one after another. Warriors fell below to rampaging Zerglings, innumerable.\n\nIt was time to die a glorious death for Aiur.\n\nHowever, that was not to be; as the plating around Urust peeled away to the point of destruction a column of light overshadowed the battlefield, its source the Overmind itself. With Tassadar's noble sacrifice Urust's Carrier was spared from destruction, as was the remains of the Fleet of the Executor.\n\nBut that battle was only a prelude.\n\nThe UED Invasion\n\nAttempting to seize control after the Overmind's death Daggoth and Kerrigan locked horns, waging their battles across Char in a bid for dominance. Using his terrible cunning to his advantage Daggoth tricked several minor Cerebrates into merging into a new Overmind, the symbol of authority of the Zerg. What this new Overmind did not know was that it was the puppet of Daggoth and the other ancient Cerebrates.\n\nThis puppet government, however, was unprepared for the onslaught of a new wave of Terran enemy: the United Earth Directorate. Time and again Daggoth's Zerg suffered defeat, pushing them all the way back to Char. The hour of defeat at hand, the UED succeeded in capturing the Overmind puppet.\n\nIt was time to lose complete freedom.\n\nHowever, that was not to be; on the world of Aiur Cerebrates Alhonoth and Nargil succeeded in capturing several Protoss weapons and artifacts, ones that could guarantee the Zerg's future in the wake of this setback. With renewed determination Daggoth's faction retreats back toward the Galactic Core, preparing for the day for which they could reclaim the Koprulu Sector for themselves.\n\nBut that battle was only a prelude.\n\nA Vision of the Future\n\nAn unholy alliance of Zerg and Protoss has emerged with the combined strength to threaten all! Zargil, a wicked Cerebrate, with an infested Protoss under his control, has devised a method by which to guarantee the future of the Zerg-- by securing the past of Terrans' history and preventing them from ever interfering in the Battle of Aiur.\n\nOnly an equally-desperate alliance of Zerg and Protoss can put an end to this madness, but ancient rivalries die hard.\n\nThe future of their universe relies on Terrans from the past. ",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run as custom games.\n\nMost of the missions require Vision1.exe to be played. The special missions, marked v1r, require Vision1le.exe to be played.",
+    "credits": "Created by Razorclaw X.\n\n- The guys at Camelot Systems (particularly King Arthur and Merlin) for putting out a number of nifty utilities, including but not limited to StarDraft. \n- Desler of Campaign Creations for putting out the original The Fenix. It inspired me to come up with a nifty campaign of my own. \n- All the other guys at Campaign Creations for tutorials, a few little things, and all that. \n- PornoCreep for hacking the MPQ Compiler together. \n- ShadowFlare for writing, among other things, the unit placement CWADS (the basis for my own CWADs I created to edit this campaign), StarExeHack, and a table editor that didn't require me to run StarDraft all the time :) \n- Falcom JDK Band for coming up with nifty songs for their games, including Ys, Sorcerian, and Dragon Slayer Family (aka Legacy of the Wizard).\n- Caveman Corg for getting me back into anime in the first place. \n- All the people unmentioned who provided the sound files used in this campaign. ",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "1999-08-28",
+    "lastUpdated": "2026-05-20",
+    "image": "vision-of-the-future.jpg",
+    "missions": 47,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "1999"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Remix",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Zerg",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "setting:original",
+      "audio:existing music",
+      "visual:custom portraits",
+      "presentation:in game cutscenes",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "theme:anime",
+      "difficulty:hard",
+      "event:retribution",
+      "quality:classic",
+      "theme:time travel"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326141310/http://www.campaigncreations.org/starcraft/vision_of_the_future",
+    "megaBackup": ""
+  },
+  {
+    "id": "black-dream",
+    "title": "Black Dream",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "They have been shamed after the Battle of Aiur. They have fought to stay alive for a long time. They dreamed of returning home with glory and honor that is due to them. They are about to get that chance.",
+    "description": "A Vision of the Future\n\nThe wicked Cerebrate Zargil attempted to alter the future of the Zerg Swarm by securing the Terrans' past. To that end he captured Judicator Chaladar in order to create a new timeline. However, the Protoss and Zerg of his time, along with the Terrans of the past, managed to thwart Zargil and his brood, and erase his timeline. It was an example of cooperation unparalleled in history.\n\nUnfortunately, only three remember that even occurring: Prelate Ziktofel of the Dark Templar, Judicator Chaladar, and the Hunter, Xaax the Defiler. They would lay the foundation of a future alliance between Protoss and Zerg, but such a path is not without its peril.\n\nUrust, Executor of the expedition, was convinced to travel to Kodulas, the hidden Zerg world ruled by Daggoth and his renegade Cerebrates, fleeing from the UED and Kerrigan alike. On that world an uneasy truce was declared, and it was decided that Xaax and Chaladar would return to Shakuras with the Protoss in order to convince their new Conclave of the same.\n\nTogether the Protoss and Zerg can achieve greatness, but there are those who conspire against such an alliance, and would see to it at all costs that the enemy is destroyed.\nA Specter From the Past\n\nAsakiro, Executor of the Black Scorpion Fleet, was honored time and again for his exploits in the service of Aiur. However, when Judgement Day came in the form of the Battle of Aiur, the wills and faith of the Protoss was tested to the limit. Placed in the front line against the Zerg onslaught Asakiro and his men became embittered by the Conclave and their increasingly-apparent incompetence. Seeing them as traitors to the Khala, the Black Scorpion Fleet withdrew from the battlefield, never to be seen again.\n\nUntil now. ",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run as custom games.",
+    "credits": "Created by Razorclaw X.\n\nSpecial Thanks\n\n- The guys at Camelot Systems (particularly King Arthur and Merlin) for putting out a number of nifty utilities, including but not limited to StarDraft. \n- Desler and Campaign Creations staff. \n- PornoCreep for hacking the MPQ Compiler together. \n- ShadowFlare for writing, among other things, the unit placement CWADS (the basis for my own CWADs I created to edit this campaign), StarExeHack, and a table editor that didn't require me to run StarDraft all the time :) \n- Falcom JDK Band for coming up with nifty songs for their games, including Ys, Sorcerian, and Dragon Slayer Family (aka Legacy of the Wizard). \n- All of you who played Vision of the Future. ",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2001-01-31",
+    "lastUpdated": "2026-05-20",
+    "image": "black-dream",
+    "missions": 18,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "2001"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Campaign"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg",
+      "Terran",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "audio:existing music",
+      "visual:custom portraits",
+      "mod:custom units",
+      "presentation:episodic",
+      "presentation:in game cutscenes",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:medium",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326142500/http://www.campaigncreations.org/starcraft/black_dream",
+    "megaBackup": ""
+  },
+  {
+    "id": "prophecy",
+    "title": "Prophecy",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "Beyond the Koprulu Sector, a new war is brewing, and the Scantid Fleet must head to battle once more.  ",
+    "description": "A Vision of the Future\n\nThe wicked Cerebrate Zargil attempted to alter the future of the Zerg Swarm by securing the Terrans' past. To that end he captured Judicator Chaladar in order to create a new timeline. However, the Protoss and Zerg of his time, along with the Terrans of the past, managed to thwart Zargil and his brood, and erase his timeline. It was an example of cooperation unparalleled in history.\n\nUnfortunately, only three remember that even occurring: Prelate Ziktofel of the Dark Templar, Judicator Chaladar, and the Hunter, Xaax the Defiler. They would lay the foundation of a future alliance between Protoss and Zerg, but such a path is not without its peril.\n\n \nA Black Dream\n\nIn the wake of that climatic battle a new peace was to be formed between the Protoss of Shakuras and the Zerg of Kodulas, but it was not to be; the corrupted Judicator Arestes of the Shelak Tribe, and member of the New Conclave, manipulated events that would dissolve the alliance before it could begin. He maneuvered his pawn Kabala into starting a great war using the power of the Zeji Cloning Cylinders-- artifacts of a civilization ancient when the Protoss were young.\n\nHowever, the threat of Zeji Cloning Cylinders was countered by the Scantid Fleet, and their Black Dream, a powerful symbol of cooperation of all three races waging war in the Koprulu Sector. Kabala revealed that it was he who manipulated Arestes from the beginning, and it took the sacrifice of two great heroes, Urust and Asakiro, to end the madness, once and for all.\n\nWith Kabala's apparent death and Arestes' flight the alliance formed behind the Black Dream fell into shambles, forcing the handful of heroes and the Scantid Fleet back into exile. They continue to sail among the stars, hoping for the day when the three races can cooperate without the need of a dangerous symbol as the Black Dream.\n\n \nA Dark Prophecy\n\nXaax the Defiler retains possession of the Remains of the Overmind, the last key artifact necessary for the Zerg Swarm to reincarnate the physical form of their master. Seeing the Black Dream as his opportunity to break away from his Cerebrate masters Xaax deserts his post, but it is not long before Zerg agents are sent to hunt him down and retrieve the Remains of the Overmind. The rogue Defiler feels his power growing within, as the Remains slowly awaken themselves....\n\nBeyond the reaches of the Koprulu Sector, Kabala emerges from the darkness once more, and a dark experiment is underway that may decide the fate of the Terrans, Protoss, and Zerg, forever. His eternal hunt to find and destroy Arestes, the last pawn in his grand scheme, is about to take a turn for the worst.\n\nMonths passed since the Black Dream disappeared into exile after the final battle at Valis IV, and a new legend is about to be born....\nReflective Notes\n\nThe Zeji Imperium's warships are actually ships and structures used by the 'Nephilim' in Wing Commander: Prophecy. The title itself is a sort of homage to that same game, as well as deals with the subject of this story. I forgot to note who did it, but thanks to whoever extracted the ship models; seeing them available inspiried me to create this campaign, and finally create a worthy opponent for the Black Dream. Special thanks to Wing Commander CIC, as the source of these files, as well as reference to the ships themselves.\n\nEnjoy!\n\n-- Razorclaw X",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "I'm not able to get the original .exe running on my computer. I will investigate why later.",
+    "credits": "Created by Razorclaw X.\n\nSpecial Thanks\n--------------\n\n- The guys at Camelot Systems (particularly King Arthur and Merlin) for putting out a number of nifty utilities, including but not limited to StarDraft. \n- Desler and Campaign Creations staff. \n- Quantum, for writing MPQ2K. \n- ShadowFlare for writing, among other things, the unit placement CWADS (the basis for my own CWADs I created to edit this campaign), StarExeHack, and a table editor that didn't require me to run StarDraft all the time :)  Also for the invaluable SCMToolKit, which made hacking the .chk a lot easier on my part.  \n- WarGiant, for putting up with my pestering questions, his advice on editing units, and the Installation tileset modifications.  \n- Wing Commander CIC Staff and Contributors, without which none of this would be done.  This is without a doubt my best inspiration.  \n- Chris Roberts, for creating Wing Commander in the first place, and changing my outlook on computer gaming forever. \n- Falcom JDK Band for coming up with nifty songs for their games, including Ys, Sorcerian, and Dragon Slayer Family (aka Legacy of the Wizard). \n- All of you who played Vision of the Future and Black Dream. ",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2001-06-26",
+    "lastUpdated": "2026-05-20",
+    "image": "prophecy.jpg",
+    "missions": 17,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "2001"
+    ],
+    "starcraftVersion": [
+      "1.07"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Zerg",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "mechanic:trigger heavy",
+      "audio:voice acted",
+      "audio:existing music",
+      "visual:custom tileset",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "visual:custom ui",
+      "mod:custom units",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:veteran",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326141422/http://www.campaigncreations.org/starcraft/prophecy",
+    "megaBackup": ""
+  },
+  {
+    "id": "final-destiny",
+    "title": "Final Destiny",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "In every story there is a beginning, and an end, but sometimes it is the journy that is most important.",
+    "description": "\nA Vision of the Future\n\nThe wicked Cerebrate Zargil attempted to alter the future of the Zerg Swarm by securing the Terrans' past. To that end he captured Judicator Chaladar in order to create a new timeline. However, the Protoss and Zerg of his time, along with the Terrans of the past, managed to thwart Zargil and his brood, and erase his timeline. It was an example of cooperation unparalleled in history.\n\nUnfortunately, only three remember that even occurring: Prelate Ziktofel of the Dark Templar, Judicator Chaladar, and the Hunter, Xaax the Defiler. They would lay the foundation of a future alliance between Protoss and Zerg, but such a path is not without its peril.\n\n \nA Black Dream\n\nIn the wake of that climatic battle a new peace was to be formed between the Protoss of Shakuras and the Zerg of Kodulas, but it was not to be; the corrupted Judicator Arestes of the Shelak Tribe, and member of the New Conclave, manipulated events that would dissolve the alliance before it could begin. He maneuvered his pawn Kabala into starting a great war using the power of the Zeji Cloning Cylinders-- artifacts of a civilization ancient when the Protoss were young.\n\nHowever, the threat of Zeji Cloning Cylinders was countered by the Scantid Fleet, and their Black Dream, a powerful symbol of cooperation of all three races waging war in the Koprulu Sector. Kabala revealed that it was he who manipulated Arestes from the beginning, and it took the sacrifice of two great heroes, Urust and Asakiro, to end the madness, once and for all.\n\nWith Kabala's apparent death and Arestes' flight the alliance formed behind the Black Dream fell into shambles, forcing the handful of heroes and the Scantid Fleet back into exile. They continue to sail among the stars, hoping for the day when the three races can cooperate without the need of a dangerous symbol as the Black Dream.\n\n \nA Dark Prophecy\n\nXaax the Defiler retains possession of the Remains of the Overmind, the last key artifact necessary for the Zerg Swarm to reincarnate the physical form of their master. Seeing the Black Dream as his opportunity to break away from his Cerebrate masters Xaax deserts his post, but it is not long before Zerg agents are sent to hunt him down and retrieve the Remains of the Overmind. The rogue Defiler feels his power growing within, as the Remains slowly awaken themselves....\n\nThe Black Dream is drawn into a power struggle between Arestes and Kabala, who survived the battle at Valis IV, and are chased by the renegade Nova Squadron commander Van MacDougal and Thakras and Parakas from the Sennith Brood. With their very existances threatened the Scantid Fleet barely escapes with their lives-- Van, Thakras, and Parakas are vanquished, Arestes is destroyed, his ambition crumbling with him, and Kabala has taken over the Zeji Armada.\n\n\nFinal Destiny\n\nXaax the Defiler has returned victorious to the Renegade Swarm, bearing the Remains of the Overmind subdued and under his control. Using this leverage, and a newfound ability to sever the Zerg reincarnation with dark energy, Xaax has become the most powerful individual member of the Swarm, and created his Lich Brood. Unsatisfied with merely this seat of power Xaax turns toward Kerrigan, aiming to wipe-out the last of his opponents....\n\nAce Tarpals retires from adventure and returns to Valis IV, informing General Strassenburg, formerly Serena Schezar, of his intent to lead a quiet life. With the knowledge that all his enemies have been eliminated, can this former pirate find peace without war?\n\nKuwadora returns to Shakuras and the Scantid Fleet is disbanded. Knowing full-well that the Conclave would be eager to get their hands on the Black Dream he makes certain of the destruction of all Zeji spacecraft in the Fleet's possession. To this day he remains uncertain to his place in the universe. Is his dream truly a fantasy?\n\nThe Protoss aim to monopolize the power the Black Dream has given them, but there are those in the Koprulu Sector that would challenge this power. There are those forgotten that will emerge from the cloak of shadow which they hid, and there are those who will see to it that the Protoss are stopped-- no matter the cost.\n\nFinal Destiny is at hand.",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run as custom games.",
+    "credits": "Created by Razorclaw X.\n\nSpecial Thanks\n\n- The guys at Camelot Systems (particularly King Arthur and Merlin) for putting out a number of nifty utilities, including but not limited to StarDraft.  \n- di, for Arsenal Zero, which makes a whole lot of sense if you stare at it long enough....  \n- Desler of Campaign Creations for hosting, as well as Palin, Legion, Rainblades, and Codebreaker for any advice solicited. \n- Quantam, for writing MPQ2K. \n- ShadowFlare for writing StarExeHack, SCMToolKit, and TBLPad.   \n- WarGiant, for putting up with my pestering questions, his advice on editing units, and the Installation tileset modifications.  \n- SuperEric, for the cosmetically-modified units. \n- Sega, for creating the Dreamcast, and putting such a great game as Skies of Arcadia out on it.  And, of course, for creating Metal Sonic.  \n- The Castlevania Dungeon, for rekindling my interest in Castlevania every so often that I forget about it.  \n- Wing Commander CIC Staff and Contributors, without which none of this would be done.  This is without a doubt my best inspiration.  \n- Madman's Cafe, for serving gaming news fresh off the grill.  \n- Chris Roberts, for creating Wing Commander in the first place, and changing my outlook on computer gaming forever. \n- Falcom JDK Band for coming up with nifty songs for their games, including Ys, Sorcerian, and Dragon Slayer Family (aka Legacy of the Wizard). \n- All of you who played Vision of the Future, Black Dream, and Prophecy.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2001-11-12",
+    "lastUpdated": "2026-05-20",
+    "image": "final-destiny",
+    "missions": 38,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "2001"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Zerg",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "mechanic:trigger heavy",
+      "audio:existing music",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:ridiculous",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326150256/http://www.campaigncreations.org/starcraft/final_destiny",
+    "megaBackup": ""
+  },
+  {
+    "id": "zeji-conversion",
+    "title": "Zeji Conversion",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "Play as the Zeji and the Mekan in this total conversion.",
+    "description": "",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run through the campaign menu.",
+    "credits": "Created by Razorclaw X.\n",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2002-06-20",
+    "lastUpdated": "2026-05-20",
+    "image": "zeji-conversion.jpg",
+    "missions": 20,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "2002"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Custom"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "gameplay:macro heavy",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom race",
+      "mod:custom units",
+      "mod:custom scripting",
+      "mod:total conversion",
+      "presentation:episodic",
+      "presentation:minimal story",
+      "characters:mainly original",
+      "theme:plot driven",
+      "difficulty:ridiculous",
+      "quality:playable"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326141634/http://www.campaigncreations.org/starcraft/zeji_conversion",
+    "megaBackup": ""
   }
 ]
