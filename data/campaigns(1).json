@@ -1,0 +1,1614 @@
+[
+  {
+    "id": "reuniting",
+    "title": "Reuniting",
+    "series": [],
+    "tagline": "A three-part campaign set in the aftermath of Brood War.",
+    "description": "The Protoss campaign is about the Dark Templar on Shakuras and their new leader, Praetor Artanis. 867 year old Yahzar and his apprentice, MiShuras, who is 287 years old, are serving under this new leader after the loss of Rascagal and the disappearance of Zeratul. MiShuras soon learns a secret beyond her or any of their imaginations...\n\nThe Zerg campaign focuses on a Hunter Killer under Kerrigan's control. The Hunter Killer, who is named Ryuuthn, seems to have a mind of it's own and doesn't like how Kerrigan is ruling. He asks her to give him a brood, but when Kerrigan refuses, he steals some Drones and makes his own plans...\n\nIn the Terran Campaign we continue to see the Dominion trying to rise in power, but this time they are trying to rebuild. To make it worse for them, Carl Dawson and a few Alpha Squadron men are trying to overthrow the Dominion. CD, as Dawson likes to be called, is working on destroying the Dominion, but the Dominion is working on a new project they call... Project Shadow Blade!\n\nEach campaign has something unique at the end. The Protoss have a hidden bonus mission, the Zerg have an, um, Trigger full cutscene level, and the Terran have a boss fight.\n\nEach campaign also has an epilogue.",
+    "archivalNotes": "Entry in the 2009 Campaign Creations StarCraft \"Four Years Between\" Campaign Contest.",
+    "installationNotes": "Brood War scenario files only, should run on any version of the game. Maps are run as custom games.",
+    "credits": "created by Church (formerly Jim_Raynor)\n\nbeta tested by YamiShadow",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2009-07-01",
+    "lastUpdated": "2027-05-16",
+    "image": "reuniting.jpg",
+    "missions": 21,
+    "author": [
+      "Church"
+    ],
+    "team": [],
+    "year": [
+      "2009"
+    ],
+    "starcraftVersion": [
+      "1.16.1",
+      "Remastered"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "No"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss",
+      "Zerg",
+      "Terran"
+    ],
+    "tags": [
+      "contest:campaign creations four years between contest",
+      "setting:koprulu sector",
+      "timeline:after brood war",
+      "event:reclamation of aiur",
+      "gameplay:macro heavy",
+      "gameplay:boss fights",
+      "mechanic:timed missions",
+      "audio:existing music",
+      "presentation:episodic",
+      "characters:mainly original",
+      "difficulty:easy",
+      "quality:janky"
+    ],
+    "originalLink": "",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/7KZHXT5L#4tItLDfoXUYY1uqlaC1BxQ"
+  },
+  {
+    "id": "starcraft-gas",
+    "title": "Gas",
+    "series": [
+      "Gas"
+    ],
+    "tagline": "Before you say anything, it's VESPENE gas.",
+    "description": "This is a lighthearted campaign, you know, a little like The Bob Levels. =D\n\nRaynors Raiders were fighting the Dominion when suddenly, Jim Raynor was kidnapped by an unknown person. The Raiders are trying to save Raynor by bombing their way in, but...",
+    "archivalNotes": "",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.",
+    "credits": "created by Church (formerly Jim_Raynor)\n\n\"Pretending to beta test:\nYamiShadow\n\nCustom Portraits:\nDaelin\nJasen\nCynon\n\nCompletely Custom Sound Effects:\nThere's no custom sounds you n00b.\n\nVoice Acting:\nRobert Clotworthy (As Jim Raynor)\nGlynnis-Talken Campbell (As Kari)\nChris Metzen (As Billy, Vill Ain, and the Terran Marines)\nAnd other Blizzard dudes and dudettes\n\nThanks to:\nHelpMe for posting on the thread.\nBlack_Overseer for his absolutely amazing Riot of Star.\nPr0nogo didn't really do anything regarding Gas. But he's in the thanks. Because yeah.\nLavarinth for running Campaign Creations with his blood sweat and money.\nDesler for founding Campaign Creations and his brilliant Celestial Stories.\nLaconious for his inspirational Vile Egression.\nYe Olde Blizzard for making SC.\nStarCraft II for making me reilize I am not the worst campaign maker of them all.\nSpecial thanks Gemini for the astounding Life of a Marine. Without it, I wouldn't be making campaigns today.\"",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2010-09-01",
+    "lastUpdated": "2026-05-16",
+    "image": "starcraft-gas.jpg",
+    "missions": 9,
+    "author": [
+      "Church"
+    ],
+    "team": [],
+    "year": [
+      "2010"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "1.03a",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Protoss",
+      "Zerg"
+    ],
+    "tags": [
+      "setting:koprulu sector",
+      "timeline:after brood war",
+      "gameplay:micro heavy",
+      "audio:existing music",
+      "visual:custom portraits",
+      "presentation:in game cutscenes",
+      "characters:mainly original",
+      "theme:comedy",
+      "quality:playable",
+      "difficulty:easy"
+    ],
+    "originalLink": "https://www.moddb.com/mods/starcraft-gas",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/CToHFKjI#Td9FHrfjKWlaE57PoLxz1w"
+  },
+  {
+    "id": "ashens-quest-through-time-and-space",
+    "title": "Ashen's Quest through Time and Space",
+    "series": [
+      "Gas"
+    ],
+    "tagline": "Four months after StarCraft: Gas, Ashen is thrust into a new adventure.",
+    "description": "Four months after Vill Ain's retreat, Ashen and his Dark Templar attempt to settle the unnamed ice planet where Vill Ain's secret data disk was discovered.\n\nDubbing the planet Devil's Retreat, they gather resources and set up bases, planning to make the world their new permanent home, as their original homeworld of Thalanduras was destroyed by the Zerg. However, Ashen does not rest easy. He still wishes to contact Adun and learn why he abandoned them on Thalanduras, but has no idea of how to do such a thing.\n\nAshen steps away from the base for a smoke break, but before he can get comfortable, a distant voice beckons him to the southern mountain range...\n\nWhat will Ashen discover?\n\nFind out in... Ashen's Quest through Time and Space!",
+    "archivalNotes": "",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.",
+    "credits": "\"Ashen's Quest is presented to you by Crescendo Entertainment.\n\nLead designer:\nChurch\n\nTesters:\nPr0nogo\nTheSenescent\n\nVoice acting:\nPr0nogo\nChurch\nLaconius\ntransmission.wav\n\nPortraits:\nDaelin\nJasen\nCynon\n\nThanks to:\nPr0nogo, co-founder of Crescendo Entertainment and cool and shit, blah blah, let's not get sappy.\nTheSenescent, our newest member.\nHelpMe, our only fan.\nGemini, whose Life of a Marine inspired me to get into campaign making in the first place.\nNot Vince. Fuck you, Vince. Shout out to Vince for being an asshole.\"",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2015-01-31",
+    "lastUpdated": "2026-05-16",
+    "image": "ashens-quest-through-time-and-space.jpg",
+    "missions": 4,
+    "author": [
+      "Church"
+    ],
+    "team": [
+      "Crescendo Entertainment"
+    ],
+    "year": [
+      "2015"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "1.42",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss",
+      "Terran",
+      "Custom"
+    ],
+    "tags": [
+      "setting:koprulu sector",
+      "timeline:after brood war",
+      "gameplay:macro heavy",
+      "mechanic:trigger heavy",
+      "audio:voice acted",
+      "audio:existing music",
+      "visual:custom portraits",
+      "presentation:cinematic briefings",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:comedy",
+      "theme:time travel",
+      "difficulty:easy",
+      "quality:polished"
+    ],
+    "originalLink": "https://www.moddb.com/mods/ashens-quest-through-time-and-space/",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/THZRBBoB#venxdqo6iFiqQBUDv40WyQ"
+  },
+  {
+    "id": "resonance",
+    "title": "Resonance",
+    "series": [],
+    "tagline": "A KLF soldier crashlands on a frozen Dominion wasteland, and is forced to lie to save his life.",
+    "description": "Resonance tells the tale of Lieutenant Kevan Storm of the Koprulu Liberation Front. Sent on a covert ops mission with his squad to the frozen Dominion wasteland of Floe, his primary objective is to scout the area and assess whether or not it would be profitable to destroy the Dominion encampment there. A surprise assault from the Zerg appears, and his ship crash lands, killing his men... and forcing him to work with the Dominion forces of Floe.\n\n\nAs the events of Resonance unfold, Storm will begin to find his true allegiance... as well as become part of a much larger plot that begins to unfold around him.",
+    "archivalNotes": "Winner of the 2011 Campaign Creations Campaign Contest.\n\n\"Remember to play on normal speed settings, one notch above the center. This is mandatory. Many of the timings of the cutscenes rely strongly on the speed being at normal.\"",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run through the campaign menu.\n\nThe mod .exe may need to be run as administrator.\n\nFor some users, the campaign menu causes crashing. If this happens, open the .exe file with your preferred mpq editor (such as WinMPQ or PyMPQ) and delete rez\\expcmpgn.bin",
+    "credits": "created by Church (formerly Jim_Raynor)\n\n\"CRAFTED BY JIM_RAYNOR OF CRESCENDO ENTERTAINMENT\nStory and mapping: Jim_Raynor\nSoundtrack: Jim_Raynor\nMusic: Where Is It Going? By Orbital\nVoice acting: Pr0nogo, Jim's Mom\nArt: Blizzard Entertainment, Peter Lee\nPortraits: Cynon, TheBest., Jasen\nSound Effects: Pr0nogo, IskatuMesk\nPlugins: Biophysicist\"",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2012-07-29",
+    "lastUpdated": "2026-05-16",
+    "image": "resonance.jpg",
+    "missions": 5,
+    "author": [
+      "Church"
+    ],
+    "team": [
+      "Crescendo Entertainment"
+    ],
+    "year": [
+      "2011"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "contest:campaign creations campaign contest",
+      "badge:winner",
+      "setting:koprulu sector",
+      "timeline:after brood war",
+      "gameplay:micro heavy",
+      "gameplay:rpg lite",
+      "mechanic:trigger heavy",
+      "audio:voice acted",
+      "audio:original music",
+      "audio:custom sfx",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom scripting",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:easy",
+      "quality:polished"
+    ],
+    "originalLink": "https://www.moddb.com/mods/starcraft-resonance/",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/6KhHlKDb#Mplcr9ZPB_X2rYHyKs36Aw"
+  },
+  {
+    "id": "the-major",
+    "title": "The Major",
+    "series": [
+      "The NOMAD Saga"
+    ],
+    "tagline": "“Safe haven.” These words could be used to describe Rastar... before the onset of Zerg invasion.",
+    "description": "Lieutenant Thomas Johnson is thrust into the fray, fighting to save Rastar from the Zerg menace. Never before being in a real battle, he tries his best... but with the Zerg, your best isn't always enough.",
+    "archivalNotes": "Winner of the 2011 Staredit.net \"Longer than Usual\" Mapping Contest.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.\n\nMaps are designed to be played at the default speed setting, one notch above setting. Nothing breaks if played at other speeds, but some timings in cutscenes will be off.",
+    "credits": "created by Church (formerly Jim_Raynor)\n\n\"Presented by Crescendo Entertainment\n\nCrafted by Jim_Raynor\n\nMusical score by Jim_Raynor\nwith guest tracks \"Luck.\", \"Untimely Demise\", and \"Across Plains of War\" composed by Pr0nogo\nfeaturing 'To Be Young' by Ryan Adams\n\nScript by Jim_Raynor\nDesign by Jim_Raynor\n\nThanks to:\nPr0nogo\nLavarinth\nHelpMe\nLife of a Marine\nLaconius\n\nA huge thanks to all players of The Major\nYou are a great support and inspiration\"",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2011-08-17",
+    "lastUpdated": "2026-05-26",
+    "image": "the-major.jpg",
+    "missions": 4,
+    "author": [
+      "Church"
+    ],
+    "team": [
+      "Crescendo Entertainment"
+    ],
+    "year": [
+      "2011"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "contest:sen longer than usual mapping contest",
+      "badge:winner",
+      "setting:koprulu sector",
+      "timeline:not specified",
+      "gameplay:macro heavy",
+      "gameplay:defense",
+      "mechanic:timed missions",
+      "audio:voice acted",
+      "audio:original music",
+      "visual:custom portraits",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:character driven",
+      "theme:war story",
+      "difficulty:hard",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "",
+    "megaBackup": "https://mega.nz/folder/yWJXBQjS#22NbYIM-89WA2G0QKrjkQA"
+  },
+  {
+    "id": "vile-egression",
+    "title": "Vile Egression",
+    "series": [],
+    "tagline": "The Khalai loyalists of Aiur mount a dangerous retreat from their homeworld three years after the Overmind's invasion.",
+    "description": "Three years have slowly progressed since the Overmind's downfall upon Aiur's calamity-ridden soil.  Between the Khalai's initial departure to Shakuras, and the monumental incursions that followed shortly thereafter, the remaining members of Aiur's civilized inhabitants were left abruptly forgotten amidst the sands of time.\n\nNeglected and devoid of resolve, the once vigorous stewards of Adun were hastily approaching a foreseen extinction by their Xel'Nagan halves. Amidst the countless heaps of cadavers, mourning individuals cried out for a savior to relieve them from the insufferable maws of the Zerg. With Adun's mercy seemingly withdrawn from Aiur's inhabitants, the prospect of hope was but a fleeting dream...\n\nHowever, during one fateful day, the call for reprieve was finally answered in the form of a stalwart Protoss Consular by the name of Imrian. Having obtained the trajectory bearings to Shakuras from an established contact upon the Dark Templar homeworld itself, Imrian set his sights on the prospect of evacuating the Khalai loyalists once again. Furthermore, as if fortune held the Consular's intent under its very wing, the last functioning warp gate on Aiur had been left intact throughout the years. With the fortified aspect of hope glistening within their eyes, the reinvigorated warriors of Imrian's forefront have begun preparations for their well-deserved journey to solace.",
+    "archivalNotes": "Winner of the 2009 Campaign Creations StarCraft \"Four Years Between\" Campaign Contest.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.\n\nCampaign must be played on Fastest speed settings.",
+    "credits": "Produced: by Laconius\n\nMap Design and Level Production by: Laconius\n\tWith Special Thanks to:\n - Suicidal Insanity for creating SCMDraft\n - General Mengsk for creating StarCraft X-Tra Editor\n\nOriginal story by: Laconius\n\tWith help from:  \n - CC Campaign Contest Guidelines\n - StarCraft Script Commentary by Magic\n\nCharacter Concept by: Laconius\n\tWith inspiration from:  \n - The Flame Knives by Metathrom\n - Vision of the Future Saga by RCX\n - Fall From Grace Saga by Desler\n\nGameplay Schematics by: Laconius\n\tWith inspiration from:  \n - The Flame Knives by Metathrom\n - Wicked Reality by LingMac\n - Newrand Citadel by Messiah00Guy\n\nPrimary Iscript Editing by: IskatuMesk\n\tWith help from:  \n - Hunter_Killers\n\nCustom Graphics and Wireframes by: \n - Aqo.\n - Yoshiboy\n - Jade\n - FlameBait\n - Egbo\n - Taeradun\n\nArtwork and Splash Screens from: \n - IskatuMesk\n - Hunter_Killers\n - Elune\n\nBeta Testing by: \n - Metathrom\n - Mucky\n - Tipereth\n - Legion\n\nMusical Score from (authors): \n - Yuki Kajiura\n - SSH (SaitamaSaisyuHeiki)\n - X-Ray Dog\n - Shiro Sagisu\n - Nobuo Uematsu\n - Epica\n\nMusical Score from (games): \n - Turok: Dinosaur Hunter\n - Turok 2: Seeds of Evil\n - Turok 3: Shadow of Oblivion\n - Tabula Rasa\n - Phantasy Star Online\n - Ragnarok Online\n - God of War\n\nMusical Score from (misc.): \n - Various other artists whom I could not identify\n\nAdditional Programs used in producing Vile Egression: \n - WinMPQ and IceCC by ShadowFlare\n - MPQDraft by Quantum\n - StarDraft by Camelot Systems\n - DatEdit and GRPEdit by BroodKiller\n - Protoss Name Generator by Gradius\n - StarEdit Assistant by Ancilla Editing Network\n - Smacker Tools by RAD Game Tools\n\nAdditional Thanks to:\n - Lavarinth for hosting the CC Campaign Contest of 2009\n - Metathrom for his endless moral support\n - IskatuMesk for his endless modding support\n - Maglok for his endless vocal editing support\n - Ricky Honejasi for his sublime analysis of Vile Egression\n - The Campaign Creations community for their prominent support\n - Blizzard Entertainment for crafting such a masterpiece of a game\n\nThank you for playing StarCraft: Vile Egression!",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2009-08-22",
+    "lastUpdated": "2026-05-18",
+    "image": "vile-egression.jpg",
+    "missions": 3,
+    "author": [
+      "Laconius"
+    ],
+    "team": [],
+    "year": [
+      "2009"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "contest:campaign creations four years between contest",
+      "badge:winner",
+      "setting:koprulu sector",
+      "timeline:after brood war",
+      "event:evacuation of aiur",
+      "gameplay:micro heavy",
+      "gameplay:defense",
+      "gameplay:puzzle",
+      "gameplay:rpg lite",
+      "gameplay:boss fights",
+      "mechanic:trigger heavy",
+      "audio:voice acted",
+      "audio:existing music",
+      "audio:custom sfx",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom units",
+      "mod:custom scripting",
+      "presentation:in game cutscenes",
+      "presentation:cinematic briefings",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "theme:horror",
+      "theme:war story",
+      "difficulty:hard"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20200804230214/https://www.campaigncreations.org/forum/viewtopic.php?t=1629",
+    "megaBackup": "https://mega.nz/folder/iHo0yYqS#tZ745EFJ6wZUjOohv69FCw"
+  },
+  {
+    "id": "whispers-of-extinction",
+    "title": "Whispers of Extinction",
+    "series": [],
+    "tagline": "Weeks after the Zerg capture Sarah Kerrigan, the Overmind prepares for an inevitable extinction.",
+    "description": "\"Lend your conscience to me, Kerrigan. I am the Overmind, the hive entity that directs the motions of the Zerg Swarm. You must come to realize that you are the very prodigy of the cosmos. Its.. savior. For it is through your hand that the schemes of our enemies shall be brought to ruin. Our true enemies, whose presence lies veiled, do not take the form of the Terrans or the Protoss. Rather, they are the creators of my very being- the Xel'Naga. Know that the visions I hereby impart unto you shall spare you no agony of the grim future that I have foreseen. But you must endure, human. For the sake of all life, you must bear witness to the whispers of extinction.\"",
+    "archivalNotes": "Entry in the 2011 Campaign Creations Campaign Contest.",
+    "installationNotes": "This campaign was never completed and cannot be played.",
+    "credits": "",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "",
+    "lastUpdated": "2026-05-18",
+    "image": "whispers-of-extinction.jpg",
+    "missions": 0,
+    "author": [
+      "Laconius"
+    ],
+    "team": [],
+    "year": [
+      "2011"
+    ],
+    "starcraftVersion": [],
+    "campaignVersion": "",
+    "status": [
+      "Unreleased"
+    ],
+    "mod": [],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg"
+    ],
+    "tags": [
+      "contest:campaign creations campaign contest",
+      "setting:koprulu sector",
+      "timeline:starcraft 1",
+      "event:great war",
+      "event:end war",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom units",
+      "presentation:in game cutscenes",
+      "characters:mainly canon",
+      "theme:mystery"
+    ],
+    "originalLink": "",
+    "archiveLink": "",
+    "megaBackup": ""
+  },
+  {
+    "id": "dark-swarm",
+    "title": "Dark Swarm",
+    "series": [],
+    "tagline": "The Overmind prepares for the end of the Cycle.",
+    "description": "The Swarm is ready. The Overmind has been biding its time, waiting for this moment. A powerful psionic call reaches out into space, and beckons the eternal leader of the Swarm. Soon, the Overmind knows, the Xel’Nagan secrets will be revealed. Soon the cycle will be completed.\n\nAs the Swarms prepare for their first warp travel, a new Cerebrate of great promise is born. It is created to lead the Grand Search, but its destiny is uncertain.",
+    "archivalNotes": "Winner of the 2008 Campaign Creations Mini-Campaign Contest.\n\nA Special Edition was released, but the files are now lost. Additional campaigns were planned but left unreleased.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run through the campaign menu.",
+    "credits": "Story & Script\nB.J. \"Legion\" van Lindert\n\nMap Design & Triggering\nB.J. \"Legion\" van Lindert\n\nSound Design\nB.J. \"Legion\" van Lindert\n\nNew Character Voices\nB.J. \"Legion\" van Lindert\n               \nSEMPQ compilation\nThalraxal\n\nAltered unit portrait for \"Vail Sterling\"\nRainblades\n\nThanks to\nBlizzard Entertainment\nCampaign Creations\nThe Star Alliance",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2008-02-26",
+    "lastUpdated": "2026-05-18",
+    "image": "dark-swarm.jpg",
+    "missions": 5,
+    "author": [
+      "Legion"
+    ],
+    "team": [],
+    "year": [
+      "2008"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "contest:campaign creations mini campaign contest",
+      "badge:winner",
+      "setting:koprulu sector",
+      "timeline:before starcraft",
+      "gameplay:macro heavy",
+      "audio:voice acted",
+      "presentation:in game cutscenes",
+      "characters:mainly canon",
+      "theme:xel-naga",
+      "theme:plot driven",
+      "theme:mystery",
+      "theme:investigation",
+      "difficulty:easy",
+      "quality:polished"
+    ],
+    "originalLink": "https://files.campaigncreations.org/sc/legion/index.htm",
+    "archiveLink": "https://web.archive.org/web/20260519021128/https://files.campaigncreations.org/sc/legion/",
+    "megaBackup": "https://mega.nz/folder/DKog3Q7R#xJFL0j94lSkg6Ai4E7RvFA"
+  },
+  {
+    "id": "life-of-a-marine",
+    "title": "Life of a Marine",
+    "series": [
+      "Life of a Marine"
+    ],
+    "tagline": "Come and experience the Life of a Marine.",
+    "description": "The Koprulu Sector is a turbulent place, torn apart by war after war, decimated planets in its wake. It has occured on such a grand scale that sometimes we forget about the individuals who put it all on the line for their cause. Meet Lieutenant Jack Sherall, a Marine in the Terran Dominion whose life has been thrust into the fray, leaving him and everyone around him forever changed. Come and experience the Life of a Marine.\n\n\"Unless you want to learn the joys of removing\na bullet from your ass, why don't you just cut\nthe crap and let us through?\"\n\nJACK SHERALL",
+    "archivalNotes": "Originally hosted at Campaign Creations and SAMODS (The Star Alliance).",
+    "installationNotes": "Brood War scenario files only, should run on any version of the game.\n\nDesigned to be run at default speed settings.",
+    "credits": "LIFE OF A MARINE\nbrought to you by Gameproc.com\n\nEXECUTIVE PRODUCER\nTamas McCoy\n\nSCRIPT\nTamas McCoy\n\nMAP DESIGN\nTamas McCoy\nIan Gerdes\n\nBETA TESTERS\nIan Gerdes\nSean Swanson\nDavid Novak\nMetathrom\nCurtis Hanna\nLavarinth\n\nSPECIAL THANKS TO\nDesler\nLavarinth\nIskatuMesk\nBill Roper and everyone at Blizzard\nThe general support of the Starcraft community\nDwight Cenac\nOrbital\nNobuo Uematsu\nAnd a special thanks to Ian Gerdes (without whom this campaign would never have been)\n\nNo animals were harmed in the making of this campaign, except for a mouse who wouldn't eat the cheese.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2004-04-30",
+    "lastUpdated": "2026-05-18",
+    "image": "life-of-a-marine.jpg",
+    "missions": 8,
+    "author": [
+      "Gemini"
+    ],
+    "team": [],
+    "year": [
+      "2004"
+    ],
+    "starcraftVersion": [
+      "1.16.1",
+      "Remastered"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "No"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "website:samods the star alliance",
+      "setting:koprulu sector",
+      "timeline:after brood war",
+      "gameplay:micro heavy",
+      "gameplay:rpg lite",
+      "mechanic:trigger heavy",
+      "mechanic:branching choices",
+      "mechanic:stealth",
+      "audio:existing music",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:medium",
+      "quality:classic"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20090124125330/http://sc.campaigncreations.org/loam/",
+    "megaBackup": "https://mega.nz/folder/eTwURQDY#KxcE7FfvtYl0mwKkpn_QUg"
+  },
+  {
+    "id": "life-of-a-marine-bootcamp",
+    "title": "Bootcamp",
+    "series": [
+      "Life of a Marine"
+    ],
+    "tagline": "A prequel to Life of a Marine.",
+    "description": "Before the rise of the Dominion, a man named Jack Sherall volunteered for a small rebel group named the Sons of Korhal. Bootcamp, a 4-map prequel campaign to Life of a Marine, tells the story of how Jack Sherall came into military service and met friends Craig Skillen, Katherine Logal, and Vertigo, all during the timeframe of Rebel Yell.",
+    "archivalNotes": "Entry in the 2008 Campaign Creations Mini-Campaign Contest.",
+    "installationNotes": "\"You must have Starcraft and Brood War installed on your computer.\n\n1. Extract the .zip file in your Starcraft/maps folder. If you\n   prefer, you may extract it in a subfolder of /maps.\n\n2. Start Starcraft using SCMLoader. If you do not currently have\n   this program, you can find it here:\n\nhttp://shadowflare.samods.org/dwnload.html#Downloading%20and%20Installing%20Programs\n\n3. Select Single Player, and choose Expansion.\n\n4. Select Play Custom.\n\n5. Load up (1)Bootcamp Ch-1.scx, choosing \"Use Map Settings,\" and enjoy!\"\n\nThe campaign runs fine without SCMLoader.",
+    "credits": "Campaign and music by Tamas \"Gemini\" McCoy",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2008-12-22",
+    "lastUpdated": "2026-05-18",
+    "image": "life-of-a-marine-bootcamp.jpg",
+    "missions": 4,
+    "author": [
+      "Gemini"
+    ],
+    "team": [],
+    "year": [
+      "2007"
+    ],
+    "starcraftVersion": [
+      "1.16.1",
+      "Remastered"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "SCMLoader",
+      "Optional"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "website:samods the star alliance",
+      "contest:campaign creations mini campaign contest",
+      "setting:koprulu sector",
+      "timeline:starcraft 1",
+      "event:great war",
+      "gameplay:micro heavy",
+      "gameplay:rpg lite",
+      "audio:original music",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:easy",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20220703203329/https://www.campaigncreations.org/forum/viewtopic.php?t=551",
+    "megaBackup": "https://mega.nz/folder/bTp1HLhB#O0obamxtL3I9jLQX-Y1TeQ"
+  },
+  {
+    "id": "the-flame-knives",
+    "title": "The Flame Knives",
+    "series": [
+      "Hawk Universe"
+    ],
+    "tagline": "Join Executor Maradun of the Kharnikhan Empire against the enemies of the Hawk's Throne, in an environment where conspiracies, ancient secrets and treason are a constant.",
+    "description": "The Flame Knives is an original Starcraft: Brood War campaign that takes place on the Protoss refugee world of Kharnikha. Join Executor Maradun of the Kharnikhan Empire against the enemies of the Hawk's Throne, in an environment where conspiracies, ancient secrets and treason are a constant.\n\nKharnikha, an ancient world formerly inhabitated by an unknown race, was conquered by a group of Protoss exilees during the Aeon of Strife. Led by Judicator Haissar, the exilees managed to develop a civilization isolated from the greedy Conclave. This culture was further known as the Kharnikhan Empire, and it was based on the centered power around Emperor Ashtorium, the heir of Haissar.\n\nAlthough a few meaningless dissidences had arisen among the merchant tribes of the Kharnikhan wildlands, the Empire reigned uncontested on this land...so far. Now, an ancient force is about to claim the lives of all Kharnikhans to itself...\n\nFrom the Archives of Ansham, planet Kharnikha:\n\n2 millenia ago, the Protoss species reached one of its greatest moments. Technology, scientific knowledge and psionic development ensured the superiority of this species, as it began exploring the space around Aiur. However, this progress came at the cost of blood and sacrifice...\n\nMost of the laws of the Protoss were written by Khas, a wise Templar, worshipped by the future generations as the greatest lifeform to have ever existed. Yet, he had a treacherous oppositor during his lifetime, who tried to vanquish Khas and his code of laws, known as the Khala. This fiend was called Zarthiom. A long war between Khas' Army - the Conclave - and Zarthiom's followers - the Flame Knife - finally ensured the survival of the Khala.\n\nYet, before Templar Zarthiom met his fate, he cursed every following Protoss generation, claiming that somehow his wrath for the Khala would not cease. This threat was faced as the last attempt of Zarthiom to tear down the Protoss, and the fiend finally succumbed to the strength of the khalai.\n\nThe Conclave was not a tolerant government, thus several groups of Protoss had to flee Aiur in desperate attempts of survival from the dictatorship of the Judicators. Some of these exilees arrived in the distant world of Kharnikha, where a new government was established. The ruler of Kharnikha, Haissar, was a High Templar whose son was left on Aiur to die, for being born with the symbol of the Flame Knife incrusted in his chest. Nevertheless, Kharnikha prospered under the rule of Haissar's successor, Ashtorium...",
+    "archivalNotes": "Originally hosted at Campaign Creations and SAMODS (The Star Alliance).\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.10 to play. Maps are run as custom games.",
+    "credits": "Metathrom(me): Staredit work, testing, sound editing, doodad work\nStar Alliance: hosting\nRobddav, Snoopy: Tech help\nThrill, Taeradun: Doodad work\nJoel Steudler: Title screen\nTaeradun: Splash screen\nLing-Mac, Blade66777, Freak, PlasmaWrath, RsRioter: beta testers\n...and all fans, of course :D\n\n\nI hope you enjoy Flame Knives. I sure enjoyed making it :)",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2005-04-12",
+    "lastUpdated": "2026-05-18",
+    "image": "the-flame-knives.jpg",
+    "missions": 17,
+    "author": [
+      "Metathrom"
+    ],
+    "team": [],
+    "year": [
+      "2005"
+    ],
+    "starcraftVersion": [
+      "1.10"
+    ],
+    "campaignVersion": "Special Edition",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "website:samods the star alliance",
+      "setting:koprulu sector",
+      "timeline:not specified",
+      "event:aeon of strife",
+      "gameplay:micro heavy",
+      "gameplay:puzzle",
+      "gameplay:rpg lite",
+      "gameplay:boss fights",
+      "mechanic:trigger heavy",
+      "mechanic:branching choices",
+      "mechanic:stealth",
+      "audio:existing music",
+      "audio:custom sfx",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom units",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:plot driven",
+      "theme:mystery",
+      "difficulty:ridiculous",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20101210003917/http://campaigncreations.org/starcraft/flame_knives/story",
+    "megaBackup": ""
+  },
+  {
+    "id": "aeon-of-the-hawk",
+    "title": "Aeon of the Hawk",
+    "series": [
+      "Hawk Universe"
+    ],
+    "tagline": "A planet far from the influence of the major powers; a nation without a law, and with a puppet government whose power is undermined; a world home to countless mercenaries.",
+    "description": "The name is Aeon of the Hawk, and it takes you to the distant fringe world of Athlys III; formerly a colony of the Terran Confederacy, Athlys III declared its independence and assumed a neutral position among the Terran worlds. The numerous corporations, owners of Research & Development facilities and production centers on the planet rule it with no goals other than preserving their wealth and expanding their markets. The provisional government is nearly absent and lacks the powers necessary to challenge these companies.\n\nThis chaotic environment highly interests the powerful nations of the Koprulu Sector, who are eager to explore regions such as the Athlys system and gain footholds on them. The Terran Dominion, The Umojan Protectorate and the Kel-Morian Combine, factions with bitter convivence, sent their ambassadors to fringe worlds such as Athlys III to hire the services of the greedy, yet effective corporations.\n\nA planet far from the influence of the major powers; a nation without a law, and with a puppet government whose power is undermined; a world home to countless mercenaries. Would there be a better place to start a war?\n\nThat is what The Hawk believes...",
+    "archivalNotes": "Originally hosted on Campaign Creations and SAMODS. Set in the same universe as The Flame Knives.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.10 to play. Maps are run as custom games.",
+    "credits": "Metathrom (me): Staredit work, testing, sound editing, doodad work \nCampaign Creations and Samods: hosting\nRobddav, Snoopy: Tech help\nTaeradun: Doodad work\nJoel Steudler: Title screen\nTaeradun: Splash screen\nRsRioter, Prominency: beta testers\n\nMusic Credits (remixes):\n- JigginJonT Donkey Kong West Coast Island Theme (Donkey Kong Country);\n- Scott Peeples - Chrono Trigger Requiem for a Green Revolution;\n- BrainCells – The Path To Hell – Lake of Fire (Axelay);\n- MazeDude – Final Fantasy 4 Surface of the Moon;\n- Children of the Monkey Machine – Norfair Frailty Waiting (Super Metroid);\n- Danny B – The Galaxy is At Peace (Super Metroid);\n- Dhsu – Super Mario World Koopa vs Kefka.\n\n\nAnd all fans, of course. Without fan feedback, there’d be no AotH.\n\n\nI hope you enjoy the campaign. I sure enjoyed making it. :)",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2008-02-20",
+    "lastUpdated": "2026-05-18",
+    "image": "aeon-of-the-hawk.jpg",
+    "missions": 17,
+    "author": [
+      "Metathrom"
+    ],
+    "team": [],
+    "year": [
+      "2008"
+    ],
+    "starcraftVersion": [
+      "1.10"
+    ],
+    "campaignVersion": "Special Edition",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "website:samods the star alliance",
+      "setting:koprulu sector",
+      "timeline:not specified",
+      "gameplay:micro heavy",
+      "gameplay:puzzle",
+      "gameplay:rpg lite",
+      "gameplay:boss fights",
+      "mechanic:trigger heavy",
+      "mechanic:branching choices",
+      "mechanic:stealth",
+      "audio:existing music",
+      "audio:custom sfx",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "visual:custom tileset",
+      "mod:custom units",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:plot driven",
+      "theme:war story",
+      "difficulty:ridiculous",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20101209235034/http://campaigncreations.org/starcraft/aeon_of_the_hawk",
+    "megaBackup": ""
+  },
+  {
+    "id": "ascension-of-duran",
+    "title": "Ascension of Duran",
+    "series": [
+      "Ascension of Duran"
+    ],
+    "tagline": "Chronicles Duran's rise to power within the Zerg Swarm.",
+    "description": "",
+    "archivalNotes": "Originally hosted on Campaign Creations.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.",
+    "credits": "Created by Whiplash.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2009-02-09",
+    "lastUpdated": "2026-05-20",
+    "image": "ascension-of-duran.jpg",
+    "missions": 7,
+    "author": [
+      "Whiplash"
+    ],
+    "team": [],
+    "year": [
+      "2009"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "timeline:brood war",
+      "gameplay:macro heavy",
+      "audio:existing music",
+      "visual:custom portraits",
+      "presentation:in game cutscenes",
+      "characters:mainly canon",
+      "theme:xel-naga",
+      "theme:plot driven",
+      "theme:mystery",
+      "difficulty:medium",
+      "quality:playable"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160120054812/http://www.campaigncreations.org/starcraft/ascension_of_duran",
+    "megaBackup": "https://mega.nz/folder/KbYRnS4R#vYVRsUCvfK8VRzsYMDC44w"
+  },
+  {
+    "id": "dark-purposes",
+    "title": "Dark Purposes",
+    "series": [
+      "Ascension of Duran"
+    ],
+    "tagline": "Duran's mysterious agenda unfolds further.",
+    "description": "Ascension of Duran: Dark Purposes dives deeper into Duran's objectives and true goals during Brood War. Questions surrounding his unlikely allies, Kerrigan, and the Hybrids will be answered.",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nA third part of Ascension of Duran, Dissension, was planned but not released.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.",
+    "credits": "Created by Whiplash.\n\nSpecial Thanks To:\nCampaign Creations, Star Alliance, Team Liquid, GosuGamers, Staredit, and BroodWarMaps.\nLavarinth, Quetz, Huo\"Subtoss\", Razorclaw X, Terranup16, IskatuMesk, Disciple of ADUN, Shadowflare, Cynon, Avalon, Meta, OmegaELITE (hes a progamer), Takkarian, and Zuccolo.\nSorry to anyone I may have forgotten!",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2010-01-01",
+    "lastUpdated": "2026-05-20",
+    "image": "dark-purposes.jpg",
+    "missions": 9,
+    "author": [
+      "Whiplash"
+    ],
+    "team": [],
+    "year": [
+      "2010"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg",
+      "Protoss",
+      "Terran"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "timeline:brood war",
+      "gameplay:macro heavy",
+      "audio:existing music",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom units",
+      "presentation:in game cutscenes",
+      "characters:mainly canon",
+      "theme:xel-naga",
+      "theme:plot driven",
+      "theme:mystery",
+      "theme:betrayal",
+      "difficulty:medium",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326140436/http://www.campaigncreations.org/starcraft/ascension_of_duran/dark_purposes",
+    "megaBackup": "https://mega.nz/folder/bfJzhJST#ObE1N1KY1F0-kjp7K0UCSQ"
+  },
+  {
+    "id": "vision-of-the-future",
+    "title": "Vision of the Future",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "Ranma 1/2 VS Starcraft. Let the hunt begin...",
+    "description": "The Battle of Aiur\n\nAgainst terrible odds Executor Urust lead a sizable force of Carriers against Zerg reinforcements, shielding the Overmind encampment from the merciless enemy. Wave after wave of suicidal Zerg threw themselves against the air fleet, decimating airships one after another. Warriors fell below to rampaging Zerglings, innumerable.\n\nIt was time to die a glorious death for Aiur.\n\nHowever, that was not to be; as the plating around Urust peeled away to the point of destruction a column of light overshadowed the battlefield, its source the Overmind itself. With Tassadar's noble sacrifice Urust's Carrier was spared from destruction, as was the remains of the Fleet of the Executor.\n\nBut that battle was only a prelude.\n\nThe UED Invasion\n\nAttempting to seize control after the Overmind's death Daggoth and Kerrigan locked horns, waging their battles across Char in a bid for dominance. Using his terrible cunning to his advantage Daggoth tricked several minor Cerebrates into merging into a new Overmind, the symbol of authority of the Zerg. What this new Overmind did not know was that it was the puppet of Daggoth and the other ancient Cerebrates.\n\nThis puppet government, however, was unprepared for the onslaught of a new wave of Terran enemy: the United Earth Directorate. Time and again Daggoth's Zerg suffered defeat, pushing them all the way back to Char. The hour of defeat at hand, the UED succeeded in capturing the Overmind puppet.\n\nIt was time to lose complete freedom.\n\nHowever, that was not to be; on the world of Aiur Cerebrates Alhonoth and Nargil succeeded in capturing several Protoss weapons and artifacts, ones that could guarantee the Zerg's future in the wake of this setback. With renewed determination Daggoth's faction retreats back toward the Galactic Core, preparing for the day for which they could reclaim the Koprulu Sector for themselves.\n\nBut that battle was only a prelude.\n\nA Vision of the Future\n\nAn unholy alliance of Zerg and Protoss has emerged with the combined strength to threaten all! Zargil, a wicked Cerebrate, with an infested Protoss under his control, has devised a method by which to guarantee the future of the Zerg-- by securing the past of Terrans' history and preventing them from ever interfering in the Battle of Aiur.\n\nOnly an equally-desperate alliance of Zerg and Protoss can put an end to this madness, but ancient rivalries die hard.\n\nThe future of their universe relies on Terrans from the past. ",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run as custom games.\n\nMost of the missions require Vision1.exe to be played. The special missions, marked v1r, require Vision1le.exe to be played.",
+    "credits": "Created by Razorclaw X.\n\n- The guys at Camelot Systems (particularly King Arthur and Merlin) for putting out a number of nifty utilities, including but not limited to StarDraft. \n- Desler of Campaign Creations for putting out the original The Fenix. It inspired me to come up with a nifty campaign of my own. \n- All the other guys at Campaign Creations for tutorials, a few little things, and all that. \n- PornoCreep for hacking the MPQ Compiler together. \n- ShadowFlare for writing, among other things, the unit placement CWADS (the basis for my own CWADs I created to edit this campaign), StarExeHack, and a table editor that didn't require me to run StarDraft all the time :) \n- Falcom JDK Band for coming up with nifty songs for their games, including Ys, Sorcerian, and Dragon Slayer Family (aka Legacy of the Wizard).\n- Caveman Corg for getting me back into anime in the first place. \n- All the people unmentioned who provided the sound files used in this campaign. ",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "1999-08-28",
+    "lastUpdated": "2026-05-20",
+    "image": "vision-of-the-future.jpg",
+    "missions": 47,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "1999"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Remix",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Zerg",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "setting:original",
+      "audio:existing music",
+      "visual:custom portraits",
+      "presentation:in game cutscenes",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "theme:anime",
+      "difficulty:hard",
+      "event:retribution",
+      "quality:classic",
+      "theme:time travel"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326141310/http://www.campaigncreations.org/starcraft/vision_of_the_future",
+    "megaBackup": ""
+  },
+  {
+    "id": "black-dream",
+    "title": "Black Dream",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "They have been shamed after the Battle of Aiur. They have fought to stay alive for a long time. They dreamed of returning home with glory and honor that is due to them. They are about to get that chance.",
+    "description": "A Vision of the Future\n\nThe wicked Cerebrate Zargil attempted to alter the future of the Zerg Swarm by securing the Terrans' past. To that end he captured Judicator Chaladar in order to create a new timeline. However, the Protoss and Zerg of his time, along with the Terrans of the past, managed to thwart Zargil and his brood, and erase his timeline. It was an example of cooperation unparalleled in history.\n\nUnfortunately, only three remember that even occurring: Prelate Ziktofel of the Dark Templar, Judicator Chaladar, and the Hunter, Xaax the Defiler. They would lay the foundation of a future alliance between Protoss and Zerg, but such a path is not without its peril.\n\nUrust, Executor of the expedition, was convinced to travel to Kodulas, the hidden Zerg world ruled by Daggoth and his renegade Cerebrates, fleeing from the UED and Kerrigan alike. On that world an uneasy truce was declared, and it was decided that Xaax and Chaladar would return to Shakuras with the Protoss in order to convince their new Conclave of the same.\n\nTogether the Protoss and Zerg can achieve greatness, but there are those who conspire against such an alliance, and would see to it at all costs that the enemy is destroyed.\nA Specter From the Past\n\nAsakiro, Executor of the Black Scorpion Fleet, was honored time and again for his exploits in the service of Aiur. However, when Judgement Day came in the form of the Battle of Aiur, the wills and faith of the Protoss was tested to the limit. Placed in the front line against the Zerg onslaught Asakiro and his men became embittered by the Conclave and their increasingly-apparent incompetence. Seeing them as traitors to the Khala, the Black Scorpion Fleet withdrew from the battlefield, never to be seen again.\n\nUntil now. ",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run as custom games.",
+    "credits": "Created by Razorclaw X.\n\nSpecial Thanks\n\n- The guys at Camelot Systems (particularly King Arthur and Merlin) for putting out a number of nifty utilities, including but not limited to StarDraft. \n- Desler and Campaign Creations staff. \n- PornoCreep for hacking the MPQ Compiler together. \n- ShadowFlare for writing, among other things, the unit placement CWADS (the basis for my own CWADs I created to edit this campaign), StarExeHack, and a table editor that didn't require me to run StarDraft all the time :) \n- Falcom JDK Band for coming up with nifty songs for their games, including Ys, Sorcerian, and Dragon Slayer Family (aka Legacy of the Wizard). \n- All of you who played Vision of the Future. ",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2001-01-31",
+    "lastUpdated": "2026-05-20",
+    "image": "black-dream.jpg",
+    "missions": 18,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "2001"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg",
+      "Terran",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "audio:existing music",
+      "visual:custom portraits",
+      "mod:custom units",
+      "presentation:episodic",
+      "presentation:in game cutscenes",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:medium",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326142500/http://www.campaigncreations.org/starcraft/black_dream",
+    "megaBackup": ""
+  },
+  {
+    "id": "prophecy",
+    "title": "Prophecy",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "Beyond the Koprulu Sector, a new war is brewing, and the Scantid Fleet must head to battle once more.  ",
+    "description": "A Vision of the Future\n\nThe wicked Cerebrate Zargil attempted to alter the future of the Zerg Swarm by securing the Terrans' past. To that end he captured Judicator Chaladar in order to create a new timeline. However, the Protoss and Zerg of his time, along with the Terrans of the past, managed to thwart Zargil and his brood, and erase his timeline. It was an example of cooperation unparalleled in history.\n\nUnfortunately, only three remember that even occurring: Prelate Ziktofel of the Dark Templar, Judicator Chaladar, and the Hunter, Xaax the Defiler. They would lay the foundation of a future alliance between Protoss and Zerg, but such a path is not without its peril.\n\n \nA Black Dream\n\nIn the wake of that climatic battle a new peace was to be formed between the Protoss of Shakuras and the Zerg of Kodulas, but it was not to be; the corrupted Judicator Arestes of the Shelak Tribe, and member of the New Conclave, manipulated events that would dissolve the alliance before it could begin. He maneuvered his pawn Kabala into starting a great war using the power of the Zeji Cloning Cylinders-- artifacts of a civilization ancient when the Protoss were young.\n\nHowever, the threat of Zeji Cloning Cylinders was countered by the Scantid Fleet, and their Black Dream, a powerful symbol of cooperation of all three races waging war in the Koprulu Sector. Kabala revealed that it was he who manipulated Arestes from the beginning, and it took the sacrifice of two great heroes, Urust and Asakiro, to end the madness, once and for all.\n\nWith Kabala's apparent death and Arestes' flight the alliance formed behind the Black Dream fell into shambles, forcing the handful of heroes and the Scantid Fleet back into exile. They continue to sail among the stars, hoping for the day when the three races can cooperate without the need of a dangerous symbol as the Black Dream.\n\n \nA Dark Prophecy\n\nXaax the Defiler retains possession of the Remains of the Overmind, the last key artifact necessary for the Zerg Swarm to reincarnate the physical form of their master. Seeing the Black Dream as his opportunity to break away from his Cerebrate masters Xaax deserts his post, but it is not long before Zerg agents are sent to hunt him down and retrieve the Remains of the Overmind. The rogue Defiler feels his power growing within, as the Remains slowly awaken themselves....\n\nBeyond the reaches of the Koprulu Sector, Kabala emerges from the darkness once more, and a dark experiment is underway that may decide the fate of the Terrans, Protoss, and Zerg, forever. His eternal hunt to find and destroy Arestes, the last pawn in his grand scheme, is about to take a turn for the worst.\n\nMonths passed since the Black Dream disappeared into exile after the final battle at Valis IV, and a new legend is about to be born....\nReflective Notes\n\nThe Zeji Imperium's warships are actually ships and structures used by the 'Nephilim' in Wing Commander: Prophecy. The title itself is a sort of homage to that same game, as well as deals with the subject of this story. I forgot to note who did it, but thanks to whoever extracted the ship models; seeing them available inspiried me to create this campaign, and finally create a worthy opponent for the Black Dream. Special thanks to Wing Commander CIC, as the source of these files, as well as reference to the ships themselves.\n\nEnjoy!\n\n-- Razorclaw X",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "I'm not able to get the original .exe running on my computer. I will investigate why later.",
+    "credits": "Created by Razorclaw X.\n\nSpecial Thanks\n--------------\n\n- The guys at Camelot Systems (particularly King Arthur and Merlin) for putting out a number of nifty utilities, including but not limited to StarDraft. \n- Desler and Campaign Creations staff. \n- Quantum, for writing MPQ2K. \n- ShadowFlare for writing, among other things, the unit placement CWADS (the basis for my own CWADs I created to edit this campaign), StarExeHack, and a table editor that didn't require me to run StarDraft all the time :)  Also for the invaluable SCMToolKit, which made hacking the .chk a lot easier on my part.  \n- WarGiant, for putting up with my pestering questions, his advice on editing units, and the Installation tileset modifications.  \n- Wing Commander CIC Staff and Contributors, without which none of this would be done.  This is without a doubt my best inspiration.  \n- Chris Roberts, for creating Wing Commander in the first place, and changing my outlook on computer gaming forever. \n- Falcom JDK Band for coming up with nifty songs for their games, including Ys, Sorcerian, and Dragon Slayer Family (aka Legacy of the Wizard). \n- All of you who played Vision of the Future and Black Dream. ",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2001-06-26",
+    "lastUpdated": "2026-05-20",
+    "image": "prophecy.jpg",
+    "missions": 17,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "2001"
+    ],
+    "starcraftVersion": [
+      "1.07"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Zerg",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "mechanic:trigger heavy",
+      "audio:voice acted",
+      "audio:existing music",
+      "visual:custom tileset",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "visual:custom ui",
+      "mod:custom units",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:veteran",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326141422/http://www.campaigncreations.org/starcraft/prophecy",
+    "megaBackup": ""
+  },
+  {
+    "id": "final-destiny",
+    "title": "Final Destiny",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "In every story there is a beginning, and an end, but sometimes it is the journy that is most important.",
+    "description": "A Vision of the Future\n\nThe wicked Cerebrate Zargil attempted to alter the future of the Zerg Swarm by securing the Terrans' past. To that end he captured Judicator Chaladar in order to create a new timeline. However, the Protoss and Zerg of his time, along with the Terrans of the past, managed to thwart Zargil and his brood, and erase his timeline. It was an example of cooperation unparalleled in history.\n\nUnfortunately, only three remember that even occurring: Prelate Ziktofel of the Dark Templar, Judicator Chaladar, and the Hunter, Xaax the Defiler. They would lay the foundation of a future alliance between Protoss and Zerg, but such a path is not without its peril.\n\n \nA Black Dream\n\nIn the wake of that climatic battle a new peace was to be formed between the Protoss of Shakuras and the Zerg of Kodulas, but it was not to be; the corrupted Judicator Arestes of the Shelak Tribe, and member of the New Conclave, manipulated events that would dissolve the alliance before it could begin. He maneuvered his pawn Kabala into starting a great war using the power of the Zeji Cloning Cylinders-- artifacts of a civilization ancient when the Protoss were young.\n\nHowever, the threat of Zeji Cloning Cylinders was countered by the Scantid Fleet, and their Black Dream, a powerful symbol of cooperation of all three races waging war in the Koprulu Sector. Kabala revealed that it was he who manipulated Arestes from the beginning, and it took the sacrifice of two great heroes, Urust and Asakiro, to end the madness, once and for all.\n\nWith Kabala's apparent death and Arestes' flight the alliance formed behind the Black Dream fell into shambles, forcing the handful of heroes and the Scantid Fleet back into exile. They continue to sail among the stars, hoping for the day when the three races can cooperate without the need of a dangerous symbol as the Black Dream.\n\n \nA Dark Prophecy\n\nXaax the Defiler retains possession of the Remains of the Overmind, the last key artifact necessary for the Zerg Swarm to reincarnate the physical form of their master. Seeing the Black Dream as his opportunity to break away from his Cerebrate masters Xaax deserts his post, but it is not long before Zerg agents are sent to hunt him down and retrieve the Remains of the Overmind. The rogue Defiler feels his power growing within, as the Remains slowly awaken themselves....\n\nThe Black Dream is drawn into a power struggle between Arestes and Kabala, who survived the battle at Valis IV, and are chased by the renegade Nova Squadron commander Van MacDougal and Thakras and Parakas from the Sennith Brood. With their very existances threatened the Scantid Fleet barely escapes with their lives-- Van, Thakras, and Parakas are vanquished, Arestes is destroyed, his ambition crumbling with him, and Kabala has taken over the Zeji Armada.\n\n\nFinal Destiny\n\nXaax the Defiler has returned victorious to the Renegade Swarm, bearing the Remains of the Overmind subdued and under his control. Using this leverage, and a newfound ability to sever the Zerg reincarnation with dark energy, Xaax has become the most powerful individual member of the Swarm, and created his Lich Brood. Unsatisfied with merely this seat of power Xaax turns toward Kerrigan, aiming to wipe-out the last of his opponents....\n\nAce Tarpals retires from adventure and returns to Valis IV, informing General Strassenburg, formerly Serena Schezar, of his intent to lead a quiet life. With the knowledge that all his enemies have been eliminated, can this former pirate find peace without war?\n\nKuwadora returns to Shakuras and the Scantid Fleet is disbanded. Knowing full-well that the Conclave would be eager to get their hands on the Black Dream he makes certain of the destruction of all Zeji spacecraft in the Fleet's possession. To this day he remains uncertain to his place in the universe. Is his dream truly a fantasy?\n\nThe Protoss aim to monopolize the power the Black Dream has given them, but there are those in the Koprulu Sector that would challenge this power. There are those forgotten that will emerge from the cloak of shadow which they hid, and there are those who will see to it that the Protoss are stopped-- no matter the cost.\n\nFinal Destiny is at hand.",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run as custom games.",
+    "credits": "Created by Razorclaw X.\n\nSpecial Thanks\n\n- The guys at Camelot Systems (particularly King Arthur and Merlin) for putting out a number of nifty utilities, including but not limited to StarDraft.  \n- di, for Arsenal Zero, which makes a whole lot of sense if you stare at it long enough....  \n- Desler of Campaign Creations for hosting, as well as Palin, Legion, Rainblades, and Codebreaker for any advice solicited. \n- Quantam, for writing MPQ2K. \n- ShadowFlare for writing StarExeHack, SCMToolKit, and TBLPad.   \n- WarGiant, for putting up with my pestering questions, his advice on editing units, and the Installation tileset modifications.  \n- SuperEric, for the cosmetically-modified units. \n- Sega, for creating the Dreamcast, and putting such a great game as Skies of Arcadia out on it.  And, of course, for creating Metal Sonic.  \n- The Castlevania Dungeon, for rekindling my interest in Castlevania every so often that I forget about it.  \n- Wing Commander CIC Staff and Contributors, without which none of this would be done.  This is without a doubt my best inspiration.  \n- Madman's Cafe, for serving gaming news fresh off the grill.  \n- Chris Roberts, for creating Wing Commander in the first place, and changing my outlook on computer gaming forever. \n- Falcom JDK Band for coming up with nifty songs for their games, including Ys, Sorcerian, and Dragon Slayer Family (aka Legacy of the Wizard). \n- All of you who played Vision of the Future, Black Dream, and Prophecy.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2001-11-12",
+    "lastUpdated": "2026-05-20",
+    "image": "final-destiny.jpg",
+    "missions": 38,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "2001"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Zerg",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "mechanic:trigger heavy",
+      "audio:existing music",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "difficulty:ridiculous",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326150256/http://www.campaigncreations.org/starcraft/final_destiny",
+    "megaBackup": ""
+  },
+  {
+    "id": "zeji-conversion",
+    "title": "Zeji Conversion",
+    "series": [
+      "Vision of the Future"
+    ],
+    "tagline": "Play as the Zeji and the Mekan in this total conversion.",
+    "description": "",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThe author has denied permissions for file distribution.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run through the campaign menu.",
+    "credits": "Created by Razorclaw X.\n",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2002-06-20",
+    "lastUpdated": "2026-05-20",
+    "image": "zeji-conversion.jpg",
+    "missions": 20,
+    "author": [
+      "Razorclaw X"
+    ],
+    "team": [],
+    "year": [
+      "2002"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Custom"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "gameplay:macro heavy",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom race",
+      "mod:custom units",
+      "mod:custom scripting",
+      "mod:total conversion",
+      "presentation:episodic",
+      "presentation:minimal story",
+      "characters:mainly original",
+      "theme:plot driven",
+      "difficulty:ridiculous",
+      "quality:playable"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326141634/http://www.campaigncreations.org/starcraft/zeji_conversion",
+    "megaBackup": ""
+  },
+  {
+    "id": "legacy-of-the-confederation-past-purposes",
+    "title": "Legacy of the Confederation: Past Purposes",
+    "series": [
+      "Legacy of the Confederation"
+    ],
+    "tagline": "The new Soviet Bloc has abandoned the UPL. Can you bring them back?",
+    "description": "Earth, having colonized the habitable celestial bodies within its own solar system strove to cross another plateau, cultural refinement.  With the majority of our nations merged into a ruling council known as \"The United Powers League (UPL),\" old ideas long since buried emerged with renewed vitality.  Just as the Nazis deemed genocide a logical means to 'purify' the human race in earth's second world war, so did Edmond Routhe, co-founder of the UPL, deem genocide a reasonable course to remove 'inferior' humans from our genetic pool. \n\n     With cybernetics and gene-splicing standards of the time, Routhe felt that humans born sick, or with a genetic aberrations such as anemia or colorblindenss needed to be 'cleansed.'  Routhe dispatched UPL shock troops around the globe with orders to terminate any and all persons on UPL's deathlist. (A database of hundreds of millions of people born with any form of genetic abnormality.)  UPL's ruling council, facing stiff opposition from its constituency on this matter, overruled Routhe, and created the \"Great Expansion Draft.\".\n\n     UPL had desired to colonize planets outside of earth's solar system for some time, so they drafted millions of individuals to embark on this journey.  UPL specifically called upon those on Routhe's deathlist however, thereby accomplishing Routhe's goal of removing them from the earth sector directly, while not upsetting the general populace with systematic genocide of our own population.  UPL constructed dozens of colony ships or \"Super Carriers\" to house those deemed 'worthy' to expand human-kind into the stars.\n\n     The super-carriers , capable of only sub-light travel, would not reach the nearest star systems for over a generation, and the more remote systems would require 100-200 years of travel at least, though Routhe cared not if they ever arrived at their charted destination. \n\n     After all, he would be dead of old age long before they touched down, so it mattered not to him one way or the other, so long as these 'undesireables' no longer remained on earth.   On November 9, 2077, thirty-six super-carriers departed the earth, each in a different direction.  (Only one of these ever arrived at its destination, the Argo, in the Koprulu sector, whose colonists would rise to form the Terran Confederacy and eventually, the Terran Dominion.)\n\n     Several years into its journey, one of the super-carriers' guidance systems malfunctioned.   The computer's emergency navigational program then plotted a course for the nearest gravitational body upon which the ship could hopefully land.  The nearest source of gravity however was a black hole.   And as the ship entered the event horizon, as it met anti-matter and was blue-shifted to inifnity,  it exploded, with more force than a hydrogen bomb.  Sensors had indeed detected that event, though not earth's.   As UPL would soon learn, other forces explored the cosmos, forces which would herald our apocalypse.\n\n     They remained in our orbit for a week undetected, watching us, scrutinizing us, gathering information on our culture, our species.  Soon after, Ambassador Elandrea introduced herself, claiming to represent the Protoss Conclave of Aiur and offering UPL officials a proposition.  The Protoss could remain in orbit undisturbed to continue their studies and in return, UPL would be given cures to every known disease and learn about advanced technologies then unknown to us.  Without hesitation, UPL accepted.  Shortly following this arrangement, the new Soviet bloc seceded from the UPL, claiming that it wanted nothing to do with the Protoss alliance, saying that the Protoss were deceiving us in some way and we were allowing it to happen.\n\n     With significant nuclear and conventional arms at its disposal, the Russian Republics represented a great threat to the UPL, and needed to be re-integrated into the fold, or destroyed.  UPL's combined armed forces have levied war against Russia for several months now, gaining little ground.  YOU, admiral, have been given command of this campaign.  Whether Russia remains sovereign or accepts UPL rule depends on your prowess as a military strategist and tactician.  Good luck.",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nThree episodes of Legacy of the Confederation were planned, but only two were released.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run as custom games.",
+    "credits": "CREDITS:  (Starring: In order of appearance)\n\nUPL Defense Net- E.S. Clarke\nDmitri Petrov- Harold \"Topper\" Loughry\nFleet Admiral Hayes- The \"Taz\" Man\nLieutenant Rand- E.S. Clarke\nDoctor Halsey - Cindy \"The SinFulSoul\"\nCommander Noble- \"Furinax\"\nJudicator Astarte- E.S. Clarke\nJudicator Drealan- Seth Hendrickson\nMallock- Cody Robinson\nVaeregoth- E.S. Clarke\n\n\n(Co-Starring:  In Order of appearance)\n\n\"The Father\"- Mark Yohalem\n\"Private\" (Chapter 1) - E.S. Clarke\n\"Platoon Commander\" (Chapter 1) - President Nuke'O'Rama\n\"Engineer Davis\" - \"Furinax\"\n\"Vertigo CoPilot Hobbes\" - E.S. Clarke\n\"Computer Voice (Chapter 1)\" - Mark Yohalem\n\"Computer Voice (Chapter 2)\" - WoLF`LadyDie\n\"Ambassador Elandrea\" - Cindy \"The SinFulSoul\"\n\"Judicator Aldaris\" - Original Blizzard Voice Actor\n\"Commander Caede\" - Harold \"Topper\" Loughry\n\"Doctor Damian Saxton\" - \"LoveLace\"\n\"Judicator Rak'Hal\" - WoLF`LadyDie\n\"The Oracle\" - E.S. Clarke\n\"Marine Leader (Chapter 8)\" - Matt Clark\n\"Cerebrate\" - E.S. Clarke\n\n\n(Extras:  In Order of appearance)\n\n\"Private\" (Chapter 1) - Albert Metz\n\"Brooke Madison Entry\" (Chapter 1) - Wendy Metz\n\"Braxis Scientific Entry\" (Chapter 1) - E.S. Clarke\n\"Engineer Haque\" (Chapter 2) - Rashid Haque\n\"Welding Engineers (Male)\" (Chatper 2) - E.S. Clarke\n\"Security 1\" (Chapter 2) - \"Admiral Rock\"\n\"Security 2\" (Chapter 2) - \"Lord of Pain\"\n\"Computer Voice\" (Chapter 2) - \"Birds\"\n\"Yelling Soldier\" (Chapter 4) - \"+Keeper+ToY\"\n\"Geneva ComChatter A\" (Chapter 5) - Harold \"Topper\" Loughry\n\"Radek Yelling\" (Chapter 5) - E.S. Clarke\n\"Griping Soldier\" (Chapter 5) - \"{X}~Zeratul\"\n\"Announcing Soldier\" (Chapter 5) - \"+Keeper+ToY\"\n\"News Report A\" (Chapter 6) - \"LoveLace\"\n\"News Report B\" (Chapter 6) - Seth Hendrickson\n\"News Report C\" (Chapter 6) - Cindy \"The SinFulSoul\"\n\"News Report D\" (Chapter 6) - E.S. Clarke\n\"Sergeant Taz\" (Chapter 6) - \"President Nuke`O`Rama\"\n\"Judicator Albrun\" (Chapter 7) - E.S. Clarke\n\"Judicator Methos\" (Chapter 7) - \"Kull\"\n\"Dark Templar\" (Chapter 7) - E.S. Clarke\n\"SNN Announcement\" (Epilogue) - E.S. Clarke\n\"Deckard Cain\" (Epilogue) - Joel Steudler\n\"Fleet Admiral Melissa Wainwright\" (Epilogue) - Denise Robinson\n\n(Musical Scores: In order...all rights reserved to their respective owners)\n\n(Prologue) \"Human Battle Suite\" WarCraft II: Tides of Darkness- Blizzard Entertainment\n(Chapter 3) \"Nothing Else Matters\" - by Metallica\n(Chapter 5) \"Afer Ventus\" - by Enya (Shepherd Moons Album)\n(Chapter 7) \"Battle Scene\" - by James Horner (Braveheart)\n(Chapter 8) \"Three suites from the movie SCREAM\" - by Marco Beltrami\n(Chapter 8) \"Suite from the movie \"Terminator\" - by Brad Fiedel\n(Epilogue) \"Intro to movie \"Starship Troopers\" - by Basil Poledouris\n(Epilogue) \"Conclusory Music to the Movie \"Braveheart\" - by James Horner\n\n\nMap design, story, trigger layout, characterization, dialogue, direction, and gaffing by NexusCore Ltd.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "1999-07-22",
+    "lastUpdated": "2026-05-20",
+    "image": "legacy-of-the-confederation-past-purposes.jpg",
+    "missions": 10,
+    "author": [
+      "Oracle"
+    ],
+    "team": [
+      "NexusCore"
+    ],
+    "year": [
+      "1999"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "timeline:before starcraft",
+      "gameplay:macro heavy",
+      "mechanic:trigger heavy",
+      "visual:custom portraits",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:plot driven",
+      "theme:political",
+      "difficulty:medium",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326143341/http://www.campaigncreations.org/starcraft/legacy_of_the_confederation/past_purposes",
+    "megaBackup": "https://mega.nz/folder/GOJH1YBZ#8EXI2LHr4YRVEpFydFSACQ"
+  },
+  {
+    "id": "legacy-of-the-confederation-fallen-angel",
+    "title": "Legacy of the Confederation: Fallen Angel",
+    "series": [
+      "Legacy of the Confederation"
+    ],
+    "tagline": "Learn the history of the enigmatic Keepers before the Dawn of Darkness.",
+    "description": "The Fallen Angel campaign combines five levels (four regular, one hidden) of intense action and storytelling with an all-new original soundtrack and a new cinematic video. It introduces Keeper Operative Ambrosia, a character that will definitely have an impact on the future of the LotC universe. You can get in on the beginning of the end (of LotC2 that is) by playing this side story that leads into the events that take place in the long awaited LotC2 missions 19, 20, and 21.\n\nThe Keepers (an organization of which Ambrosia is a part) play an integral role in the final missions of Episode II. To learn more about them, it is advised that you play Fallen Angel. The hidden mission will also shed some light on many story elements which involve the Oracle.",
+    "archivalNotes": "Originally hosted on Campaign Creations.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run through the campaign menu.",
+    "credits": "CREDITS \n\nStoryboarding:         \t\tTheOracle, Joel Steudler \nGraphics/Splash Screens:      \tJoel Steudler \nVoice Editing:           \tTheOracle \nMusic Composition:       \tJoel Steudler, ArchAngel, Aaron Martinez, Grego Loboz \nSound Effects:           \tTheOracle \nLevel Design/Triggering:    \tTheOracle \nScript:              \t\tTheOracle \nVideo Rendering:       \t\tJoel Steudler \nMPQ Script Assembly:       \tQuantam \nWebsite:          \t\tJoel Steudler \nMPQ Utility Programming:    \tQuantam\nMascot:\t\t\t\tMewTwo\n\n\nTHE CAST: \n\nAngel/Ambrosia:           \t\tDenise \"The Great Dasha\" \nSergeant Meyers:      \t\t\tJoel Steudler \nCommander Reeves:       \t\tTheOracle \nComsController:           \t\tStormhawk \nRodent:             \t\t\tTheOracle \nSecurity (Launch Area):      \t\tStormhawk \nEngineer Bill:           \t\tTheOracle \nColony Advertisement:       \t\tTheOracle / Kalika Curry \nSecurity (Evacuation):       \t\tStormhawk \nColony Announcer 2:       \t\tJoel Steudler \nKeeper Command:           \t\tTheOracle \nKeeper Rasputin:       \t\t\tTheOracle \nKeeper Stillwell:       \t\tTheOracle \nKeeper Tank:          \t \t\tArchAngel \nKeeper Thanatos:       \t\t\tStormhawk \nKeeper Jasmine:           \t\tKalika Curry \nTrooper1:           \t\t\tTheOracle \nDaryl McGovern (Dropship):    \t\tTheOracle \nDoctor Jelico:           \t\tLes Dominguez \nMP Detective:           \t\tTheOracle \nHospital Director:       \t\tTheOracle \nMed-Tech:           \t\t\tLes Dominguez \nMaxwell Hayes:          \t\tJoel Steudler \nVictim3:           \t\t\tJoel Steudler \nMilitary Judge:           \t\tHichame Zerouali \nGiovanni:           \t\t\tTheOracle \nSecurity (Installation):    \t\tStormhawk \nCorridor 9 Scientist:       \t\tStormhawk \nRemus:              \t\t\tJoel Steudler \nJudicator Fraus:       \t\t\tTheOracle \nThe Boomers:           \t\t\tTheOracle\nIlluminatus:\t\t\t\tAaron Martinez\nMallock:\t\t\t\tCody \"Jodias\" Robinson\nZuhl:\t\t\t\t\tTheOracle\nThe Oracle:\t\t\t\tTheOracle\nLegion:\t\t\t\t\tBart-Jan \"Legion\" van-Lindert\n\nMusic Credit:\n\nFallen Angel -- Title Theme\t\tJoel Steudler\nFallen Angel -- Victory Theme\t\tJoel Steudler\nFallen Angel -- Defeat Theme\t\tArchangel\nMission 1: (Dionysus)\t\t\tJoel Steudler\nMission 2: (Delayed Reaction)\t\tJoel Steudler (Primary) / ArchAngel (Boss)\nMission 3: (Wrecking Ball)\t\tJoel Steudler\nMission 4: (Secret Level)\t\tJoel Steudler (Protoss Temple) / Grego Loboz (Sewers)\nMission 5: (Demons on the Run)\t\tArchangel",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2001-02-17",
+    "lastUpdated": "2026-05-20",
+    "image": "legacy-of-the-confederation-fallen-angel.jpg",
+    "missions": 5,
+    "author": [
+      "Oracle"
+    ],
+    "team": [
+      "NexusCore"
+    ],
+    "year": [
+      "2001"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "gameplay:micro heavy",
+      "gameplay:puzzle",
+      "gameplay:rpg lite",
+      "mechanic:trigger heavy",
+      "audio:voice acted",
+      "audio:original music",
+      "audio:custom sfx",
+      "visual:custom tileset",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom units",
+      "presentation:prerendered cutscenes",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "theme:mystery",
+      "difficulty:hard",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326143138/http://www.campaigncreations.org/starcraft/legacy_of_the_confederation/fallen_angel",
+    "megaBackup": "https://mega.nz/folder/DLgSnKBZ#wuOEQwQDHLeGfPwqCvEBog"
+  },
+  {
+    "id": "legacy-of-the-confederation-dawn-of-darkness",
+    "title": "Legacy of the Confederation: Dawn of Darkness",
+    "series": [
+      "Legacy of the Confederation"
+    ],
+    "tagline": "Continue the story of the Confederation hundreds of years after Past Purposes.",
+    "description": "",
+    "archivalNotes": "Originally hosted on Campaign Creations.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run through the campaign menu.\n\nMisisons 9-18 are played with lotc2.exe. The FMV movie takes place between episodes 18-19. Missions 19-21 are played with LotCII(19-21).",
+    "credits": "9-18 CREDITS:\n\nStory:  E.S. Clarke\nGraphics:  Joel Steudler\nTriggers: E.S. Clarke\nMission Design:  E.S. Clarke\nAdvertising:  DI(JQpanG)/Desler/Campaign Creations\nHTML Layout:  DI(JQpanG)\nScript:  E.S. Clarke\n\nCAST:\n\n(Stars/CoStars)\n\"Karla Wainwright\" - Gloria Rodriguez-Naranjo\n\"Mustapha Ra'Chek\" - Joel Steudler\n\"Gerson Drake\" - Joe Antholzner\n\"Mick Furlong\" - Ben Richards\n\"Professor Algernon\" - E.S. Clarke\n\"Vaeregoth\" - E.S. Clarke\n\"Zuhl\" - E.S. Clarke\n\"The Oracle\" - E.S. Clarke\n\"Captain Barreto\" - Alexander Naranjo\n\"Captain Bates\" - BiLLiUM\n\"ConFed Tactical\" - E.S. Clarke\n\n(Extras)\n\"Recreations Master (Chau Sara) - Fawad Haq\n\"Director Steward (Chau Sara) - Joel Steudler\n\"Med-Lab Security (Chau Sara) - E.S. Clarke\n\"Security Chief Jenson (Chau Sara) - E.S. Clarke\n\"Female Announcer (Chau Sara) - Cindy 'SinFulSoul'\n\"Scraggs (Arcturus Prime) - Aaron Martinez\n\"SNN Anchor\" - E.S. Clarke\n\"SNN Hugh Walters\" - Brian McPherson\n\"Borialis Command (Mar Sara) - Craig Rydell\n\"Prelate Zathren\" - E.S. Clarke\n\"Morian Governor\" - E.S. Clarke\n\"Mr. Longsteen\" - Craig Rydell\n\"Female Computer\" - Unknown\n\"Captain Adnan Raja\" - Adnan Raja\n\"Scared Marine (Delta Crateris IV) - Rashid Haq\n\n(New Units)\n\"Confederation Battle Platform\" - Joel Steudler\n\"ConFed U-22 Specter\" - E.S. Clarke\n\n(Blizzard Personalities)\nArcturus Mengsk\nGeneral Duke\nZeratul\nInfested Kerrigan\nCivilian\nMarine\nFemale Computer\n\n**All blizzard voices are owned by Blizzard Entertainment and used by LotC under the express guideline that no commercial gain results from distribution of this campaign.  LotC staff and crew acknowledge that quotes from the above Blizzard characters are taken out of context from actual blizzard campaigns for use as cameo appearances in LotC.  All rights reserved by Blizzard Entertainment.\n\n19-21 CREDITS:\n\nStory:  The Oracle\nSplash Screens:  Joel Steudler\nCampaign Selector .smk Images: Joel Steudler\nTriggers: The Oracle\nMission Design:  The Oracle\nVoicing Help: SAVAGE Voice Actors Guild\nHTML Layout:  DI(JQpanG)\nScript:  The Oracle\n\nMUSIC:\n\nGuardian Themes: Joel Steudler\nTerran/Zerg Briefing Themes: Joel Steudler\nTerran/Zerg Victory and Defeat Themes: Joel Steudler\nMission 20 Comedy Theme: Joel Steudler\nMission 19 Intro Theme: Joel Steudler\nSanchez Rock and Roll Theme: Joel Steudler\nMission 21 Intro Theme: Aaron Martinez\n\nCampaign Select Theme: The Movie \"The Rock\" - Opening Suite\n\nSLAM RADIO SONGS:\n\nAll of the following are copyright their respective owners.\n\nKonya Wa Hurricane - Bubblegum Crisis\nMad Machine - Bubblegum Crisis\nCup of Life - Ricky Martin\nFirestarter - Prodigy\n\n\n\nVOICE CAST: (Not in order of appearance)\n\n(Stars/CoStars)\n\"Keeper Agent Stillwell\" - The Oracle\n\"Keeper Agent Thanatos\" - Joel Steudler\n\"Keeper Agent Stranix\" - Lavarinth\n\"Keeper Tribunal 1,2\" - The Oracle\n\"Keeper Leader Giovanni\" - The Oracle\n\"Kid Morning\" - Joel Steudler\n\"Lex\" - Zeus Legion\n\"The Oracle\" - The Oracle\n\"Police Chief Robinson\" - The Oracle\n\"Captain Jameson\" - IceSweets\n\"Mark Sanchez\" - Joel Steudler\n\n(Extras)\n\"1A Steakhouse Owner\" - Space's (from SAVAGE)\n\"Director McIntyre\" - Dark Primus (from SAVAGE)\n\"Doctor Roberts\" - Clark \"The Smashier\"\n\"Doctor Langston\" - Minx (from SAVAGE)\n\"Female Police Officer\" - Alyx (from SAVAGE)\n\"Rond\" - Joel Steudler\n\"Tark Colonel\" - Magic (from SAVAGE)\n\"Protoss Family Man\" - The Oracle\n\"Cerebrate Zuhl\" - The Oracle\n\"Male Police Officer\" - Magic (from SAVAGE)\n\nAnd for SLAM RADIO:\n\n\"Crying Baby\" - Mini Sweets\n\"Female Protoss\" - Space's (from SAVAGE)\n\"Love Line Ronald Weems\" - Ronald Weems\n\"Love Line Woman\" - Janessa Robertson\n\"Nude Protoss\" - The Oracle\n\"Mark Lansing\" - The Oracle\n\"General Urusi\" - Joel Steudler\n\"Scree\" - Joel Steudler\n\n\n\"Guardian Phobos\" - Dark Primus (from SAVAGE)\n\"Guardian Mallock\" - Jodias\n\"Guardian Traeneth\" - Magic (from SAVAGE)\n\"Guardian Alyndrea\" - Alyx (from SAVAGE)\n\"Guardian Xanon\" - Magic (from SAVAGE)\n\"Guardian Metatron\" - RaShelle Madelinski\n\n\"Confed Traitor\" - Refer to 9-18 Credits\n\"AT&T Computer\" - The Oracle\n\"Elevator Computer\" - Zeus Legion\n\"Radio DJ (Not SLAM)\" - Zeus Legion\n\"Radio Newscaster (Not SLAM)\" - Zeus Legion\n\n\nAnd last but definitely not least:\n\n\"The Hunter Killers\"\n\nCopyright Blizzard Entertainment, used for not for profit distribution only.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "1999-12-29",
+    "lastUpdated": "2026-05-20",
+    "image": "legacy-of-the-confederation-dawn-of-darkness.jpg",
+    "missions": 13,
+    "author": [
+      "Oracle"
+    ],
+    "team": [
+      "NexusCore"
+    ],
+    "year": [
+      "1999"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran",
+      "Zerg",
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "gameplay:micro heavy",
+      "gameplay:puzzle",
+      "gameplay:rpg lite",
+      "gameplay:boss fights",
+      "mechanic:trigger heavy",
+      "mechanic:stealth",
+      "audio:voice acted",
+      "audio:original music",
+      "audio:existing music",
+      "audio:custom sfx",
+      "visual:custom portraits",
+      "visual:custom sprites",
+      "mod:custom units",
+      "presentation:prerendered cutscenes",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:xel-naga",
+      "theme:drama",
+      "theme:plot driven",
+      "theme:war story",
+      "theme:political",
+      "difficulty:hard",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20160326134900/http://www.campaigncreations.org/starcraft/legacy_of_the_confederation/dawn_of_darkness",
+    "megaBackup": "https://mega.nz/folder/HHpyVKBT#zUmRVuw5o_ZzbC6fdOcT3Q"
+  },
+  {
+    "id": "the-last-cerebrate",
+    "title": "The Last Cerebrate",
+    "series": [],
+    "tagline": "Discover the story of the cerebrate who escaped Kerrigan's slaughter.",
+    "description": "\"Kerrigan slew the New Overmind and the last of Daggoth's Cerebrates...or so she thought.  She calls herself the Queen of Blades and claims to have total dominion over the swarm...but she does not control me or my brood.   She failed to realize the first Overmind dispatched my broods to settle worlds so far from the Koprulu Sector.  When I returned, I learned a truth far worse than my terrible imagining...a Terran had gained control of the swarm.\n\nI am the last, and I am the only chance the swarm has to once again be free.\"",
+    "archivalNotes": "Entry in the 2009 Campaign Creations StarCraft \"Four Years Between\" Campaign Contest.",
+    "installationNotes": "Brood War scenario files only, should run on any version of the game.",
+    "credits": "Created by Oracle.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "2009-08-12",
+    "lastUpdated": "20",
+    "image": "the-last-cerebrate.jpg",
+    "missions": 3,
+    "author": [
+      "Oracle"
+    ],
+    "team": [],
+    "year": [
+      "2009"
+    ],
+    "starcraftVersion": [
+      "1.16.1",
+      "Remastered"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Incomplete"
+    ],
+    "mod": [
+      "No"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Zerg"
+    ],
+    "tags": [
+      "contest:campaign creations four years between contest",
+      "setting:koprulu sector",
+      "timeline:after brood war",
+      "gameplay:macro heavy",
+      "audio:voice acted",
+      "audio:existing music",
+      "characters:mainly original",
+      "theme:plot driven",
+      "difficulty:veteran",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20190922165742/http://www.campaigncreations.org/forum/viewtopic.php?t=1689",
+    "megaBackup": "https://mega.nz/folder/uT5TnSrT#zVHitacX9Kg5gQiBGq7zdw"
+  },
+  {
+    "id": "fall-from-grace",
+    "title": "Fall From Grace",
+    "series": [
+      "Celestial Stories"
+    ],
+    "tagline": "The story of Rond, Protoss Templar.",
+    "description": "Fall from Grace brings you the story of Rond, Protoss Templar and the strife he must endure while serving the Conclave.",
+    "archivalNotes": "Originally hosted on Campaign Creations.",
+    "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run through the campaign menu.",
+    "credits": "Credits:\nMap Design - Marco \"Desler\" Hernandez\nMap Review and Enhancement - Di\nStory Design - Marco \"Desler\" Hernandez\nCutscene / Portrait / Splash Screen Artwork - Joel Steudler\nCutscene Audio Editing - Marco \"Desler\" Hernandez\nHex Editing / Keeper of the Campaign Bag'o'tricks - Di\nVoice and Audio Editing - Marco \"Desler\" Hernandez\n\n\nVoices:\nRond - Joel Steudler\nTane - Joel Steudler\nJudicator Cyradon - Joel Steudler\nNugdraas - Joel Steudler\nMerlam/Aldrek - Joel Steudler\nJoe Kline - Joel Steudler\nProtoss Zealot - Joel Steudler\nProtoss Carrier - Joel Steudler\n7576 - A computer from a galaxy far far away.\n\n\nFall From Grace is copyright Campaign Creations\nWe reserve all rights, except those that'll get us sued (we know which ones, so don't try none of that fancy law stuff on us, mwahahaha)\n\nSpecial Thanks:\nBrian \"Hadiar\" Tartell, NebularChick, Wiz Soong (and all the original StarSide Bar and Grill crew), Di, Sharandar, Rudder, Bishop, Oracle, Velox, Auspex, Katie, Claudia, Krista, Joel Steudler, SCX, Misfitt, Reaper'o'Souls, Hone, Slev, Ducky, MuOn, E-Man, Espionage, Blizzard Entertainment, Steven \"I had the idea first\" Spielberg, Candice, and my most trusted of all friends, Roberta.  If you weren't included, then you probably annoy me too much.  :)\n\nLong live:  Deep Space Nine, even numbered Star Trek movies, Star Wars, classical music, and people with funny noses.",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "1999-08-10",
+    "lastUpdated": "2026-05-21",
+    "image": "fall-from-grace.jpg",
+    "missions": 4,
+    "author": [
+      "Desler"
+    ],
+    "team": [],
+    "year": [
+      "1999"
+    ],
+    "starcraftVersion": [
+      "1.16.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Protoss"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "timeline:starcraft 1",
+      "event:fall of aiur",
+      "gameplay:micro heavy",
+      "gameplay:defense",
+      "gameplay:rpg lite",
+      "mechanic:trigger heavy",
+      "audio:voice acted",
+      "audio:existing music",
+      "visual:custom portraits",
+      "presentation:prerendered cutscenes",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:drama",
+      "theme:character driven",
+      "theme:war story",
+      "theme:tragedy",
+      "difficulty:easy",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20090325181924/http://sc.campaigncreations.org/fallfromgrace/",
+    "megaBackup": "https://mega.nz/folder/3PA01Aab#_GTGxLpkRVKTAKLwk0_o0A"
+  },
+  {
+    "id": "edast",
+    "title": "E.D.A.S.T. Episode 1: World of Balance",
+    "series": [
+      "Celestial Stories"
+    ],
+    "tagline": "The Expert Decision and Strategist Team prepares to make it's latest run to recover the schematics of the new Terran weapon. They may get more then they bargain for.",
+    "description": "\n\nThe world of Dorasida is home to one of the fringe world factions originally exiled from Earth. They are the faction who traveled the farthest to seek a new life. They've had no contact with the Earth or any other Terran Organization since their initial exile. They are aware of the Zerg on the opposite side of the galaxy. This awareness comes from their usual military runs to keep up with the latest technology that the other factions, such as the Sons of Korhal, develop. Through these covert operations, consisting of quick hit and runs to steal technology design schematics, they learned of the Zerg, but very little. Since their raids are swift, and they maintain strict radio silence when stealing the schematics from Earth-exiled Terran factions, they are unaware of the war against the Zerg which threatens the Terrans. Knowledge of the Protoss on the other hand is well known. A detailed report of General Skyler encountering Protoss forces details them to be a noble race. A few Protoss visit Dorasida, however most are ships in need of repairs or resources. Many Protoss can occasionally be seen frequenting the Psionic Archon, a bar in the Tark capitol city, New Dresdia.\n\nDorasida is a world with unique splendors. Continents with climates a different as day and night, and people with stories that challenge the best of literature. On one side of Dorasida, there are the Akzens, an ancient tribe dedicated to spiritual being and following the path that nature gives them, dedicating themselves to worshipping good Dorasida, the world which takes care of them. On the other side, there are the Tarks, who are as technologically advanced as when first launched into exile from Earth. The Tarks and Akzens are on no means friendly terms, but they tolerate each other, each living on seperate continents of Dorasida\n\nDorasida was not always a world for peace and well-being. A civil war broke out 1 year ago, dividing the Tarks into seperate factions. A conflict of mistrust led to the loss of over 4 million lives, a huge loss to the 66 million who inhabit Dorasida. The conflict was finally ended by a man named Taku Horasi. Horasi founded an organization known as E.D.A.S.T. which stands for Expert Decision and Strategist Team. This team stole hidden documents held by one of the Tark factions that proved one of the other factions had not been lying, and ended a year of mistrust and war. Soon after, the Tarks rebuilt what they had destroyed during their unwarranted war. The faction who had hidden the documents that ended the war were run off the main Tark Continent to a Southern Pole Continent. That faction is known as the Peds. They were not eliminated, just run off the continent. Residents of the Ped faction frequently make casual visits to the Tark Continent, and it is accepted, but no one can forget of the Ped's disgrace. The armies of Dorasida still remain seperated. After the war, there was no need for armies, but the Peds and Tarks still kept them at full strength nonetheless. While not at war, there are scattered reports of enemy intelligence officers on both the Tark and Ped continents. They keep a discreet eye on each other.\n\nE.D.A.S.T. continues on. The Tark militia does not officially recognize E.D.A.S.T., though they do often ask for their help when going on technology raids against the Terran Dominion, because of their ability to get in and out undetected. The latest raid is underway. New technology is important, as agreed by all of Dorasida, even by the spiritual Akzens. They agree that if a war between the Earth-exiled factions such as the Sons of Korhal (now known as the Terran Dominion) were to occur, they would need to be prepared. E.D.A.S.T. prepares to make it's latest run to recover the schematics of the new Terran weapon, the Terran Valkyrie. Unfortunately, they may get more then they bargain for. ",
+    "archivalNotes": "Originally hosted on Campaign Creations.\n\nRemaining episodes of E.D.A.S.T. were not completed.",
+    "installationNotes": "Mod requires Brood War version 1.15.1 to play. Maps are run as custom games.",
+    "credits": "",
+    "language": [
+      "English"
+    ],
+    "releaseDate": "1999",
+    "lastUpdated": "2026-05-21",
+    "image": "edast.jpg",
+    "missions": 7,
+    "author": [
+      "Desler"
+    ],
+    "team": [],
+    "year": [
+      "1999"
+    ],
+    "starcraftVersion": [
+      "1.15.1"
+    ],
+    "campaignVersion": "Initial Release",
+    "status": [
+      "Complete"
+    ],
+    "mod": [
+      "Required"
+    ],
+    "broodWar": [
+      "Brood War"
+    ],
+    "races": [
+      "Terran"
+    ],
+    "tags": [
+      "website:campaign creations",
+      "setting:koprulu sector",
+      "gameplay:micro heavy",
+      "gameplay:rpg lite",
+      "mechanic:trigger heavy",
+      "audio:partly voice acted",
+      "audio:existing music",
+      "presentation:in game cutscenes",
+      "presentation:dialogue heavy",
+      "characters:mainly original",
+      "theme:character driven",
+      "theme:political",
+      "difficulty:easy",
+      "quality:polished"
+    ],
+    "originalLink": "",
+    "archiveLink": "https://web.archive.org/web/20080104183301/http://sc.campaigncreations.org/edast/",
+    "megaBackup": "https://mega.nz/folder/fH5mgSbJ#0LCQZuHB2EJ0jgd1Fp18YQ"
+  }
+]
