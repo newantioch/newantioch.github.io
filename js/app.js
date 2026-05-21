@@ -15,8 +15,10 @@ let filters = {
   mod: [],
   broodWar: [],
   tags: [],
-  races: []
+  races: [],
 };
+
+const ITEMS_PER_PAGE = 24;
 
 /* =========================
    BOOT STATE (CRITICAL FIX)
@@ -61,30 +63,6 @@ async function loadCampaigns() {
   renderFromURL();
 }
 
-const TAG_WEIGHTS = {
-  universe: 5,
-  timeline: 5,
-  event: 4,
-
-  gameplay: 4,
-
-  theme: 3,
-  mechanic: 3,
-
-  mod: 2.5,
-  presentation: 2,
-
-  visual: 1.5,
-  audio: 1.5,
-
-  difficulty: 1,
-  quality: 1,
-
-  contest: 0.5,
-  website: 0.5,
-  badge: 0.5
-};
-
 /* =========================
    URL STATE
 ========================= */
@@ -98,6 +76,7 @@ function getFiltersFromURL() {
   return {
     search: p.get("search") || "",
     sort: p.get("sort") || "newest",
+    page: parseInt(p.get("page")) || 1,
 
     starcraftVersion: parse("starcraftVersion"),
     status: parse("status"),
@@ -119,6 +98,9 @@ function setURL(f) {
 
   if (f.search) p.set("search", f.search);
   if (f.sort) p.set("sort", f.sort);
+  if (f.page && f.page > 1) {
+  p.set("page", f.page);
+}
 
   const add = (k) => {
     if (f[k]?.length) p.set(k, f[k].join(","));
@@ -214,8 +196,23 @@ function applyFilters() {
     }
   });
 
-  updateResultsCount(list.length, campaigns.length);
-  renderCampaigns(list);
+  const totalResults = list.length;
+
+const totalPages = Math.ceil(totalResults / ITEMS_PER_PAGE);
+
+if (filters.page > totalPages) {
+  filters.page = 1;
+}
+
+const start = (filters.page - 1) * ITEMS_PER_PAGE;
+const end = start + ITEMS_PER_PAGE;
+
+const paginated = list.slice(start, end);
+
+updateResultsCount(totalResults, campaigns.length);
+
+renderCampaigns(paginated);
+renderPagination(totalPages);
 }
 
 /* =========================
@@ -245,6 +242,52 @@ function renderCampaigns(list) {
 
     el.appendChild(div);
   });
+}
+
+function renderPagination(totalPages) {
+  const el = document.getElementById("pagination");
+  if (!el) return;
+
+  el.innerHTML = "";
+
+  if (totalPages <= 1) return;
+
+  const current = filters.page;
+
+  const createButton = (label, page, active = false) => {
+    const btn = document.createElement("button");
+
+    btn.textContent = label;
+    btn.className = active ? "page-btn active" : "page-btn";
+
+    btn.addEventListener("click", () => {
+      const f = getFiltersFromURL();
+      f.page = page;
+      setURL(f);
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+
+    el.appendChild(btn);
+  };
+
+  // Prev
+  if (current > 1) {
+    createButton("←", current - 1);
+  }
+
+  // Pages
+  for (let i = 1; i <= totalPages; i++) {
+    createButton(i, i, i === current);
+  }
+
+  // Next
+  if (current < totalPages) {
+    createButton("→", current + 1);
+  }
 }
 
 /* =========================
@@ -327,6 +370,7 @@ function toggle(key, value) {
     f[key].push(value);
   }
 
+  f.page = 1;
   setURL(f);
 }
 
@@ -374,6 +418,7 @@ document.getElementById("searchInput")
 ?.addEventListener("input", e => {
   const f = getFiltersFromURL();
   f.search = e.target.value;
+  f.page = 1;
   setURL(f);
 });
 
@@ -381,6 +426,7 @@ document.getElementById("sortSelect")
 ?.addEventListener("change", e => {
   const f = getFiltersFromURL();
   f.sort = e.target.value;
+  f.page = 1;
   setURL(f);
 });
 
