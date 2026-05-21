@@ -18,7 +18,7 @@ let filters = {
   races: [],
 };
 
-const ITEMS_PER_PAGE = 24;
+const ITEMS_PER_PAGE = 15;
 
 /* =========================
    BOOT STATE (CRITICAL FIX)
