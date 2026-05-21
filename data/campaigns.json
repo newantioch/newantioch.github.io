@@ -257,7 +257,7 @@
     "series": [
       "The NOMAD Saga"
     ],
-    "tagline": "",
+    "tagline": "“Safe haven.” These words could be used to describe Rastar... before the onset of Zerg invasion.",
     "description": "Lieutenant Thomas Johnson is thrust into the fray, fighting to save Rastar from the Zerg menace. Never before being in a real battle, he tries his best... but with the Zerg, your best isn't always enough.",
     "archivalNotes": "Winner of the 2011 Staredit.net \"Longer than Usual\" Mapping Contest.",
     "installationNotes": "Mod requires Brood War version 1.16.1 to play. Maps are run as custom games.\n\nMaps are designed to be played at the default speed setting, one notch above setting. Nothing breaks if played at other speeds, but some timings in cutscenes will be off.",
@@ -1471,7 +1471,7 @@
       "timeline:after brood war",
       "gameplay:macro heavy",
       "audio:voice acted",
-      "audio:original music",
+      "audio:existing music",
       "characters:mainly original",
       "theme:plot driven",
       "difficulty:veteran",
